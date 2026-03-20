@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native English 365 - All-in-One Dashboard</title>
+    <style>
+        :root {
+            --primary-navy: #0B2135;
+            --business-blue: #004797;
+            --accent-orange: #FF6B35;
+            --surface-grey: #F4F7FB;
+            --pure-white: #FFFFFF;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Pretendard', sans-serif;
+            background-color: var(--surface-grey);
+            color: var(--primary-navy);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar - Month Selection */
+        .sidebar {
+            width: 280px;
+            background-color: var(--primary-navy);
+            color: var(--pure-white);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        }
+
+        .sidebar h2 {
+            font-size: 20px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--accent-orange);
+            padding-bottom: 10px;
+        }
+
+        .month-list {
+            list-style: none;
+            padding: 0;
+            overflow-y: auto;
+        }
+
+        .month-item {
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: 300;
+        }
+
+        .month-item:hover, .month-item.active {
+            background-color: var(--business-blue);
+            font-weight: 600;
+        }
+
+        /* Main Content Area */
+        .main-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: var(--pure-white);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* Day Selection Tabs */
+        .day-scroller {
+            background-color: var(--pure-white);
+            padding: 10px 40px;
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .day-tab {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+
+        .day-tab:hover, .day-tab.active {
+            background-color: var(--accent-orange);
+            color: white;
+            border-color: var(--accent-orange);
+        }
+
+        /* Learning Content */
+        .content-area {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            display: flex;
+            gap: 40px;
+        }
+
+        .logic-panel {
+            flex: 1;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .visual-panel {
+            flex: 1;
+            background-color: var(--primary-navy);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .governing-box {
+            background-color: var(--surface-grey);
+            padding: 15px 20px;
+            border-left: 5px solid var(--accent-orange);
+            margin-bottom: 25px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .chunk-list {
+            margin-top: 20px;
+        }
+
+        .example-card {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 3px solid var(--business-blue);
+            color: var(--primary-navy);
+        }
+
+        .visual-image-placeholder {
+            width: 250px;
+            height: 250px;
+            background: linear-gradient(45deg, var(--business-blue), var(--accent-orange));
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+
+        .visual-desc {
+            max-width: 80%;
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+
+        /* Animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Native English 365</h2>
+        <ul class="month-list" id="month-list">
+            <li class="month-item active" onclick="selectMonth(1)">Month 1: Core Verbs</li>
+            <li class="month-item" onclick="selectMonth(2)">Month 2: Space & Move</li>
+            <li class="month-item" onclick="selectMonth(3)">Month 3: Perception</li>
+            <li class="month-item" onclick="selectMonth(4)">Month 4: Prepositions</li>
+            <li class="month-item" onclick="selectMonth(5)">Month 5: 100 Chunks</li>
+            <!-- ... -->
+        </ul>
+    </div>
+
+    <div class="main-container">
+        <header>
+            <h1 id="current-month-title">Month 1: Core 4 Verbs (Take)</h1>
+            <div id="progress">365 Days Master Course</div>
+        </header>
+
+        <div class="day-scroller" id="day-tabs"></div>
+
+        <div class="content-area fade-in" id="content-display">
+            <div class="logic-panel">
+                <div class="governing-box" id="governing-msg">학습 자료를 선택하세요.</div>
+                <h3>원어민식 뉘앙스</h3>
+                <p id="nuance-text">365일 코스의 데이터가 하이브리드 자동화 시스템에 의해 생성되고 있습니다.</p>
+                <div class="chunk-list" id="example-list"></div>
+            </div>
+
+            <div class="visual-panel">
+                <div class="visual-image-placeholder">🚀</div>
+                <h2 id="visual-title">Visual Essence</h2>
+                <div class="visual-desc" id="visual-desc">본질적 이미지를 뇌에 직접 각인하는 시각화 영역입니다.</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dayData = {
+            // Month 1
+            1: { month: 1, governing: "너 내 거야! 내 통제권 안에 꽉 쥐어 잡다", nuance: "내 통제권 안에 두는 것입니다. taken은 누군가 나를 차지했다는 뜻입니다.", examples: [{ chunk: "I'm taken.", nuance: "나 임자 있어요", example: "Sorry, I'm taken." }], visual: "🎯", visualTitle: "소유", visualDesc: "주도적으로 낚아채는 이미지" },
+            2: { month: 1, governing: "내가 다 주도해서 책임질게", nuance: "상황을 장악하고 내 것으로 꽉 잡는 이미지로 책임과 위험 감수 등에 쓰입니다.", examples: [{ chunk: "take charge of", nuance: "책임지다/맡다" }], visual: "🤝", visualTitle: "책임", visualDesc: "상황을 틀어쥐는 리더십" },
+            8: { month: 1, governing: "상태가 점점 변해가는 그림", nuance: "Get은 정지된 상태가 아니라 그 상태로 변해가는 움직임을 나타냅니다.", examples: [{ chunk: "getting tired", nuance: "점점 피곤해지다" }], visual: "🔄", visualTitle: "변화", visualDesc: "서서히 바뀌는 색상이나 형태" },
+            
+            // Month 2
+            31: { month: 2, governing: "내 기준점에서 멀어져 가는 그림", nuance: "말하는 사람이나 목적지에서 점점 멀어지는 방향성을 뜻합니다.", examples: [{ chunk: "Go away", nuance: "저리 가/멀어져" }], visual: "🏃‍♂️", visualTitle: "멀어짐", visualDesc: "기준점에서 벗어나는 화살표" },
+            32: { month: 2, governing: "내 기준점으로 다가오는 그림", nuance: "목적지나 상대방을 향해 가까워지는 이동입니다.", examples: [{ chunk: "I'm coming!", nuance: "나 (너에게) 가고 있어!" }], visual: "🏃‍♀️", visualTitle: "가까워짐", visualDesc: "기준점으로 향하는 화살표" },
+
+            // Month 3
+            61: { month: 3, governing: "의도를 가지고 고개와 시선을 홱!", nuance: "내가 주도적으로 특정 방향을 향해 시선을 던지는 능능적인 이미지입니다.", examples: [{ chunk: "Look at this!", nuance: "이것 좀 봐 (시선 던지기)" }], visual: "👁️", visualTitle: "시각", visualDesc: "점(Point)을 찍듯 바라봄" },
+            64: { month: 3, governing: "눈을 뜨니 자연스럽게 빛이 들어옴", nuance: "의도와 상관없이 시야에 들어와 인지되는 수동적 이미지입니다.", examples: [{ chunk: "I see.", nuance: "알겠어 (인지됨)" }], visual: "👁️‍🗨️", visualTitle: "인지", visualDesc: "시야가 맑아지는 느낌" },
+
+            // Month 4
+            91: { month: 4, governing: "경계선 안으로 쏙", nuance: "3차원적인 경계선이나 뚜렷한 공간 안에 푹 들어가 있는 이미지입니다.", examples: [{ chunk: "In the box", nuance: "상자 안에" }], visual: "📦", visualTitle: "내부", visualDesc: "보호받는 공간 내부" },
+            103: { month: 4, governing: "붙어있던 것에서 톡!", nuance: "on 상태인 표면에서 잡아서 떼어내거나 떨어지는 단절의 이미지입니다.", examples: [{ chunk: "Take off your hat", nuance: "모자 벗어 (떼어냄)" }], visual: "✂️", visualTitle: "분리", visualDesc: "접촉면에서 떨어지는 순간" },
+            
+            // Month 5
+            121: { month: 5, governing: "바로 쓸 수 있게 준비된 상태", nuance: "어떤 목적을 위해 즉시 사용 가능한 상태를 의미합니다.", examples: [{ chunk: "Ready-to-use", nuance: "바로 쓸 수 있는" }], visual: "✅", visualTitle: "준비", visualDesc: "즉시 사용 가능한 상태" },
+            122: { month: 5, governing: "외부 자극에 대한 반응", nuance: "어떤 사건이나 행동에 대한 자연스러운 응답이나 반응을 나타냅니다.", examples: [{ chunk: "Reaction to", nuance: "~에 대한 반응" }], visual: "⚡", visualTitle: "반응", visualDesc: "자극에 대한 즉각적인 응답" },
+            123: { month: 5, governing: "맡은 바 임무와 의무", nuance: "개인이나 조직이 수행해야 할 의무나 책임을 의미합니다.", examples: [{ chunk: "Take responsibility", nuance: "책임을 지다" }], visual: "🛡️", visualTitle: "책임", visualDesc: "어깨에 짊어진 의무" }
+        };
+
+        let currentMonth = 1;
+
+        function selectMonth(month) {
+            currentMonth = month;
+            document.querySelectorAll('.month-item').forEach((item, idx) => {
+                item.classList.toggle('active', idx === month - 1);
+            });
+            document.getElementById('current-month-title').innerText = `Month ${month} 학습 코스`;
+            generateDayTabs(month);
+            loadDay((month - 1) * 30 + 1);
+        }
+
+        function generateDayTabs(month) {
+            const container = document.getElementById('day-tabs');
+            container.innerHTML = '';
+            const startDay = (month - 1) * 30 + 1;
+            const endDay = month * 30;
+
+            for (let i = startDay; i <= endDay; i++) {
+                const tab = document.createElement('div');
+                tab.className = 'day-tab';
+                tab.id = `tab-${i}`;
+                tab.innerText = `Day ${i}`;
+                tab.onclick = () => loadDay(i);
+                container.appendChild(tab);
+            }
+        }
+
+        function loadDay(day) {
+            const data = dayData[day] || { 
+                governing: `Day ${day} 코스 준비 중`, 
+                nuance: "v3.0 하이브리드 자동화 시스템이 데이터를 시퀀싱 중입니다.", 
+                examples: [], visual: "⏳", visualTitle: "Coming Soon", visualDesc: "자동화 로봇이 콘텐츠를 작성 중입니다." 
+            };
+            
+            document.getElementById('governing-msg').innerText = data.governing;
+            document.getElementById('nuance-text').innerText = data.nuance;
+            document.getElementById('visual-title').innerText = data.visualTitle;
+            document.getElementById('visual-desc').innerText = data.visualDesc;
+            document.querySelector('.visual-image-placeholder').innerText = data.visual;
+            
+            const exList = document.getElementById('example-list');
+            exList.innerHTML = '';
+            data.examples.forEach(ex => {
+                const div = document.createElement('div');
+                div.className = 'example-card';
+                div.innerHTML = `<strong>Chunk:</strong> ${ex.chunk}<br><em>뉘앙스: ${ex.nuance}</em>`;
+                exList.appendChild(div);
+            });
+
+            document.querySelectorAll('.day-tab').forEach(t => t.classList.remove('active'));
+            const activeTab = document.getElementById(`tab-${day}`);
+            if(activeTab) activeTab.classList.add('active');
+
+            const content = document.getElementById('content-display');
+            content.classList.remove('fade-in');
+            void content.offsetWidth;
+            content.classList.add('fade-in');
+        }
+
+        // Init
+        selectMonth(1);
+    </script>
+</body>
+</html>
