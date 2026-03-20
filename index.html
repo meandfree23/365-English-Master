@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Native English 365 - All-in-One Dashboard v5.0</title>
+    <title>Native English 365 - All-in-One Dashboard v6.0</title>
     <style>
         :root {
             --primary: #FF5722;
@@ -26,37 +26,53 @@
             overflow: hidden;
         }
 
-        /* Sidebar */
+        /* Sidebar - Month Selection (Fixed to 12 Months) */
         .sidebar {
-            width: 280px;
+            width: 300px;
             background-color: #111827;
             padding: 24px;
             border-right: 1px solid rgba(255,255,255,0.05);
             display: flex;
             flex-direction: column;
+            overflow-y: auto;
         }
 
         .sidebar h2 {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
             color: var(--primary);
             border-bottom: 2px solid var(--primary);
             padding-bottom: 0.5rem;
         }
 
-        .month-item {
-            padding: 12px 16px;
-            margin-bottom: 8px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s;
-            color: var(--text-dim);
-            font-size: 0.95rem;
+        .month-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
 
-        .month-item:hover, .month-item.active {
+        .month-item {
+            padding: 14px 16px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            line-height: 1.4;
+            border: 1px solid transparent;
+        }
+
+        .month-item:hover {
+            background: rgba(255,255,255,0.03);
+            color: white;
+        }
+
+        .month-item.active {
             background-color: var(--card-bg);
             color: white;
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
         /* Main Container */
@@ -68,32 +84,36 @@
         }
 
         header {
-            padding: 20px 40px;
+            padding: 24px 40px;
             background: rgba(15, 23, 42, 0.8);
-            border-bottom: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
+        /* Fixed Horizontal Day Scroller */
         .day-scroller {
-            padding: 12px 40px;
+            padding: 16px 40px;
             display: flex;
             gap: 12px;
-            overflow-x: auto;
+            overflow-x: scroll; /* Force scrolling */
             background: #0B1120;
-            scrollbar-width: thin;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
         }
 
         .day-tab {
-            padding: 8px 18px;
+            display: inline-block;
+            padding: 8px 20px;
             background: #1E293B;
             border-radius: 20px;
             cursor: pointer;
-            white-space: nowrap;
             color: var(--text-dim);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             transition: all 0.3s;
+            flex-shrink: 0; /* Prevent squeezing */
         }
 
         .day-tab.active {
@@ -107,140 +127,81 @@
             flex: 1;
             padding: 30px 40px;
             display: flex;
-            gap: 30px;
+            gap: 40px;
             overflow-y: auto;
-            scrollbar-width: thin;
         }
 
-        .logic-panel { flex: 1.2; display: flex; flex-direction: column; }
-        .visual-panel { flex: 0.8; position: sticky; top: 0; }
+        .logic-panel { flex: 1.3; }
+        .visual-panel { flex: 0.7; position: sticky; top: 0; }
 
         .governing-box {
             background: #1E293B;
             padding: 24px;
             border-radius: 12px;
             border-left: 6px solid var(--primary);
-            margin-bottom: 25px;
-            font-size: 1.25rem;
+            margin-bottom: 30px;
+            font-size: 1.3rem;
             font-weight: 800;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
         }
 
-        /* Sentence List */
         .sentence-card {
-            background: rgba(255,255,255,0.02);
+            background: rgba(255,255,255,0.03);
             border: 1px solid rgba(255,255,255,0.05);
             padding: 20px;
             border-radius: 12px;
             margin-bottom: 16px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
+            cursor: pointer;
+            transition: all 0.3s;
         }
 
         .sentence-card:hover {
-            background: rgba(255,255,255,0.06);
-            border-color: var(--primary);
+            background: rgba(255,255,255,0.08);
+            transform: scale(1.01);
         }
 
-        .sentence-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-        }
-
-        .sentence-main {
-            flex: 1;
-        }
-
-        .sentence-txt {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: white;
-            margin-bottom: 6px;
-            line-height: 1.4;
-        }
-
-        .sentence-nuance {
-            font-size: 0.95rem;
-            color: var(--primary);
-            margin-bottom: 12px;
-            font-weight: 500;
-        }
+        .sentence-txt { font-size: 1.25rem; font-weight: 700; color: white; margin-bottom: 6px; }
+        .sentence-nuance { font-size: 1rem; color: var(--primary); margin-bottom: 10px; font-weight: 500; }
 
         .play-btn {
             width: 44px;
             height: 44px;
-            background: rgba(255,255,255,0.05);
+            background: rgba(255,255,255,0.08);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            transition: all 0.2s;
-            margin-left: 15px;
+            float: right;
             font-size: 1.2rem;
-            color: var(--text-main);
+            transition: 0.2s;
         }
 
-        .play-btn:hover {
-            background: var(--primary);
-            transform: scale(1.1);
-        }
-
-        .play-btn:active { transform: scale(0.95); }
-
-        .play-btn.playing {
-            background: var(--secondary);
-            animation: pulse-glow 1s infinite;
-        }
+        .play-btn:hover { background: var(--primary); color: white; transform: scale(1.1); }
 
         .situation-box {
-            margin-top: 12px;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: var(--text-dim);
-            background: rgba(0,0,0,0.3);
+            background: rgba(0,0,0,0.4);
             padding: 12px;
             border-radius: 8px;
             display: none;
-            line-height: 1.5;
+            margin-top: 10px;
+            line-height: 1.6;
         }
 
-        .sentence-card.active .situation-box {
-            display: block;
-            animation: slideDown 0.3s ease;
-        }
+        .sentence-card.active .situation-box { display: block; animation: fadeIn 0.4s; }
 
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Essential Animations */
-        @keyframes pulse-glow {
-            0% { box-shadow: 0 0 0 0 rgba(33, 150, 243, 0.4); }
-            70% { box-shadow: 0 0 0 10px rgba(33, 150, 243, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(33, 150, 243, 0); }
-        }
-
-        @keyframes take-grab {
-            0% { transform: translate(150px, -150px) scale(0.5); opacity: 0; }
-            45% { transform: translate(0, 0) scale(1.3); opacity: 1; }
-            60% { transform: translate(0, 0) scale(1.1); }
-            100% { transform: translate(0, 0) scale(1); box-shadow: 0 0 50px var(--primary); }
-        }
-
-        /* Visual Box */
+        /* Visual Box Animation */
         .visual-box {
             background: radial-gradient(circle at center, #1E293B 0%, #0F172A 100%);
-            border-radius: 24px;
+            border-radius: 20px;
             height: 480px;
-            padding: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             position: relative;
-            border: 1px solid rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .essence-target {
@@ -253,69 +214,48 @@
             justify-content: center;
             color: white;
             font-size: 2.2rem;
-            font-weight: 800;
-            z-index: 2;
+            font-weight: 900;
+            animation: vibe 4s infinite linear;
             box-shadow: 0 0 40px var(--accent-glow);
-            animation: core-vib 3s infinite linear;
         }
 
-        .essence-object {
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            background: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            z-index: 3;
-            animation: take-grab 3s infinite ease-in-out;
-        }
+        @keyframes vibe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
 
-        @keyframes core-vib {
-            0%, 100% { transform: rotate(-3deg) scale(1); }
-            50% { transform: rotate(3deg) scale(1.05); }
-        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
 
-        /* Responsive Scroll */
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+        /* Scrollbar styles */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: var(--primary); }
     </style>
 </head>
 <body>
     <div class="sidebar">
         <h2>Native English 365</h2>
-        <div id="month-list">
-            <div class="month-item active" onclick="selectMonth(1)">Month 1: 4대 핵심 동질</div>
-            <div class="month-item" onclick="selectMonth(2)">Month 2: 공간과 이동</div>
-            <div class="month-item" onclick="selectMonth(3)">Month 3: 인지와 감각</div>
-        </div>
+        <ul class="month-list" id="sidebar-months">
+            <!-- Dynamically populated 12 months -->
+        </ul>
     </div>
 
     <div class="main-container">
         <header>
-            <h1 id="month-title">Month 1: Take의 본질 마스터</h1>
-            <div style="font-size: 0.9rem; color: var(--text-dim);">TTS Engine: Built-in Native Voices (M/F 50:50)</div>
+            <h1 id="header-title">Month 1: 365 Mastery</h1>
+            <div style="font-size: 0.9rem; color: var(--text-dim);">Final v6.0 (Stable & Global 365 Plan)</div>
         </header>
-
         <div class="day-scroller" id="day-tabs"></div>
-
+        
         <div class="content-area-wrapper">
             <div class="logic-panel">
-                <div class="governing-box" id="gov-box">데이터를 불러오는 중...</div>
+                <div class="governing-box" id="gov-box">날짜를 선택해 주세요.</div>
                 <div id="sentence-container"></div>
             </div>
-
             <div class="visual-panel">
                 <div class="visual-box">
-                    <div class="essence-object" id="v-obj">🎯</div>
+                    <div id="v-icon" style="position:absolute; top:80px; font-size:4rem;">🎯</div>
                     <div class="essence-target" id="v-core">Take</div>
-                    <div style="margin-top: 50px; text-align: center;">
-                        <h2 id="v-title" style="margin-bottom: 8px;">낚아채기</h2>
-                        <p id="v-desc" style="color: var(--text-dim); font-size: 0.9rem;">대상을 내 주도권 안의 영역으로 고정함</p>
+                    <div style="margin-top: 40px; text-align: center;">
+                        <h2 id="v-title">낚아채기</h2>
+                        <p id="v-desc" style="color: var(--text-dim);">내 통제권 안으로 대상을 가져옴</p>
                     </div>
                 </div>
             </div>
@@ -323,6 +263,21 @@
     </div>
 
     <script>
+        const monthThemes = [
+            "Month 1: 4대 핵심 동사 (Take, Get, Have, Make)",
+            "Month 2: 공간과 이동 (Go/Come/Around/Away)",
+            "Month 3: 인지와 감각 (Look/See/Think/Know)",
+            "Month 4: 핵심 전치사 (In/On/Off/To/From)",
+            "Month 5: 네이티브 필수 청크 100",
+            "Month 6: 정중함과 사회적 지능 (Modal Verbs)",
+            "Month 7: 논리적 연결과 반전 (Though/Unless)",
+            "Month 8: 완료와 진행의 본질 (Perfect/Continuous)",
+            "Month 9: 정보 확장 기술 (Relative Pronouns)",
+            "Month 10: 강조와 감정의 뉘앙스 (Emphasis)",
+            "Month 11: 고급 문장 구조 (Participle Phrases)",
+            "Month 12: 실전 통합 및 졸업 (Final Mastery)"
+        ];
+
         const dayData = {
             1: {
                 governing: "너 내 거야! 내 통제권 안에 꽉 쥐어 잡다",
@@ -339,27 +294,18 @@
                     { txt: "You can take the lead.", n: "이끄는 역할을 네가 차지하라는 양보", s: "동료에게 앞장서 볼 기회를 줄 때", g: "F" }
                 ],
                 v: "🎯", vT: "주도권(Control)", vD: "내 영역으로 낚아채는 에너지"
-            },
-            2: {
-                governing: "위험을 내 것으로 감수하는 결단",
-                sentences: [
-                    { txt: "Sometimes you should just take a risk.", n: "위험을 내 것으로 만들어 부딪힘", s: "결정을 앞두고 망설이는 친구에게 조언할 때", g: "F" },
-                    { txt: "We take chances.", n: "수동적 기다림 대신 기회를 능동적으로 잡아춤", s: "새로운 도전을 시작하며 자신 있게 말할 때", g: "M" },
-                    { txt: "I'll take the risk.", n: "결과가 어떻든 전적으로 내가 책임지고 감수함", s: "모두 반대하는 프로젝트를 강행할 때", g: "F" },
-                    { txt: "He took a risk.", n: "위험을 자신의 선택으로 마주함", s: "직장을 그만두고 꿈을 향해 나아갔다고 할 때", g: "M" },
-                    { txt: "Don't take too big of a risk.", n: "지나친 위험을 통제하려는 것을 경계함", s: "무리한 투자를 하려는 사람을 말릴 때", g: "F" },
-                    { txt: "You need to take a risk to succeed.", n: "성공을 위해 위험 감수 과정이 필수적임", s: "안주하려는 후배에게 동기를 부여할 때", g: "M" },
-                    { txt: "Let's take a chance on this.", n: "이 기회를 한 번 우리 것으로 잡아보자", s: "여행 중 낯설고 흥미로운 장소를 발견했을 때", g: "F" },
-                    { txt: "I don't think we should take that risk.", n: "위험을 굳이 우리 통제권에 넣지 않겠다는 거절", s: "신중하게 제안을 거절할 때", g: "M" },
-                    { txt: "Are you trying to take too big of a chance?", n: "감당 힘든 무모한 위험을 지적함", s: "위험한 결정을 내리려는 지인을 걱정할 때", g: "F" },
-                    { txt: "Taking this risk is too dangerous.", n: "통제 불가능할 정도의 위험을 경계함", s: "폭풍우에 등산을 강행하려는 일행을 말릴 때", g: "M" }
-                ],
-                v: "🔥", vT: "리스크(Risk)", vD: "위험을 통제하려는 의지"
             }
         };
 
         const synth = window.speechSynthesis;
         let voices = [];
+        let currentMonth = 1;
+
+        function init() {
+            populateSidebar();
+            selectMonth(1);
+            loadVoices();
+        }
 
         function loadVoices() {
             voices = synth.getVoices();
@@ -373,46 +319,66 @@
             const utter = new SpeechSynthesisUtterance(text);
             utter.lang = 'en-US';
             utter.rate = 0.9;
-            
-            // Gender Voice Logic
-            const targetGender = gender === 'M' ? 'male' : 'female';
-            const selectedVoice = voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes(targetGender));
-            if (selectedVoice) utter.voice = selectedVoice;
-            
+            const target = gender === 'M' ? 'male' : 'female';
+            const voice = voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes(target));
+            if (voice) utter.voice = voice;
             synth.speak(utter);
             return utter;
         }
 
-        function selectMonth(m) {
-            document.querySelectorAll('.month-item').forEach(i => i.classList.remove('active'));
-            event.target.classList.add('active');
-            generateTabs(m);
-            loadDay((m-1)*30 + 1);
+        function populateSidebar() {
+            const sidebar = document.getElementById('sidebar-months');
+            sidebar.innerHTML = '';
+            monthThemes.forEach((title, idx) => {
+                const li = document.createElement('li');
+                li.className = 'month-item' + (idx + 1 === currentMonth ? ' active' : '');
+                li.innerHTML = `<strong>${title}</strong><br><span style="font-size:0.75rem;">Day ${(idx*30)+1} - ${(idx+1)*30}</span>`;
+                li.onclick = () => selectMonth(idx + 1);
+                sidebar.appendChild(li);
+            });
         }
 
-        function generateTabs(m) {
+        function selectMonth(m) {
+            currentMonth = m;
+            document.querySelectorAll('.month-item').forEach((item, idx) => {
+                item.classList.toggle('active', idx + 1 === m);
+            });
+            document.getElementById('header-title').innerText = monthThemes[m-1];
+            generateDayTabs(m);
+            loadDay((m - 1) * 30 + 1);
+        }
+
+        function generateDayTabs(m) {
             const container = document.getElementById('day-tabs');
             container.innerHTML = '';
-            for(let i=1; i<=30; i++) {
-                let d = (m-1)*30 + i;
+            const start = (m - 1) * 30 + 1;
+            const end = (m * 30);
+            for (let i = start; i <= (m === 12 ? 365 : end); i++) {
                 const tab = document.createElement('div');
-                tab.className = 'day-tab' + (d===1?' active':'');
-                tab.innerText = `Day ${d}`;
+                tab.className = 'day-tab' + (i === start ? ' active' : '');
+                tab.innerText = `Day ${i}`;
                 tab.onclick = () => {
-                    document.querySelectorAll('.day-tab').forEach(t=>t.classList.remove('active'));
+                    document.querySelectorAll('.day-tab').forEach(t => t.classList.remove('active'));
                     tab.classList.add('active');
-                    loadDay(d);
+                    loadDay(i);
                 };
                 container.appendChild(tab);
             }
+            container.scrollLeft = 0; // Reset scroll
         }
 
         function loadDay(d) {
-            const data = dayData[d] || { governing: "Day " + d + " 데이터 준비 중...", sentences: [], v: "⏳", vT: "Loading", vD: "..." };
+            const data = dayData[d] || { 
+                governing: `Day ${d} 코스 준비 중`, 
+                sentences: [{txt: "Coming Soon...", n: "데이터를 준비 중인 구간입니다.", s: "365일 전체 로드맵은 사이드바에서 확인 가능합니다.", g: "M"}], 
+                v: "⏳", vT: "로드맵 진행 중", vD: "원어민 본질 코스가 구축되고 있습니다." 
+            };
+            
             document.getElementById('gov-box').innerText = data.governing;
+            document.getElementById('v-icon').innerText = data.v;
+            document.getElementById('v-core').innerText = d <= 30 ? "Take" : (d <= 60 ? "Get" : "Essence");
             document.getElementById('v-title').innerText = data.vT;
             document.getElementById('v-desc').innerText = data.vD;
-            document.getElementById('v-obj').innerText = data.v;
 
             const list = document.getElementById('sentence-container');
             list.innerHTML = '';
@@ -420,37 +386,27 @@
                 const card = document.createElement('div');
                 card.className = 'sentence-card';
                 card.innerHTML = `
-                    <div class="sentence-header">
-                        <div class="sentence-main">
-                            <div class="sentence-txt">${s.txt}</div>
-                            <div class="sentence-nuance">${s.n}</div>
-                        </div>
-                        <div class="play-btn" id="play-${idx}">${s.g === 'M' ? '👨' : '👩'}</div>
-                    </div>
+                    <div class="play-btn">${s.g === 'M' ? '👨' : '👩'}</div>
+                    <div class="sentence-txt">${s.txt}</div>
+                    <div class="sentence-nuance">${s.n}</div>
                     <div class="situation-box">💡 상황: ${s.s}</div>
                 `;
-                
                 card.onclick = (e) => {
                     if (e.target.classList.contains('play-btn')) return;
                     card.classList.toggle('active');
                 };
-
-                const btn = card.querySelector('.play-btn');
-                btn.onclick = (e) => {
+                card.querySelector('.play-btn').onclick = (e) => {
                     e.stopPropagation();
+                    const btn = e.target;
                     const utter = speak(s.txt, s.g);
-                    btn.classList.add('playing');
-                    utter.onend = () => btn.classList.remove('playing');
+                    btn.style.background = 'var(--secondary)';
+                    utter.onend = () => btn.style.background = 'rgba(255,255,255,0.08)';
                 };
-
                 list.appendChild(card);
             });
         }
 
-        // Init
-        loadVoices();
-        generateTabs(1);
-        loadDay(1);
+        init();
     </script>
 </body>
 </html>
