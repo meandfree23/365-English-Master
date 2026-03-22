@@ -1,9 +1,9 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "91": {
     "v": "🧊",
-    "vT": "In 100% Unique Image",
-    "vD": "In 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 91: [In] 단 한치도 똑같지 않은 In 의 우주",
+    "vT": "Boundary Inside",
+    "vD": "외부와 명확히 단절되는 특정 바운더리 폴더 안으로 깊숙이 진입해 포용된 락인 상태입니다.",
+    "governing": "Day 91: [In] 경계선의 내부로 가장 깊은 안착",
     "core": "In",
     "sentences": [
       {
@@ -55,9 +55,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "92": {
     "v": "🧊",
-    "vT": "In 100% Unique Image",
-    "vD": "In 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 92: [In] 단 한치도 똑같지 않은 In 의 우주",
+    "vT": "Boundary Inside",
+    "vD": "외부와 명확히 단절되는 특정 바운더리 폴더 안으로 깊숙이 진입해 포용된 락인 상태입니다.",
+    "governing": "Day 92: [In] 경계선의 내부로 가장 깊은 안착",
     "core": "In",
     "sentences": [
       {
@@ -109,9 +109,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "93": {
     "v": "🧊",
-    "vT": "In 100% Unique Image",
-    "vD": "In 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 93: [In] 단 한치도 똑같지 않은 In 의 우주",
+    "vT": "Boundary Inside",
+    "vD": "외부와 명확히 단절되는 특정 바운더리 폴더 안으로 깊숙이 진입해 포용된 락인 상태입니다.",
+    "governing": "Day 93: [In] 경계선의 내부로 가장 깊은 안착",
     "core": "In",
     "sentences": [
       {
@@ -163,9 +163,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "94": {
     "v": "🧊",
-    "vT": "In 100% Unique Image",
-    "vD": "In 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 94: [In] 단 한치도 똑같지 않은 In 의 우주",
+    "vT": "Boundary Inside",
+    "vD": "외부와 명확히 단절되는 특정 바운더리 폴더 안으로 깊숙이 진입해 포용된 락인 상태입니다.",
+    "governing": "Day 94: [In] 경계선의 내부로 가장 깊은 안착",
     "core": "In",
     "sentences": [
       {
@@ -217,9 +217,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "95": {
     "v": "🧊",
-    "vT": "In 100% Unique Image",
-    "vD": "In 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 95: [In] 단 한치도 똑같지 않은 In 의 우주",
+    "vT": "Boundary Inside",
+    "vD": "외부와 명확히 단절되는 특정 바운더리 폴더 안으로 깊숙이 진입해 포용된 락인 상태입니다.",
+    "governing": "Day 95: [In] 경계선의 내부로 가장 깊은 안착",
     "core": "In",
     "sentences": [
       {
@@ -271,9 +271,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "96": {
     "v": "🧊",
-    "vT": "Out 100% Unique Image",
-    "vD": "Out 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 96: [Out] 단 한치도 똑같지 않은 Out 의 우주",
+    "vT": "Boundary Escape",
+    "vD": "갇혀 있던 공간망을 찢고 밖으로 튕겨나가며 드러나는 완전한 해방과 발산의 이미지입니다.",
+    "governing": "Day 96: [Out] 경계선 내부에서 외부 공간으로 폭발적 이탈",
     "core": "Out",
     "sentences": [
       {
@@ -325,9 +325,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "97": {
     "v": "🧊",
-    "vT": "Out 100% Unique Image",
-    "vD": "Out 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 97: [Out] 단 한치도 똑같지 않은 Out 의 우주",
+    "vT": "Boundary Escape",
+    "vD": "갇혀 있던 공간망을 찢고 밖으로 튕겨나가며 드러나는 완전한 해방과 발산의 이미지입니다.",
+    "governing": "Day 97: [Out] 경계선 내부에서 외부 공간으로 폭발적 이탈",
     "core": "Out",
     "sentences": [
       {
@@ -379,9 +379,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "98": {
     "v": "🧊",
-    "vT": "Out 100% Unique Image",
-    "vD": "Out 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 98: [Out] 단 한치도 똑같지 않은 Out 의 우주",
+    "vT": "Boundary Escape",
+    "vD": "갇혀 있던 공간망을 찢고 밖으로 튕겨나가며 드러나는 완전한 해방과 발산의 이미지입니다.",
+    "governing": "Day 98: [Out] 경계선 내부에서 외부 공간으로 폭발적 이탈",
     "core": "Out",
     "sentences": [
       {
@@ -433,9 +433,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "99": {
     "v": "🧊",
-    "vT": "Out 100% Unique Image",
-    "vD": "Out 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 99: [Out] 단 한치도 똑같지 않은 Out 의 우주",
+    "vT": "Boundary Escape",
+    "vD": "갇혀 있던 공간망을 찢고 밖으로 튕겨나가며 드러나는 완전한 해방과 발산의 이미지입니다.",
+    "governing": "Day 99: [Out] 경계선 내부에서 외부 공간으로 폭발적 이탈",
     "core": "Out",
     "sentences": [
       {
@@ -487,9 +487,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "100": {
     "v": "🧊",
-    "vT": "Out 100% Unique Image",
-    "vD": "Out 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 100: [Out] 단 한치도 똑같지 않은 Out 의 우주",
+    "vT": "Boundary Escape",
+    "vD": "갇혀 있던 공간망을 찢고 밖으로 튕겨나가며 드러나는 완전한 해방과 발산의 이미지입니다.",
+    "governing": "Day 100: [Out] 경계선 내부에서 외부 공간으로 폭발적 이탈",
     "core": "Out",
     "sentences": [
       {
@@ -541,9 +541,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "101": {
     "v": "🧊",
-    "vT": "On 100% Unique Image",
-    "vD": "On 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 101: [On] 단 한치도 똑같지 않은 On 의 우주",
+    "vT": "Surface Contact",
+    "vD": "사물뿐만 아니라 시스템의 연결 스위치가 끊어짐 없이 쫙 달라붙어 구동 활성화되는 상태입니다.",
+    "governing": "Day 101: [On] 두 표면이 0의 마진으로 완벽히 밀착하여 락킹",
     "core": "On",
     "sentences": [
       {
@@ -595,9 +595,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "102": {
     "v": "🧊",
-    "vT": "On 100% Unique Image",
-    "vD": "On 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 102: [On] 단 한치도 똑같지 않은 On 의 우주",
+    "vT": "Surface Contact",
+    "vD": "사물뿐만 아니라 시스템의 연결 스위치가 끊어짐 없이 쫙 달라붙어 구동 활성화되는 상태입니다.",
+    "governing": "Day 102: [On] 두 표면이 0의 마진으로 완벽히 밀착하여 락킹",
     "core": "On",
     "sentences": [
       {
@@ -649,9 +649,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "103": {
     "v": "🧊",
-    "vT": "On 100% Unique Image",
-    "vD": "On 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 103: [On] 단 한치도 똑같지 않은 On 의 우주",
+    "vT": "Surface Contact",
+    "vD": "사물뿐만 아니라 시스템의 연결 스위치가 끊어짐 없이 쫙 달라붙어 구동 활성화되는 상태입니다.",
+    "governing": "Day 103: [On] 두 표면이 0의 마진으로 완벽히 밀착하여 락킹",
     "core": "On",
     "sentences": [
       {
@@ -703,9 +703,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "104": {
     "v": "🧊",
-    "vT": "On 100% Unique Image",
-    "vD": "On 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 104: [On] 단 한치도 똑같지 않은 On 의 우주",
+    "vT": "Surface Contact",
+    "vD": "사물뿐만 아니라 시스템의 연결 스위치가 끊어짐 없이 쫙 달라붙어 구동 활성화되는 상태입니다.",
+    "governing": "Day 104: [On] 두 표면이 0의 마진으로 완벽히 밀착하여 락킹",
     "core": "On",
     "sentences": [
       {
@@ -757,9 +757,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "105": {
     "v": "🧊",
-    "vT": "On 100% Unique Image",
-    "vD": "On 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 105: [On] 단 한치도 똑같지 않은 On 의 우주",
+    "vT": "Surface Contact",
+    "vD": "사물뿐만 아니라 시스템의 연결 스위치가 끊어짐 없이 쫙 달라붙어 구동 활성화되는 상태입니다.",
+    "governing": "Day 105: [On] 두 표면이 0의 마진으로 완벽히 밀착하여 락킹",
     "core": "On",
     "sentences": [
       {
@@ -811,9 +811,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "106": {
     "v": "🧊",
-    "vT": "Off 100% Unique Image",
-    "vD": "Off 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 106: [Off] 단 한치도 똑같지 않은 Off 의 우주",
+    "vT": "Surface Disconnect",
+    "vD": "연결과 구속의 밧줄을 튕겨내듯 끊어버리고 본래의 루틴 궤도에서 추락하거나 벗어나는 스위치 오프 단절입니다.",
+    "governing": "Day 106: [Off] 밀착되어 있던 표면들 사이의 완전한 분리와 단절",
     "core": "Off",
     "sentences": [
       {
@@ -865,9 +865,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "107": {
     "v": "🧊",
-    "vT": "Off 100% Unique Image",
-    "vD": "Off 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 107: [Off] 단 한치도 똑같지 않은 Off 의 우주",
+    "vT": "Surface Disconnect",
+    "vD": "연결과 구속의 밧줄을 튕겨내듯 끊어버리고 본래의 루틴 궤도에서 추락하거나 벗어나는 스위치 오프 단절입니다.",
+    "governing": "Day 107: [Off] 밀착되어 있던 표면들 사이의 완전한 분리와 단절",
     "core": "Off",
     "sentences": [
       {
@@ -919,9 +919,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "108": {
     "v": "🧊",
-    "vT": "Off 100% Unique Image",
-    "vD": "Off 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 108: [Off] 단 한치도 똑같지 않은 Off 의 우주",
+    "vT": "Surface Disconnect",
+    "vD": "연결과 구속의 밧줄을 튕겨내듯 끊어버리고 본래의 루틴 궤도에서 추락하거나 벗어나는 스위치 오프 단절입니다.",
+    "governing": "Day 108: [Off] 밀착되어 있던 표면들 사이의 완전한 분리와 단절",
     "core": "Off",
     "sentences": [
       {
@@ -973,9 +973,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "109": {
     "v": "🧊",
-    "vT": "Off 100% Unique Image",
-    "vD": "Off 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 109: [Off] 단 한치도 똑같지 않은 Off 의 우주",
+    "vT": "Surface Disconnect",
+    "vD": "연결과 구속의 밧줄을 튕겨내듯 끊어버리고 본래의 루틴 궤도에서 추락하거나 벗어나는 스위치 오프 단절입니다.",
+    "governing": "Day 109: [Off] 밀착되어 있던 표면들 사이의 완전한 분리와 단절",
     "core": "Off",
     "sentences": [
       {
@@ -1027,9 +1027,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "110": {
     "v": "🧊",
-    "vT": "Off 100% Unique Image",
-    "vD": "Off 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 110: [Off] 단 한치도 똑같지 않은 Off 의 우주",
+    "vT": "Surface Disconnect",
+    "vD": "연결과 구속의 밧줄을 튕겨내듯 끊어버리고 본래의 루틴 궤도에서 추락하거나 벗어나는 스위치 오프 단절입니다.",
+    "governing": "Day 110: [Off] 밀착되어 있던 표면들 사이의 완전한 분리와 단절",
     "core": "Off",
     "sentences": [
       {
@@ -1081,9 +1081,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "111": {
     "v": "🧊",
-    "vT": "Up 100% Unique Image",
-    "vD": "Up 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 111: [Up] 단 한치도 똑같지 않은 Up 의 우주",
+    "vT": "Vertical Max",
+    "vD": "고도의 수직적 상승뿐만 아니라, 완성도나 시스템 제어망 게이지가 폭발할 때까지 차오르는 100% 극점입니다.",
+    "governing": "Day 111: [Up] 수직 상승과 폭발 한계점까지 차오르는 100% 임계치",
     "core": "Up",
     "sentences": [
       {
@@ -1135,9 +1135,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "112": {
     "v": "🧊",
-    "vT": "Up 100% Unique Image",
-    "vD": "Up 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 112: [Up] 단 한치도 똑같지 않은 Up 의 우주",
+    "vT": "Vertical Max",
+    "vD": "고도의 수직적 상승뿐만 아니라, 완성도나 시스템 제어망 게이지가 폭발할 때까지 차오르는 100% 극점입니다.",
+    "governing": "Day 112: [Up] 수직 상승과 폭발 한계점까지 차오르는 100% 임계치",
     "core": "Up",
     "sentences": [
       {
@@ -1189,9 +1189,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "113": {
     "v": "🧊",
-    "vT": "Up 100% Unique Image",
-    "vD": "Up 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 113: [Up] 단 한치도 똑같지 않은 Up 의 우주",
+    "vT": "Vertical Max",
+    "vD": "고도의 수직적 상승뿐만 아니라, 완성도나 시스템 제어망 게이지가 폭발할 때까지 차오르는 100% 극점입니다.",
+    "governing": "Day 113: [Up] 수직 상승과 폭발 한계점까지 차오르는 100% 임계치",
     "core": "Up",
     "sentences": [
       {
@@ -1243,9 +1243,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "114": {
     "v": "🧊",
-    "vT": "Up 100% Unique Image",
-    "vD": "Up 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 114: [Up] 단 한치도 똑같지 않은 Up 의 우주",
+    "vT": "Vertical Max",
+    "vD": "고도의 수직적 상승뿐만 아니라, 완성도나 시스템 제어망 게이지가 폭발할 때까지 차오르는 100% 극점입니다.",
+    "governing": "Day 114: [Up] 수직 상승과 폭발 한계점까지 차오르는 100% 임계치",
     "core": "Up",
     "sentences": [
       {
@@ -1297,9 +1297,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "115": {
     "v": "🧊",
-    "vT": "Up 100% Unique Image",
-    "vD": "Up 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 115: [Up] 단 한치도 똑같지 않은 Up 의 우주",
+    "vT": "Vertical Max",
+    "vD": "고도의 수직적 상승뿐만 아니라, 완성도나 시스템 제어망 게이지가 폭발할 때까지 차오르는 100% 극점입니다.",
+    "governing": "Day 115: [Up] 수직 상승과 폭발 한계점까지 차오르는 100% 임계치",
     "core": "Up",
     "sentences": [
       {
@@ -1351,9 +1351,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "116": {
     "v": "🧊",
-    "vT": "Down 100% Unique Image",
-    "vD": "Down 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 116: [Down] 단 한치도 똑같지 않은 Down 의 우주",
+    "vT": "Vertical Drop",
+    "vD": "기세나 수치가 꺾여 바닥으로 떨어지거나, 활동성을 0으로 강제 셧다운시켜 평면에 밀착 고정시키는 하락입니다.",
+    "governing": "Day 116: [Down] 기준치 아래로의 물리적 추락과 억눌림",
     "core": "Down",
     "sentences": [
       {
@@ -1405,9 +1405,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "117": {
     "v": "🧊",
-    "vT": "Down 100% Unique Image",
-    "vD": "Down 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 117: [Down] 단 한치도 똑같지 않은 Down 의 우주",
+    "vT": "Vertical Drop",
+    "vD": "기세나 수치가 꺾여 바닥으로 떨어지거나, 활동성을 0으로 강제 셧다운시켜 평면에 밀착 고정시키는 하락입니다.",
+    "governing": "Day 117: [Down] 기준치 아래로의 물리적 추락과 억눌림",
     "core": "Down",
     "sentences": [
       {
@@ -1459,9 +1459,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "118": {
     "v": "🧊",
-    "vT": "Down 100% Unique Image",
-    "vD": "Down 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 118: [Down] 단 한치도 똑같지 않은 Down 의 우주",
+    "vT": "Vertical Drop",
+    "vD": "기세나 수치가 꺾여 바닥으로 떨어지거나, 활동성을 0으로 강제 셧다운시켜 평면에 밀착 고정시키는 하락입니다.",
+    "governing": "Day 118: [Down] 기준치 아래로의 물리적 추락과 억눌림",
     "core": "Down",
     "sentences": [
       {
@@ -1513,9 +1513,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "119": {
     "v": "🧊",
-    "vT": "Down 100% Unique Image",
-    "vD": "Down 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 119: [Down] 단 한치도 똑같지 않은 Down 의 우주",
+    "vT": "Vertical Drop",
+    "vD": "기세나 수치가 꺾여 바닥으로 떨어지거나, 활동성을 0으로 강제 셧다운시켜 평면에 밀착 고정시키는 하락입니다.",
+    "governing": "Day 119: [Down] 기준치 아래로의 물리적 추락과 억눌림",
     "core": "Down",
     "sentences": [
       {
@@ -1567,9 +1567,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "120": {
     "v": "🧊",
-    "vT": "Down 100% Unique Image",
-    "vD": "Down 의 절대 중복 없는 깊은 철학적 매핑 체계",
-    "governing": "Day 120: [Down] 단 한치도 똑같지 않은 Down 의 우주",
+    "vT": "Vertical Drop",
+    "vD": "기세나 수치가 꺾여 바닥으로 떨어지거나, 활동성을 0으로 강제 셧다운시켜 평면에 밀착 고정시키는 하락입니다.",
+    "governing": "Day 120: [Down] 기준치 아래로의 물리적 추락과 억눌림",
     "core": "Down",
     "sentences": [
       {

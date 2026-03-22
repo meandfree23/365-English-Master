@@ -1,9 +1,9 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "1": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 1: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 1: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -55,9 +55,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "2": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 2: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 2: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -109,9 +109,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "3": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 3: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 3: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -163,9 +163,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "4": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 4: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 4: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -217,9 +217,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "5": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 5: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 5: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -271,9 +271,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "6": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 6: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 6: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -325,9 +325,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "7": {
     "v": "⚡",
-    "vT": "Take Unique Mastery",
-    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 7: [Take] 절대 중복 없는 Take 본질 체화",
+    "vT": "Active Capture",
+    "vD": "대상을 내 물리적/심리적 통제권 안으로 확 끌어당기는 적극적 획득 본능입니다.",
+    "governing": "Day 7: [Take] 외부의 대상을 내 의지로 거머쥐다",
     "core": "Take",
     "sentences": [
       {
@@ -379,9 +379,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "8": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 8: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 8: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -433,9 +433,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "9": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 9: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 9: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -487,9 +487,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "10": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 10: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 10: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -541,9 +541,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "11": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 11: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 11: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -595,9 +595,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "12": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 12: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 12: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -649,9 +649,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "13": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 13: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 13: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -703,9 +703,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "14": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 14: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 14: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -757,9 +757,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "15": {
     "v": "⚡",
-    "vT": "Get Unique Mastery",
-    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 15: [Get] 절대 중복 없는 Get 본질 체화",
+    "vT": "State Transition",
+    "vD": "무(無)의 상태에서 유(有)의 상태로 진입하며 새로운 것을 얻어내는 변화의 핵심입니다.",
+    "governing": "Day 15: [Get] 없던 것이 내게로 와서 생겨나다",
     "core": "Get",
     "sentences": [
       {
@@ -811,9 +811,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "16": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 16: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 16: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -865,9 +865,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "17": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 17: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 17: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -919,9 +919,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "18": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 18: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 18: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -973,9 +973,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "19": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 19: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 19: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -1027,9 +1027,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "20": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 20: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 20: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -1081,9 +1081,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "21": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 21: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 21: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -1135,9 +1135,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "22": {
     "v": "⚡",
-    "vT": "Have Unique Mastery",
-    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 22: [Have] 절대 중복 없는 Have 본질 체화",
+    "vT": "Solid Possession",
+    "vD": "이미 획득한 상태를 안정적으로 유지하며 내 공간 안에 소유함을 의미합니다.",
+    "governing": "Day 22: [Have] 이미 내 영역 안에 존재하여 품고 있다",
     "core": "Have",
     "sentences": [
       {
@@ -1189,9 +1189,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "23": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 23: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 23: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1243,9 +1243,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "24": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 24: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 24: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1297,9 +1297,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "25": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 25: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 25: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1351,9 +1351,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "26": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 26: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 26: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1405,9 +1405,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "27": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 27: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 27: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1459,9 +1459,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "28": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 28: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 28: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1513,9 +1513,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "29": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 29: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 29: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {
@@ -1567,9 +1567,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "30": {
     "v": "⚡",
-    "vT": "Make Unique Mastery",
-    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
-    "governing": "Day 30: [Make] 절대 중복 없는 Make 본질 체화",
+    "vT": "Creative Impact",
+    "vD": "물리적인 존재뿐만 아니라 상황과 감정까지 내 의지대로 빚어내는 창조적 개입입니다.",
+    "governing": "Day 30: [Make] 무에서 유를, 형태가 없는 것을 형상화하다",
     "core": "Make",
     "sentences": [
       {

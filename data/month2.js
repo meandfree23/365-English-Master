@@ -1,9 +1,9 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "31": {
     "v": "🌊",
-    "vT": "Go Unique Tracking",
-    "vD": "Go 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 31: [Go] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Outward Vector",
+    "vD": "현재의 중심에서 벗어나 다른 목표를 향해 나아가는 원심력적 궤도입니다.",
+    "governing": "Day 31: [Go] 화자가 있는 기준점에서 멀어지는 움직임",
     "core": "Go",
     "sentences": [
       {
@@ -55,9 +55,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "32": {
     "v": "🌊",
-    "vT": "Go Unique Tracking",
-    "vD": "Go 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 32: [Go] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Outward Vector",
+    "vD": "현재의 중심에서 벗어나 다른 목표를 향해 나아가는 원심력적 궤도입니다.",
+    "governing": "Day 32: [Go] 화자가 있는 기준점에서 멀어지는 움직임",
     "core": "Go",
     "sentences": [
       {
@@ -109,9 +109,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "33": {
     "v": "🌊",
-    "vT": "Go Unique Tracking",
-    "vD": "Go 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 33: [Go] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Outward Vector",
+    "vD": "현재의 중심에서 벗어나 다른 목표를 향해 나아가는 원심력적 궤도입니다.",
+    "governing": "Day 33: [Go] 화자가 있는 기준점에서 멀어지는 움직임",
     "core": "Go",
     "sentences": [
       {
@@ -163,9 +163,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "34": {
     "v": "🌊",
-    "vT": "Go Unique Tracking",
-    "vD": "Go 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 34: [Go] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Outward Vector",
+    "vD": "현재의 중심에서 벗어나 다른 목표를 향해 나아가는 원심력적 궤도입니다.",
+    "governing": "Day 34: [Go] 화자가 있는 기준점에서 멀어지는 움직임",
     "core": "Go",
     "sentences": [
       {
@@ -217,9 +217,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "35": {
     "v": "🌊",
-    "vT": "Go Unique Tracking",
-    "vD": "Go 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 35: [Go] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Outward Vector",
+    "vD": "현재의 중심에서 벗어나 다른 목표를 향해 나아가는 원심력적 궤도입니다.",
+    "governing": "Day 35: [Go] 화자가 있는 기준점에서 멀어지는 움직임",
     "core": "Go",
     "sentences": [
       {
@@ -271,9 +271,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "36": {
     "v": "🌊",
-    "vT": "Come Unique Tracking",
-    "vD": "Come 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 36: [Come] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Inward Convergence",
+    "vD": "흩어져 있던 존재나 상태가 메인 포커스로 점차 다가오는 구심력적 궤적입니다.",
+    "governing": "Day 36: [Come] 화자나 중심이 되는 좌표로 수렴하는 움직임",
     "core": "Come",
     "sentences": [
       {
@@ -325,9 +325,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "37": {
     "v": "🌊",
-    "vT": "Come Unique Tracking",
-    "vD": "Come 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 37: [Come] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Inward Convergence",
+    "vD": "흩어져 있던 존재나 상태가 메인 포커스로 점차 다가오는 구심력적 궤적입니다.",
+    "governing": "Day 37: [Come] 화자나 중심이 되는 좌표로 수렴하는 움직임",
     "core": "Come",
     "sentences": [
       {
@@ -379,9 +379,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "38": {
     "v": "🌊",
-    "vT": "Come Unique Tracking",
-    "vD": "Come 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 38: [Come] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Inward Convergence",
+    "vD": "흩어져 있던 존재나 상태가 메인 포커스로 점차 다가오는 구심력적 궤적입니다.",
+    "governing": "Day 38: [Come] 화자나 중심이 되는 좌표로 수렴하는 움직임",
     "core": "Come",
     "sentences": [
       {
@@ -433,9 +433,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "39": {
     "v": "🌊",
-    "vT": "Come Unique Tracking",
-    "vD": "Come 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 39: [Come] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Inward Convergence",
+    "vD": "흩어져 있던 존재나 상태가 메인 포커스로 점차 다가오는 구심력적 궤적입니다.",
+    "governing": "Day 39: [Come] 화자나 중심이 되는 좌표로 수렴하는 움직임",
     "core": "Come",
     "sentences": [
       {
@@ -487,9 +487,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "40": {
     "v": "🌊",
-    "vT": "Come Unique Tracking",
-    "vD": "Come 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 40: [Come] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Inward Convergence",
+    "vD": "흩어져 있던 존재나 상태가 메인 포커스로 점차 다가오는 구심력적 궤적입니다.",
+    "governing": "Day 40: [Come] 화자나 중심이 되는 좌표로 수렴하는 움직임",
     "core": "Come",
     "sentences": [
       {
@@ -541,9 +541,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "41": {
     "v": "🌊",
-    "vT": "Put Unique Tracking",
-    "vD": "Put 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 41: [Put] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Position Drop",
+    "vD": "어떤 사물이나 추상적 개념을 의도한 장소나 상황 속에 가볍게 던져 놓는 행위입니다.",
+    "governing": "Day 41: [Put] 특정한 위치나 상태에 툭 던져 세팅하다",
     "core": "Put",
     "sentences": [
       {
@@ -595,9 +595,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "42": {
     "v": "🌊",
-    "vT": "Put Unique Tracking",
-    "vD": "Put 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 42: [Put] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Position Drop",
+    "vD": "어떤 사물이나 추상적 개념을 의도한 장소나 상황 속에 가볍게 던져 놓는 행위입니다.",
+    "governing": "Day 42: [Put] 특정한 위치나 상태에 툭 던져 세팅하다",
     "core": "Put",
     "sentences": [
       {
@@ -649,9 +649,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "43": {
     "v": "🌊",
-    "vT": "Put Unique Tracking",
-    "vD": "Put 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 43: [Put] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Position Drop",
+    "vD": "어떤 사물이나 추상적 개념을 의도한 장소나 상황 속에 가볍게 던져 놓는 행위입니다.",
+    "governing": "Day 43: [Put] 특정한 위치나 상태에 툭 던져 세팅하다",
     "core": "Put",
     "sentences": [
       {
@@ -703,9 +703,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "44": {
     "v": "🌊",
-    "vT": "Put Unique Tracking",
-    "vD": "Put 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 44: [Put] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Position Drop",
+    "vD": "어떤 사물이나 추상적 개념을 의도한 장소나 상황 속에 가볍게 던져 놓는 행위입니다.",
+    "governing": "Day 44: [Put] 특정한 위치나 상태에 툭 던져 세팅하다",
     "core": "Put",
     "sentences": [
       {
@@ -757,9 +757,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "45": {
     "v": "🌊",
-    "vT": "Put Unique Tracking",
-    "vD": "Put 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 45: [Put] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Position Drop",
+    "vD": "어떤 사물이나 추상적 개념을 의도한 장소나 상황 속에 가볍게 던져 놓는 행위입니다.",
+    "governing": "Day 45: [Put] 특정한 위치나 상태에 툭 던져 세팅하다",
     "core": "Put",
     "sentences": [
       {
@@ -811,9 +811,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "46": {
     "v": "🌊",
-    "vT": "Set Unique Tracking",
-    "vD": "Set 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 46: [Set] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Firm Setup",
+    "vD": "단순한 배치를 넘어 환경과 조건을 완벽하게 세팅하여 변하지 않게 픽스하는 것입니다.",
+    "governing": "Day 46: [Set] 흔들리지 않게 맞추고 단단히 고정하다",
     "core": "Set",
     "sentences": [
       {
@@ -865,9 +865,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "47": {
     "v": "🌊",
-    "vT": "Set Unique Tracking",
-    "vD": "Set 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 47: [Set] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Firm Setup",
+    "vD": "단순한 배치를 넘어 환경과 조건을 완벽하게 세팅하여 변하지 않게 픽스하는 것입니다.",
+    "governing": "Day 47: [Set] 흔들리지 않게 맞추고 단단히 고정하다",
     "core": "Set",
     "sentences": [
       {
@@ -919,9 +919,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "48": {
     "v": "🌊",
-    "vT": "Set Unique Tracking",
-    "vD": "Set 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 48: [Set] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Firm Setup",
+    "vD": "단순한 배치를 넘어 환경과 조건을 완벽하게 세팅하여 변하지 않게 픽스하는 것입니다.",
+    "governing": "Day 48: [Set] 흔들리지 않게 맞추고 단단히 고정하다",
     "core": "Set",
     "sentences": [
       {
@@ -973,9 +973,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "49": {
     "v": "🌊",
-    "vT": "Set Unique Tracking",
-    "vD": "Set 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 49: [Set] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Firm Setup",
+    "vD": "단순한 배치를 넘어 환경과 조건을 완벽하게 세팅하여 변하지 않게 픽스하는 것입니다.",
+    "governing": "Day 49: [Set] 흔들리지 않게 맞추고 단단히 고정하다",
     "core": "Set",
     "sentences": [
       {
@@ -1027,9 +1027,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "50": {
     "v": "🌊",
-    "vT": "Set Unique Tracking",
-    "vD": "Set 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 50: [Set] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Firm Setup",
+    "vD": "단순한 배치를 넘어 환경과 조건을 완벽하게 세팅하여 변하지 않게 픽스하는 것입니다.",
+    "governing": "Day 50: [Set] 흔들리지 않게 맞추고 단단히 고정하다",
     "core": "Set",
     "sentences": [
       {
@@ -1081,9 +1081,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "51": {
     "v": "🌊",
-    "vT": "Bring Unique Tracking",
-    "vD": "Bring 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 51: [Bring] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Accompanied Arrival",
+    "vD": "어떤 객체나 감정을 자신과 동반한 상태로 목표 지점에 이끌고 들어오는 수반 과정입니다.",
+    "governing": "Day 51: [Bring] 대상을 수반하여 중심 좌표로 끌어오다",
     "core": "Bring",
     "sentences": [
       {
@@ -1135,9 +1135,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "52": {
     "v": "🌊",
-    "vT": "Bring Unique Tracking",
-    "vD": "Bring 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 52: [Bring] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Accompanied Arrival",
+    "vD": "어떤 객체나 감정을 자신과 동반한 상태로 목표 지점에 이끌고 들어오는 수반 과정입니다.",
+    "governing": "Day 52: [Bring] 대상을 수반하여 중심 좌표로 끌어오다",
     "core": "Bring",
     "sentences": [
       {
@@ -1189,9 +1189,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "53": {
     "v": "🌊",
-    "vT": "Bring Unique Tracking",
-    "vD": "Bring 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 53: [Bring] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Accompanied Arrival",
+    "vD": "어떤 객체나 감정을 자신과 동반한 상태로 목표 지점에 이끌고 들어오는 수반 과정입니다.",
+    "governing": "Day 53: [Bring] 대상을 수반하여 중심 좌표로 끌어오다",
     "core": "Bring",
     "sentences": [
       {
@@ -1243,9 +1243,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "54": {
     "v": "🌊",
-    "vT": "Bring Unique Tracking",
-    "vD": "Bring 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 54: [Bring] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Accompanied Arrival",
+    "vD": "어떤 객체나 감정을 자신과 동반한 상태로 목표 지점에 이끌고 들어오는 수반 과정입니다.",
+    "governing": "Day 54: [Bring] 대상을 수반하여 중심 좌표로 끌어오다",
     "core": "Bring",
     "sentences": [
       {
@@ -1297,9 +1297,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "55": {
     "v": "🌊",
-    "vT": "Bring Unique Tracking",
-    "vD": "Bring 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 55: [Bring] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Accompanied Arrival",
+    "vD": "어떤 객체나 감정을 자신과 동반한 상태로 목표 지점에 이끌고 들어오는 수반 과정입니다.",
+    "governing": "Day 55: [Bring] 대상을 수반하여 중심 좌표로 끌어오다",
     "core": "Bring",
     "sentences": [
       {
@@ -1351,9 +1351,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "56": {
     "v": "🌊",
-    "vT": "Carry Unique Tracking",
-    "vD": "Carry 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 56: [Carry] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Load Sustain",
+    "vD": "물리적 무게나 심적 압박감을 인벤토리에 지속적으로 안고 나아가는 무거운 연산입니다.",
+    "governing": "Day 56: [Carry] 하중을 짊어진 상태로 궤도를 유지하다",
     "core": "Carry",
     "sentences": [
       {
@@ -1405,9 +1405,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "57": {
     "v": "🌊",
-    "vT": "Carry Unique Tracking",
-    "vD": "Carry 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 57: [Carry] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Load Sustain",
+    "vD": "물리적 무게나 심적 압박감을 인벤토리에 지속적으로 안고 나아가는 무거운 연산입니다.",
+    "governing": "Day 57: [Carry] 하중을 짊어진 상태로 궤도를 유지하다",
     "core": "Carry",
     "sentences": [
       {
@@ -1459,9 +1459,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "58": {
     "v": "🌊",
-    "vT": "Carry Unique Tracking",
-    "vD": "Carry 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 58: [Carry] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Load Sustain",
+    "vD": "물리적 무게나 심적 압박감을 인벤토리에 지속적으로 안고 나아가는 무거운 연산입니다.",
+    "governing": "Day 58: [Carry] 하중을 짊어진 상태로 궤도를 유지하다",
     "core": "Carry",
     "sentences": [
       {
@@ -1513,9 +1513,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "59": {
     "v": "🌊",
-    "vT": "Carry Unique Tracking",
-    "vD": "Carry 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 59: [Carry] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Load Sustain",
+    "vD": "물리적 무게나 심적 압박감을 인벤토리에 지속적으로 안고 나아가는 무거운 연산입니다.",
+    "governing": "Day 59: [Carry] 하중을 짊어진 상태로 궤도를 유지하다",
     "core": "Carry",
     "sentences": [
       {
@@ -1567,9 +1567,9 @@ window.dayData = Object.assign(window.dayData || {}, {
   },
   "60": {
     "v": "🌊",
-    "vT": "Carry Unique Tracking",
-    "vD": "Carry 이동과 접촉의 절대 중복 없는 매핑",
-    "governing": "Day 60: [Carry] 5가지 완벽 무결성 궤도 훈련",
+    "vT": "Load Sustain",
+    "vD": "물리적 무게나 심적 압박감을 인벤토리에 지속적으로 안고 나아가는 무거운 연산입니다.",
+    "governing": "Day 60: [Carry] 하중을 짊어진 상태로 궤도를 유지하다",
     "core": "Carry",
     "sentences": [
       {
