@@ -2,7 +2,7 @@ window.dayData = Object.assign(window.dayData || {}, {
   "1": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 1: [본질] 내 것으로 확 낚아채는 주도함",
     "core": "Take",
     "sentences": [
@@ -13,7 +13,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -22,7 +22,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -31,14 +31,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "2": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 2: [책임] 상황을 양손으로 꽉 틀어쥐는 리더십",
     "core": "Take",
     "sentences": [
@@ -49,7 +67,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -58,7 +76,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -67,14 +85,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "3": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 3: [이동] 잡은 채로 목적지까지 함께 가는 그림",
     "core": "Take",
     "sentences": [
@@ -85,7 +121,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -94,7 +130,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -103,14 +139,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "4": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 4: [선택] 수많은 옵션 중 하나를 골라잡기",
     "core": "Take",
     "sentences": [
@@ -121,7 +175,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -130,7 +184,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -139,14 +193,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "5": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 5: [수용] 상대가 던진 말이나 칭찬을 가슴에 넣기",
     "core": "Take",
     "sentences": [
@@ -157,7 +229,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -166,7 +238,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -175,14 +247,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "6": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 6: [소모] 결과를 얻기 위해 시간과 노력을 앗아감",
     "core": "Take",
     "sentences": [
@@ -193,7 +283,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -202,7 +292,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -211,14 +301,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "7": {
     "v": "⚡",
     "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
     "governing": "Day 7: [실행] 동사 뒤의 실제 행동 캡슐을 삼키는 순간",
     "core": "Take",
     "sentences": [
@@ -229,7 +337,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Take",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Take your time.",
@@ -238,7 +346,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "여유권장",
         "g": "F",
         "eT": "Resource Usage",
-        "eD": "필요한 자원을 온전히 가져가 쓰도록 허용"
+        "eD": "시간 자원 확보 허용"
       },
       {
         "txt": "I'll take the risk.",
@@ -247,14 +355,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "결단",
         "g": "M",
         "eT": "Risk Assimilation",
-        "eD": "외적 변수를 내적 통제로 수용"
+        "eD": "외적 변수 능동적 수용"
+      },
+      {
+        "txt": "Take a deep breath.",
+        "t": "심호흡 하세요.",
+        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
+        "s": "안정",
+        "g": "F",
+        "eT": "Inward Flow",
+        "eD": "생존 에너지의 원초적 흡수"
+      },
+      {
+        "txt": "Take my hand.",
+        "t": "내 손을 잡아.",
+        "n": "나의 통제권을 너에게 분배",
+        "s": "안내",
+        "g": "M",
+        "eT": "Control Share",
+        "eD": "통제권의 물리적 전이"
       }
     ]
   },
   "8": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 8: [상태변화] 어떤 상태로 변해가는 능동적 흐름",
     "core": "Get",
     "sentences": [
@@ -265,7 +391,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -274,7 +400,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -283,14 +409,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "9": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 9: [지점도달] 목적지에 마침내 닿는 쟁취",
     "core": "Get",
     "sentences": [
@@ -301,7 +445,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -310,7 +454,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -319,14 +463,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "10": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 10: [획득] 손에 없던 것을 마침내 얻어냄",
     "core": "Get",
     "sentences": [
@@ -337,7 +499,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -346,7 +508,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -355,14 +517,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "11": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 11: [이해] 머릿속에 없던 개념이 쏙 들어옴",
     "core": "Get",
     "sentences": [
@@ -373,7 +553,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -382,7 +562,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -391,14 +571,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "12": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 12: [물리적이동] 공간에 내 몸을 이동시킴",
     "core": "Get",
     "sentences": [
@@ -409,7 +607,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -418,7 +616,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -427,14 +625,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "13": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 13: [상태전이] 대상을 특정 상태로 도달시킴",
     "core": "Get",
     "sentences": [
@@ -445,7 +661,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -454,7 +670,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -463,14 +679,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "14": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 14: [설득] 타인을 설득해서 움직이게 함",
     "core": "Get",
     "sentences": [
@@ -481,7 +715,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -490,7 +724,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -499,14 +733,32 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
   "15": {
     "v": "⚡",
     "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get의 데이터 신경망 형성",
+    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
     "governing": "Day 15: [기회] 쟁취하여 갖게 된 기회",
     "core": "Get",
     "sentences": [
@@ -517,7 +769,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "상황",
         "g": "M",
         "eT": "Core Get",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "I don't get you.",
@@ -526,7 +778,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해실패",
         "g": "F",
         "eT": "Target Miss",
-        "eD": "원하는 데이터가 내 손에 들어오지 않음"
+        "eD": "원하는 데이터 획득 실패"
       },
       {
         "txt": "Get out of here.",
@@ -535,7 +787,25 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "축출",
         "g": "M",
         "eT": "Forced Shift",
-        "eD": "대상에게 강압적인 상태/위치 변화 주입"
+        "eD": "물리적 공간 전이 명령"
+      },
+      {
+        "txt": "Get to the point.",
+        "t": "본론만 말해.",
+        "n": "핵심 지점으로 즉시 도달하라",
+        "s": "촉구",
+        "g": "F",
+        "eT": "Point Arrive",
+        "eD": "군더더기 없는 논리적 도달 요구"
+      },
+      {
+        "txt": "Get it together.",
+        "t": "정신 차려.",
+        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "s": "충고",
+        "g": "M",
+        "eT": "State Reset",
+        "eD": "인지 시스템의 흩어진 변수 재조립"
       }
     ]
   },
@@ -553,7 +823,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -562,7 +832,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -580,7 +877,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -589,7 +886,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -607,7 +931,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -616,7 +940,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -634,7 +985,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -643,7 +994,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -661,7 +1039,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -670,7 +1048,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -688,7 +1093,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -697,7 +1102,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -715,7 +1147,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "한계상황",
         "g": "M",
         "eT": "Core Have",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Do you have a minute?",
@@ -724,7 +1156,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "요청",
         "g": "F",
         "eT": "Asset Check",
-        "eD": "상대방의 가용 자원 확인"
+        "eD": "상대 시간 자원 상태 스캔"
+      },
+      {
+        "txt": "I have no idea.",
+        "t": "전혀 모르겠어.",
+        "n": "아이디어라는 자산이 내 소유 상태에 없음",
+        "s": "단절",
+        "g": "M",
+        "eT": "Empty State",
+        "eD": "정보 자산 무소유 선언"
+      },
+      {
+        "txt": "Have a good one.",
+        "t": "좋은 하루 보내.",
+        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "s": "인사",
+        "g": "F",
+        "eT": "Vibe Sustain",
+        "eD": "긍정 에너지의 지속적 유지 기원"
+      },
+      {
+        "txt": "I'll have it ready.",
+        "t": "준비해 놓을게요.",
+        "n": "준비된 상태를 내 통제 스코프 안에 고정",
+        "s": "약속",
+        "g": "M",
+        "eT": "Status Lock",
+        "eD": "미래 시점의 완료 상태 사전 확정"
       }
     ]
   },
@@ -742,7 +1201,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -751,7 +1210,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -769,7 +1255,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -778,7 +1264,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -796,7 +1309,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -805,7 +1318,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -823,7 +1363,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -832,7 +1372,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -850,7 +1417,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -859,7 +1426,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -877,7 +1471,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -886,7 +1480,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -904,7 +1525,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -913,7 +1534,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   },
@@ -931,7 +1579,7 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "경고",
         "g": "M",
         "eT": "Core Make",
-        "eD": "핵심 원리 적용 모델"
+        "eD": "핵심 원리 우선 적용"
       },
       {
         "txt": "Does it make sense?",
@@ -940,7 +1588,34 @@ window.dayData = Object.assign(window.dayData || {}, {
         "s": "이해점검",
         "g": "F",
         "eT": "Logic Forging",
-        "eD": "데이터나 상황이 논리적으로 조립되어 의미를 생성했는지 점검"
+        "eD": "논리 조립의 타당성 확인"
+      },
+      {
+        "txt": "Make yourself at home.",
+        "t": "편하게 계세요.",
+        "n": "타인의 심리 상태를 편안함으로 강제 창출",
+        "s": "배려",
+        "g": "M",
+        "eT": "Mood Craft",
+        "eD": "우호적인 환경 상태를 인위적으로 생성"
+      },
+      {
+        "txt": "Make sure.",
+        "t": "확실히 해둬.",
+        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
+        "s": "확인",
+        "g": "F",
+        "eT": "Reality Fix",
+        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+      },
+      {
+        "txt": "Let's make a deal.",
+        "t": "거래를 합시다.",
+        "n": "존재하지 않던 합의를 우리 힘으로 조립",
+        "s": "제안",
+        "g": "M",
+        "eT": "Mutual Build",
+        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
       }
     ]
   }
