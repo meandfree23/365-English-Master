@@ -433,10 +433,43 @@
                     document.querySelectorAll('.sentence-card').forEach(c => c.classList.remove('active'));
                     card.classList.add('active');
                     
-                    document.getElementById('mastery-title').innerText = s.eT || "Neural Mapping";
-                    document.getElementById('mastery-desc').innerText = s.eD || s.n || "지각의 본질을 파고듭니다.";
-                    document.getElementById('neural-mapping').style.display = 'block';
-                    document.getElementById('neural-target-val').innerText = (s.eT || "MAPPING").toUpperCase();
+                    const mTitle = document.getElementById('mastery-title');
+                    const mDesc = document.getElementById('mastery-desc');
+                    const mapping = document.getElementById('neural-mapping');
+                    const targetVal = document.getElementById('neural-target-val');
+                    const mIcon = document.getElementById('mastery-icon');
+
+                    // Reset animations by temporarily removing the elements or changing styles
+                    mapping.style.display = 'none';
+                    mTitle.style.opacity = '0';
+                    mDesc.style.opacity = '0';
+                    mIcon.style.transform = 'scale(0.8)';
+
+                    // Force reflow
+                    void mapping.offsetWidth;
+
+                    // Update contents
+                    mTitle.innerText = s.eT || "Neural Mapping";
+                    mDesc.innerText = s.eD || s.n || "지각의 본질을 파고듭니다.";
+                    targetVal.innerText = (s.eT || "MAPPING").toUpperCase();
+
+                    // Re-apply styles/animations
+                    mapping.style.display = 'block';
+                    mapping.style.animation = 'none';
+                    void mapping.offsetWidth; // trigger reflow again
+                    mapping.style.animation = 'slideUp 0.5s ease forwards';
+                    
+                    mTitle.style.transition = 'opacity 0.4s ease';
+                    mDesc.style.transition = 'opacity 0.4s ease';
+                    mIcon.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                    
+                    mTitle.style.opacity = '1';
+                    mDesc.style.opacity = '1';
+                    mIcon.style.transform = 'scale(1.1) rotate(5deg)';
+                    
+                    setTimeout(() => {
+                        mIcon.style.transform = ''; // return to breathing animation
+                    }, 300);
 
                     // Audio
                     if ('speechSynthesis' in window) {
