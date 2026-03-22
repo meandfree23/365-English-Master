@@ -1195,7 +1195,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     "core": "Feel",
     "sentences": [
       {
-        "txt": "I feel like a new person.",
+        "txt": "I feel completely refreshed.",
         "t": "새로운 사람이 된 것 같아요.",
         "n": "자아의 OS가 완전히 업그레이드 체제 전환을 완료함",
         "s": "상태 변화",

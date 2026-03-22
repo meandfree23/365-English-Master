@@ -1,1621 +1,1621 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "1": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 1: [본질] 내 것으로 확 낚아채는 주도함",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 1: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "I'm taken.",
-        "t": "나 임자 있어요.",
-        "n": "내 것으로 확 낚아채는 주도함",
-        "s": "상황",
+        "txt": "I'll take it.",
+        "t": "이걸로 할게요.",
+        "n": "선택과 확정",
+        "s": "결정",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Selection",
+        "eD": "주도적 취득"
       },
       {
         "txt": "Take your time.",
         "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "n": "시간을 자기 몫으로 온전히 사용",
+        "s": "배려",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Time Own",
+        "eD": "시간 자원 점유"
       },
       {
-        "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
-        "s": "결단",
+        "txt": "Take a seat.",
+        "t": "자리에 앉으세요.",
+        "n": "좌석이라는 공간을 차지함",
+        "s": "권유",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Space Claim",
+        "eD": "물리적 공간 점유"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "I can't take this anymore.",
+        "t": "더 이상은 못 참겠어.",
+        "n": "스트레스를 내 안으로 수용 불가",
+        "s": "불만",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Limit Burst",
+        "eD": "수용 한계 초과"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "She took my side.",
+        "t": "그녀는 내 편을 들었어.",
+        "n": "내 입장을 자기 것으로 취함",
+        "s": "지지",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Side Align",
+        "eD": "동조와 결합"
       }
     ]
   },
   "2": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 2: [책임] 상황을 양손으로 꽉 틀어쥐는 리더십",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 2: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "I'll take charge of this.",
-        "t": "제가 진행하고 책임지겠습니다.",
-        "n": "상황을 양손으로 꽉 틀어쥐는 리더십",
-        "s": "상황",
+        "txt": "Take a deep breath.",
+        "t": "심호흡을 하세요.",
+        "n": "외부 공기를 폐로 끌어들임",
+        "s": "안정",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Inhale",
+        "eD": "내부로 흡수"
       },
       {
-        "txt": "Take your time.",
-        "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "txt": "Who took my keys?",
+        "t": "누가 내 열쇠 가져갔어?",
+        "n": "허락 없이 대상의 소유권을 뺏음",
+        "s": "질문",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Rob",
+        "eD": "소유권 강탈"
       },
       {
         "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
+        "t": "위험을 감수할게.",
+        "n": "불확실성을 내 영역 안으로 수용",
         "s": "결단",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Risk Accept",
+        "eD": "위험 인용"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "It takes two to tango.",
+        "t": "손뼉도 마주쳐야 소리가 나지.",
+        "n": "완성을 위해 필수 요소 2개가 필요",
+        "s": "상황",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Require",
+        "eD": "필수 성분 요구"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "Take it easy.",
+        "t": "진정해.",
+        "n": "쉬운 상태로 상황을 통제하라",
+        "s": "위로",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Relax",
+        "eD": "긴장 완화 명령"
       }
     ]
   },
   "3": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 3: [이동] 잡은 채로 목적지까지 함께 가는 그림",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 3: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "Can you take me to the airport?",
-        "t": "공항까지 데려다주실 수 있나요?",
-        "n": "잡은 채로 목적지까지 함께 가는 그림",
-        "s": "상황",
+        "txt": "He took advantage of me.",
+        "t": "그는 나를 이용했어.",
+        "n": "내 약점을 자신의 이득으로 취함",
+        "s": "배신",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Exploit",
+        "eD": "이익 편취"
       },
       {
-        "txt": "Take your time.",
-        "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "txt": "Can you take out the trash?",
+        "t": "쓰레기 좀 내다 버릴래?",
+        "n": "내부의 쓰레기를 밖으로 이동시킴",
+        "s": "부탁",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Remove",
+        "eD": "외부 배출"
       },
       {
-        "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
-        "s": "결단",
+        "txt": "Take a look at this.",
+        "t": "이것 좀 봐봐.",
+        "n": "시선을 대상에 강제로 집중",
+        "s": "제안",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Focus",
+        "eD": "시선 점유"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "Do you take credit cards?",
+        "t": "신용카드 되나요?",
+        "n": "카드를 지불 수단으로 수용하는가",
+        "s": "결제",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Accept",
+        "eD": "수단 수용 여부"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "She takes after her mother.",
+        "t": "그녀는 엄마를 닮았어.",
+        "n": "부모의 기질/외모를 물려받아 취함",
+        "s": "묘사",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Resemble",
+        "eD": "형질 상속"
       }
     ]
   },
   "4": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 4: [선택] 수많은 옵션 중 하나를 골라잡기",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 4: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "I'll take this one.",
-        "t": "이걸로 할게요.",
-        "n": "수많은 옵션 중 하나를 골라잡기",
-        "s": "상황",
+        "txt": "Take notes.",
+        "t": "필기해 두세요.",
+        "n": "말을 글자로 바꾸어 소유함",
+        "s": "지시",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Record",
+        "eD": "정보 캡처"
       },
       {
-        "txt": "Take your time.",
-        "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "txt": "I take it back.",
+        "t": "방금 한 말 취소할게.",
+        "n": "던진 말을 다시 나에게로 회수",
+        "s": "후회",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Retract",
+        "eD": "발언 회수"
       },
       {
-        "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
-        "s": "결단",
+        "txt": "Don't take it personally.",
+        "t": "개인적으로 받아들이지 마.",
+        "n": "공적인 비판을 감정으로 섞어 수용 금지",
+        "s": "충고",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Objective",
+        "eD": "주관적 수용 차단"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "Take me home.",
+        "t": "집에 데려다줘.",
+        "n": "내 물리적 몸을 목적지로 동반 이동",
+        "s": "요청",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Transport",
+        "eD": "물리적 이동주도"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "Take a break.",
+        "t": "잠깐 쉬자.",
+        "n": "휴식이라는 이벤트를 삶의 궤도에 삽입",
+        "s": "제안",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Rest",
+        "eD": "중단 지점 확정"
       }
     ]
   },
   "5": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 5: [수용] 상대가 던진 말이나 칭찬을 가슴에 넣기",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 5: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "I take it as a compliment.",
-        "t": "칭찬으로 받아들일게요.",
-        "n": "상대가 던진 말이나 칭찬을 가슴에 넣기",
-        "s": "상황",
+        "txt": "It'll take about an hour.",
+        "t": "한 시간쯤 걸릴 거야.",
+        "n": "시간 자원을 이만큼 강제로 소모함",
+        "s": "정보",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Consume",
+        "eD": "자원 소요"
       },
       {
-        "txt": "Take your time.",
-        "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "txt": "Take your pills.",
+        "t": "약 챙겨 먹어.",
+        "n": "약을 입술 안으로 통과시켜 흡수",
+        "s": "지시",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Ingest",
+        "eD": "화학물질 수용"
       },
       {
-        "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
-        "s": "결단",
+        "txt": "Let's take a walk.",
+        "t": "산책이나 하자.",
+        "n": "걷기라는 행동 자체를 실행",
+        "s": "권유",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Action",
+        "eD": "행동 트리거"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "Take my advice.",
+        "t": "내 충고를 들어.",
+        "n": "타인의 의견을 내 지침으로 삼아라",
+        "s": "조언",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Adopt",
+        "eD": "지적 수용"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "I'll take care of it.",
+        "t": "내가 알아서 처리할게.",
+        "n": "문제의 통제권을 내 손아귀에 쥠",
+        "s": "장담",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Handle",
+        "eD": "통제권 획득"
       }
     ]
   },
   "6": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 6: [소모] 결과를 얻기 위해 시간과 노력을 앗아감",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 6: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "It takes time to build trust.",
-        "t": "신뢰를 쌓는 데는 시간이 걸립니다.",
-        "n": "결과를 얻기 위해 시간과 노력을 앗아감",
-        "s": "상황",
+        "txt": "Take off your shoes.",
+        "t": "신발 벗어주세요.",
+        "n": "몸에 붙은 것(On)을 떼어냄(Off)",
+        "s": "명령",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Detach",
+        "eD": "부착물 분리"
       },
       {
-        "txt": "Take your time.",
-        "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "txt": "The plane is taking off.",
+        "t": "비행기가 이륙한다.",
+        "n": "지면에 붙은 상태를 끊고 우주로 올라감",
+        "s": "설명",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Upward",
+        "eD": "중력 이탈"
       },
       {
-        "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
-        "s": "결단",
+        "txt": "Take a chance.",
+        "t": "한번 모험해봐.",
+        "n": "우연한 기회를 내 손으로 직접 낚아챔",
+        "s": "격려",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Seize",
+        "eD": "확률적 기회 도출"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "I took him for a genius.",
+        "t": "난 그가 천재인 줄 알았어.",
+        "n": "그를 천재라는 라벨로 착각 수용",
+        "s": "착각",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Misjudge",
+        "eD": "오판된 라벨링"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "Take it from me.",
+        "t": "내 말 믿어.",
+        "n": "내가 보증하는 정보를 가져가라",
+        "s": "확신",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Trust",
+        "eD": "신뢰 데이터 전송"
       }
     ]
   },
   "7": {
     "v": "⚡",
-    "vT": "Take Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Take 데이터 체계",
-    "governing": "Day 7: [실행] 동사 뒤의 실제 행동 캡슐을 삼키는 순간",
+    "vT": "Take Unique Mastery",
+    "vD": "Take 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 7: [Take] 절대 중복 없는 Take 본질 체화",
     "core": "Take",
     "sentences": [
       {
-        "txt": "Let's take a break.",
-        "t": "잠시 쉬자.",
-        "n": "동사 뒤의 실제 행동 캡슐을 삼키는 순간",
-        "s": "상황",
+        "txt": "Take down the number.",
+        "t": "그 번호 적어놔.",
+        "n": "추상적 소리를 물리적 아래(Down) 공간에 기록",
+        "s": "지시",
         "g": "M",
-        "eT": "Core Take",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Write",
+        "eD": "정보 하강 픽스"
       },
       {
-        "txt": "Take your time.",
-        "t": "천천히 하세요.",
-        "n": "본인의 타임라인을 주도적으로 소유하라",
-        "s": "여유권장",
+        "txt": "She takes pride in her work.",
+        "t": "그녀는 자기 일에 자부심을 가집니다.",
+        "n": "프라이드를 심장 안에 꽂아 넣음",
+        "s": "칭찬",
         "g": "F",
-        "eT": "Resource Usage",
-        "eD": "시간 자원 확보 허용"
+        "eT": "Pride",
+        "eD": "긍정의 내재화"
       },
       {
-        "txt": "I'll take the risk.",
-        "t": "위험을 감수하겠습니다.",
-        "n": "위험을 내 소유 영역으로 껴안음",
-        "s": "결단",
+        "txt": "Take turns.",
+        "t": "교대하며 해라.",
+        "n": "순서라는 무형의 권리를 번갈아 점유",
+        "s": "규칙",
         "g": "M",
-        "eT": "Risk Assimilation",
-        "eD": "외적 변수 능동적 수용"
+        "eT": "Rotate",
+        "eD": "권리 교차 점유"
       },
       {
-        "txt": "Take a deep breath.",
-        "t": "심호흡 하세요.",
-        "n": "외부 공기를 내 깊숙한 곳으로 가져가라",
-        "s": "안정",
+        "txt": "I was quite taken aback.",
+        "t": "나 꽤나 당황했어.",
+        "n": "예상 못한 충격이 나를 뒤로 낚아챔",
+        "s": "감정",
         "g": "F",
-        "eT": "Inward Flow",
-        "eD": "생존 에너지의 원초적 흡수"
+        "eT": "Surprise",
+        "eD": "충격에 의한 후퇴"
       },
       {
-        "txt": "Take my hand.",
-        "t": "내 손을 잡아.",
-        "n": "나의 통제권을 너에게 분배",
-        "s": "안내",
+        "txt": "Take action immediately.",
+        "t": "즉각 조치를 취해라.",
+        "n": "실행 플랜을 꺼내어 현실에 구동",
+        "s": "명령",
         "g": "M",
-        "eT": "Control Share",
-        "eD": "통제권의 물리적 전이"
+        "eT": "Execute",
+        "eD": "실제 구동 시작"
       }
     ]
   },
   "8": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 8: [상태변화] 어떤 상태로 변해가는 능동적 흐름",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 8: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "It's getting cold.",
-        "t": "점점 추워지네요.",
-        "n": "어떤 상태로 변해가는 능동적 흐름",
-        "s": "상황",
+        "txt": "I get it.",
+        "t": "이제 이해했어.",
+        "n": "형체가 없는 논리가 내 두뇌 속으로 들어옴",
+        "s": "이해",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Mental Catch",
+        "eD": "논리 구조 획득"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "Get out.",
+        "t": "나가.",
+        "n": "현재 있는 공간의 울타리 밖으로 이동하라",
+        "s": "명령",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Exit",
+        "eD": "경계 이탈 강제"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "It's getting late.",
+        "t": "점점 늦어지네.",
+        "n": "시간의 상태가 늦은 상태로 전이되고 있음",
+        "s": "상태전환",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Transition",
+        "eD": "시간적 상태 변화"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "Get ready.",
+        "t": "준비해.",
+        "n": "준비된 상태라는 타겟을 향해 도달해라",
+        "s": "지시",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Prepare",
+        "eD": "목표 상태 도달 명령"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
+        "txt": "Get over it.",
+        "t": "극복해.",
+        "n": "그 장애물의 곡선을 넘어(Over) 넘어가라",
         "s": "충고",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Overcome",
+        "eD": "장애 물리적 패스"
       }
     ]
   },
   "9": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 9: [지점도달] 목적지에 마침내 닿는 쟁취",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 9: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "What time did you get home?",
-        "t": "몇 시에 집에 도착했어?",
-        "n": "목적지에 마침내 닿는 쟁취",
-        "s": "상황",
+        "txt": "I got a job.",
+        "t": "나 취직했어.",
+        "n": "일자리라는 직함을 무에서 유로 획득",
+        "s": "소식",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Acquire",
+        "eD": "사회적 타이틀 획득"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "Get away from me.",
+        "t": "나한테서 떨어져.",
+        "n": "나라는 중심축에서 거리를 벌리며 이탈하라",
+        "s": "경고",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Distance",
+        "eD": "반경 내 접근 금지"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "How do I get there?",
+        "t": "거기 어떻게 가요?",
+        "n": "나의 물리적 바디를 그 목적지에 도달시키는 방법",
+        "s": "질문",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Arrive",
+        "eD": "목적지 랜딩 쿼리"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "Get in the car.",
+        "t": "차에 타.",
+        "n": "차량의 내부 공간으로 몸을 밀어 넣음",
+        "s": "명령",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Board",
+        "eD": "내부 진입 제어"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "I got him to doing it.",
+        "t": "그가 그 일을 하게 만들었어.",
+        "n": "타인을 설득시켜 그가 동작 상태에 도달하게 함",
+        "s": "결과",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Persuade",
+        "eD": "타인 상태 조작 조종"
       }
     ]
   },
   "10": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 10: [획득] 손에 없던 것을 마침내 얻어냄",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 10: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "I got a new job.",
-        "t": "나 새 직장 구했어.",
-        "n": "손에 없던 것을 마침내 얻어냄",
-        "s": "상황",
+        "txt": "Get up.",
+        "t": "일어나.",
+        "n": "바닥에 누운 상태에서 중력을 거슬러 위(Up)로",
+        "s": "기상",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Rise",
+        "eD": "고도 상승"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "Get down.",
+        "t": "엎드려.",
+        "n": "위험을 피해 물리적 고도를 아래로(Down)",
+        "s": "위급",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Duck",
+        "eD": "고도 하락"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "Don't get mad.",
+        "t": "화내지 마.",
+        "n": "분노라는 감정 상태로 토글(Toggle)되지 마라",
+        "s": "위로",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Emotion",
+        "eD": "감정 상태 전이 차단"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "I got caught.",
+        "t": "나 걸렸어(들켰어).",
+        "n": "누군가의 감시망 그물 안에 획득당함",
+        "s": "폭로",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Captured",
+        "eD": "타인에게 점유당함"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "Get a life.",
+        "t": "정신 좀 차리고 살아.",
+        "n": "제대로 된 삶이라는 궤도를 획득해라",
+        "s": "조롱",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Wake Up",
+        "eD": "정상 궤도 편입 지시"
       }
     ]
   },
   "11": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 11: [이해] 머릿속에 없던 개념이 쏙 들어옴",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 11: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "I get it now.",
-        "t": "이제 이해했어.",
-        "n": "머릿속에 없던 개념이 쏙 들어옴",
-        "s": "상황",
-        "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
-      },
-      {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
-        "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
-      },
-      {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
-        "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
-      },
-      {
         "txt": "Get to the point.",
         "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
-        "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "n": "쓸데없는 말은 빼고 핵심 도달점에 꽂아라",
+        "s": "재촉",
+        "g": "M",
+        "eT": "Focus",
+        "eD": "필수 목적지 도달 강요"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "I get paid today.",
+        "t": "나 오늘 월급받아.",
+        "n": "돈이라는 물리적 가치가 내 계좌에 들어옴",
+        "s": "기쁨",
+        "g": "F",
+        "eT": "Earn",
+        "eD": "가치물 획득"
+      },
+      {
+        "txt": "Get well soon.",
+        "t": "빨리 나으세요.",
+        "n": "건강한 상태(Well)로 어서 도달하길 바람",
+        "s": "위로",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Cure",
+        "eD": "회복 상태 도달 기원"
+      },
+      {
+        "txt": "Get rid of it.",
+        "t": "그거 치워버려.",
+        "n": "쓰레기 상태로 분리수거하여 멀리 치움",
+        "s": "지시",
+        "g": "F",
+        "eT": "Trash",
+        "eD": "폐기 상태로 전이"
+      },
+      {
+        "txt": "We got lost.",
+        "t": "우리 길 잃었어.",
+        "n": "정상적인 맵에서 완전히 이탈하여 분실 상태 도달",
+        "s": "당황",
+        "g": "M",
+        "eT": "Lost",
+        "eD": "정상 좌표 이탈 완료"
       }
     ]
   },
   "12": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 12: [물리적이동] 공간에 내 몸을 이동시킴",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 12: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "Get in the car.",
-        "t": "차에 타.",
-        "n": "공간에 내 몸을 이동시킴",
-        "s": "상황",
+        "txt": "He's getting old.",
+        "t": "그는 늙어가고 있어.",
+        "n": "나이듦이라는 생물학적 상태로 끊임없는 전이",
+        "s": "묘사",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Aging",
+        "eD": "순방향 전이 지속"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "Get back.",
+        "t": "물러서.",
+        "n": "앞으로 가던 궤도를 꺾어 뒤로 복귀하라",
+        "s": "후퇴",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Retreat",
+        "eD": "역궤도 회귀 명령"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "Did you get the email?",
+        "t": "이메일 받았어?",
+        "n": "디지털 데이터 패킷이 네 수신망에 획득됐는가",
+        "s": "확인",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Receive",
+        "eD": "데이터 도달 점검"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "Get to work.",
+        "t": "일 시작해.",
+        "n": "노동이라는 프로세스의 시작점에 도달하라",
+        "s": "명령",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Start",
+        "eD": "프로세스 스타트 라인"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "Get some rest.",
+        "t": "휴식 좀 취해.",
+        "n": "휴식이라는 무형의 힐링값을 체내로 획득",
+        "s": "권유",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Rest",
+        "eD": "에너지 게이지 획득"
       }
     ]
   },
   "13": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 13: [상태전이] 대상을 특정 상태로 도달시킴",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 13: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "I'll get it done by tomorrow.",
-        "t": "내일까지 완료해 놓을게.",
-        "n": "대상을 특정 상태로 도달시킴",
-        "s": "상황",
+        "txt": "Get together.",
+        "t": "다 같이 모이자.",
+        "n": "분절된 개체들이 한 장소로 수렴하여 획득됨",
+        "s": "집합",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Gather",
+        "eD": "단일 포인트 수렴"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "I can't get through.",
+        "t": "통화가 연결이 안 돼.",
+        "n": "전자파가 장애물을 뚫고 도착점에 닿지 못함",
+        "s": "실패",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Connect",
+        "eD": "관통 후 목적지 도달 실패"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "Get dressed.",
+        "t": "옷장사 입어라.",
+        "n": "착의라는 드레스업 상태를 네 몸에 획득해라",
+        "s": "지시",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Wear",
+        "eD": "스킨 무장 상태 전이"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "Get out of my way.",
+        "t": "내 길에서 비켜.",
+        "n": "나의 직선 궤도 영역 밖으로 네 공간을 빼내라",
+        "s": "분노",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Clear",
+        "eD": "장애물 강제 이탈"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "It's hard to get by.",
+        "t": "요즘 먹고 살기 힘들어.",
+        "n": "상황의 틈새를 그저 살짝 스치며 나아가기가 버거움",
+        "s": "한탄",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Survive",
+        "eD": "최소 에너지로 틈새 관통"
       }
     ]
   },
   "14": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 14: [설득] 타인을 설득해서 움직이게 함",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 14: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "I couldn't get him to agree.",
-        "t": "그가 동의하게 만들 수 없었어.",
-        "n": "타인을 설득해서 움직이게 함",
-        "s": "상황",
+        "txt": "I'll get back to you.",
+        "t": "나중에 다시 연락드릴게요.",
+        "n": "내 커뮤니케이션 궤도를 다시 당신에게로 순환함",
+        "s": "인사",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Re-Link",
+        "eD": "연결 궤도 역재생"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "Get a grip.",
+        "t": "정신 똑바로 차려.",
+        "n": "놓쳐버린 통제력 핸들을 다시 꽉 쥐어라",
+        "s": "훈계",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Grasp",
+        "eD": "통제력 재획득 명령"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "They got married.",
+        "t": "그들 결혼했어.",
+        "n": "결혼이라는 새로운 신분/상태 스티커를 발급받음",
+        "s": "소식",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Status",
+        "eD": "스테이터스 업데이트"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "Get across the river.",
+        "t": "강을 건너가.",
+        "n": "표면을 대각선으로 그어 건너편 도달점에 꽂아라",
+        "s": "명령",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Cross",
+        "eD": "면적 관통 도달"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "Gotcha.",
+        "t": "잡았다(알았다).",
+        "n": "네 논리/거짓말/물리적 몸을 완벽히 획득했음",
+        "s": "단언",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Complete",
+        "eD": "100% 포획 상태 확정"
       }
     ]
   },
   "15": {
     "v": "⚡",
-    "vT": "Get Neural Loop",
-    "vD": "물리적 공간과 심리적 태도에 걸친 Get 데이터 체계",
-    "governing": "Day 15: [기회] 쟁취하여 갖게 된 기회",
+    "vT": "Get Unique Mastery",
+    "vD": "Get 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 15: [Get] 절대 중복 없는 Get 본질 체화",
     "core": "Get",
     "sentences": [
       {
-        "txt": "I get to travel the world.",
-        "t": "난 세계를 여행할 기회가 생겼어.",
-        "n": "쟁취하여 갖게 된 기회",
-        "s": "상황",
+        "txt": "Get ahead of them.",
+        "t": "그들을 앞질러라.",
+        "n": "그들의 앞 좌표를 먼저 쟁취하라",
+        "s": "경쟁",
         "g": "M",
-        "eT": "Core Get",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Lead",
+        "eD": "선두 좌표 강제 선점"
       },
       {
-        "txt": "I don't get you.",
-        "t": "네 말을 이해 못 하겠어.",
-        "n": "당신의 의도가 내 인식회로에 잡히지 않음",
-        "s": "이해실패",
+        "txt": "Get off the bus.",
+        "t": "버스에서 내려.",
+        "n": "버스의 바닥(On)에서 발을 떼어내라(Off)",
+        "s": "하차",
         "g": "F",
-        "eT": "Target Miss",
-        "eD": "원하는 데이터 획득 실패"
+        "eT": "Dismount",
+        "eD": "접속 해제 및 이탈"
       },
       {
-        "txt": "Get out of here.",
-        "t": "당장 여기서 나가.",
-        "n": "현재 공간에서 벗어나는 상태 변화 강제",
-        "s": "축출",
+        "txt": "I got a cold.",
+        "t": "나 감기 걸렸어.",
+        "n": "공기 중 바이러스를 내 몸 안으로 획득하여 감염 상태 도달",
+        "s": "병",
         "g": "M",
-        "eT": "Forced Shift",
-        "eD": "물리적 공간 전이 명령"
+        "eT": "Infect",
+        "eD": "바이러스 획득 전이"
       },
       {
-        "txt": "Get to the point.",
-        "t": "본론만 말해.",
-        "n": "핵심 지점으로 즉시 도달하라",
-        "s": "촉구",
+        "txt": "Get a clue.",
+        "t": "눈치 좀 챙겨.",
+        "n": "상황을 풀 수 있는 힌트 패킷 하나라도 좀 획득해라",
+        "s": "짜증",
         "g": "F",
-        "eT": "Point Arrive",
-        "eD": "군더더기 없는 논리적 도달 요구"
+        "eT": "Hint",
+        "eD": "최소 정보 파편 획득"
       },
       {
-        "txt": "Get it together.",
-        "t": "정신 차려.",
-        "n": "분산된 정신을 한곳으로 획득하여 모음",
-        "s": "충고",
+        "txt": "Can I get you a drink?",
+        "t": "마실 것 좀 가져다줄까?",
+        "n": "음료를 획득하여 너에게 전달하는 전이 과정을 열까",
+        "s": "호의",
         "g": "M",
-        "eT": "State Reset",
-        "eD": "인지 시스템의 흩어진 변수 재조립"
+        "eT": "Offer",
+        "eD": "재화 획득 후 전송"
       }
     ]
   },
   "16": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 16: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 16: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
-        "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
+        "txt": "I have an idea.",
+        "t": "아이디어가 하나 있어요.",
+        "n": "아이디어 자산이 내 브레인 저장고에 입고됨",
+        "s": "의견",
         "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Stock",
+        "eD": "지식 데이터 유지"
       },
       {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "txt": "Have a good time.",
+        "t": "좋은 시간 보내.",
+        "n": "긍정적인 에너지 타임라인을 소유해라",
+        "s": "기원",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Hold",
+        "eD": "추상적 에너지 지속"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "I have to go.",
+        "t": "나 가야만 해.",
+        "n": "가야 한다는 책임/의무를 등 위에 짊어지고 있음",
+        "s": "의무",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "Duty",
+        "eD": "무형의 압박감 보유"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
-        "s": "인사",
+        "txt": "Do you have a pet?",
+        "t": "반려동물 키우세요?",
+        "n": "동물이 당신의 물리적/법적 울타리 내에 있습니까",
+        "s": "질문",
         "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
+        "eT": "Own",
+        "eD": "종속 및 소유 확인"
       },
       {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
+        "txt": "I had a dream.",
+        "t": "나 꿈을 꾸었어.",
+        "n": "수면 중 발생한 상상을 내가 임시 보관했음",
+        "s": "과거",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Temporary",
+        "eD": "과거의 단발적 기록 유지"
       }
     ]
   },
   "17": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 17: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 17: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
-        "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
+        "txt": "I have breakfast at 7.",
+        "t": "저는 7시에 아침을 먹습니다.",
+        "n": "식사라는 이벤트를 내 일상 시간 지분에 매번 배치함",
+        "s": "습관",
         "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Routine",
+        "eD": "루틴의 영역 내 유지"
       },
       {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "txt": "Have a seat.",
+        "t": "앉으세요.",
+        "n": "좌석의 소유권을 당신에게 당분간 양도함",
+        "s": "권유",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Share",
+        "eD": "점유권 임대 허용"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "I have nothing to say.",
+        "t": "할 말이 없습니다.",
+        "n": "입 바깥으로 꺼낼 언어 자산이 내 창고에 0임",
+        "s": "거부",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "Empty",
+        "eD": "언어 자원 고갈 선언"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
+        "txt": "Have faith.",
+        "t": "믿음을 가지세요.",
+        "n": "눈에 안 보이지만 확실하다는 멘탈을 꽉 쥐고 있어라",
+        "s": "격려",
+        "g": "F",
+        "eT": "Mental",
+        "eD": "강력한 멘탈 락(Lock) 유지"
+      },
+      {
+        "txt": "I had a great time.",
+        "t": "아주 즐거웠어요.",
+        "n": "엄청난 만족감의 시간을 내 로그 기록에 편입함",
         "s": "인사",
-        "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
-      },
-      {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Log",
+        "eD": "긍정의 기억 데이터 보존"
       }
     ]
   },
   "18": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 18: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 18: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
-        "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
+        "txt": "We have a problem.",
+        "t": "문제가 발생했어.",
+        "n": "바이러스 같은 오류 상황이 우리 시스템 내부에 존재함",
+        "s": "비상",
         "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Error",
+        "eD": "네트워크 내 버그 보유"
       },
       {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "txt": "Have it your way.",
+        "t": "네 마음대로 해.",
+        "n": "너의 논리대로 상황을 굴러가게 둬라",
+        "s": "포기",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Give Up",
+        "eD": "통제권의 방관적 유지 허용"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "I have a headache.",
+        "t": "나 두통이 있어.",
+        "n": "머리의 고통이라는 물리적 타격을 몸에 머금고 있음",
+        "s": "증상",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "Pain",
+        "eD": "신체적 데미지 보존 상태"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
-        "s": "인사",
+        "txt": "She has a point.",
+        "t": "그녀의 말이 일리가 있어.",
+        "n": "논리적 뼈대(Point)를 그녀의 뇌가 단단히 쥐고 있음",
+        "s": "인정",
         "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
+        "eT": "Valid",
+        "eD": "타당한 팩트의 유지 확인"
       },
       {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
+        "txt": "I'll have a beer.",
+        "t": "맥주 한 잔 할게요.",
+        "n": "맥주를 내 식도로 부어 내 배 안에 담겠습니다",
+        "s": "주문",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Drink",
+        "eD": "위장 스토리지 내 저장"
       }
     ]
   },
   "19": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 19: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 19: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
+        "txt": "Have we met before?",
+        "t": "우리 전에 만난 적 있나요?",
+        "n": "과거 만남의 로그가 우리 데이터베이스에 유지되어 있는가",
+        "s": "확인",
+        "g": "M",
+        "eT": "Search",
+        "eD": "과거 기록 조회"
+      },
+      {
         "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
-        "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
-      },
-      {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "t": "나 지금 몹시 바빠.",
+        "n": "두 손(통제권) 안에 테스크 폴더가 꽉 차서 용량을 초과함",
+        "s": "거절",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Full",
+        "eD": "처리 한계치 도달 상태 유지"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "The room has two windows.",
+        "t": "이 방은 창문이 두 개야.",
+        "n": "방이라는 부모 객체 시스템이 창문이라는 자식 노드 2개를 가짐",
+        "s": "설명",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "Structure",
+        "eD": "계층적 구조의 종속 속성 유지"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
-        "s": "인사",
+        "txt": "Have a look.",
+        "t": "한번 쓱 봐.",
+        "n": "짧은 순간의 시선 투사를 당신의 경험 툴에 넣어라",
+        "s": "권유",
         "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
+        "eT": "Glance",
+        "eD": "짧은 스캔 기록 요청"
       },
       {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
+        "txt": "I have no doubt.",
+        "t": "난 의심의 여지가 없어.",
+        "n": "불확실성(Doubt)이라는 버그 데이터가 내 시스템엔 존재 안 함",
+        "s": "단언",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Clear",
+        "eD": "무결성 상태 100% 지속"
       }
     ]
   },
   "20": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 20: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 20: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
-        "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
+        "txt": "I had my hair cut.",
+        "t": "나 머리 잘랐어.",
+        "n": "머리카락 절단이라는 이벤트 서비스를 돈을 주고 내게로 유지함",
+        "s": "경험",
         "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Service",
+        "eD": "외주 작업의 이득 보유"
       },
       {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "txt": "Have mercy.",
+        "t": "자비를 베푸소서.",
+        "n": "처벌의 권한을 무마시키는 관대한 멘탈을 유지해달라",
+        "s": "간청",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Mercy",
+        "eD": "타인의 파워 옵션 보류 요청"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "He has a short temper.",
+        "t": "그는 성격이 급해.",
+        "n": "초단기 폭발성 감정 모듈을 디폴트 값으로 탑재함",
+        "s": "묘사",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "Temper",
+        "eD": "불안정 스테이터스 상시 장착"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
-        "s": "인사",
+        "txt": "I have a lot on my mind.",
+        "t": "머리가 복잡해.",
+        "n": "내 RAM 슬롯 위에 너무 많은 연산 프로세스가 구동 중임",
+        "s": "고민",
         "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
+        "eT": "Overload",
+        "eD": "정신적 RAM 초과 점유"
       },
       {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
+        "txt": "What do you have in mind?",
+        "t": "무슨 생각하고 있어?",
+        "n": "네 숨겨진 은밀한 블랙박스 스토리지에 뭘 유지 중인가",
+        "s": "질문",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Peek",
+        "eD": "타인의 숨은 저장소 쿼리"
       }
     ]
   },
   "21": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 21: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 21: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
-        "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
+        "txt": "Have patience.",
+        "t": "인내심을 가져.",
+        "n": "조급함을 억누르는 멘탈 실드를 지속적으로 켜두어라",
+        "s": "타이름",
         "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Shield",
+        "eD": "디펜스 모드 스위치 On"
       },
       {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "txt": "I have a bad feeling about this.",
+        "t": "이거 느낌이 안 좋아.",
+        "n": "부정적 미래 시뮬레이션 결과값이 감각 시스템에 경고를 켬",
+        "s": "예감",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Warning",
+        "eD": "내부 시스템 알림음 유지"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "The country has a long history.",
+        "t": "이 나라는 유구한 역사를 가졌다.",
+        "n": "수백 년의 시간 데이터 블록을 백엔드 DB에 견고히 저장함",
+        "s": "설명",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "History",
+        "eD": "국가 단위 블록체인 데이터 기록"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
-        "s": "인사",
+        "txt": "We have everything under control.",
+        "t": "우린 모든 걸 통제하고 있다.",
+        "n": "모든 변수들이 확실히 우리 통제의 망 아래에 유지됨",
+        "s": "보고",
         "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
+        "eT": "Control",
+        "eD": "전방위적 제어 그물 유지"
       },
       {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
+        "txt": "Have a word with him.",
+        "t": "그랑 잠깐 얘기 좀 해.",
+        "n": "짧은 단어 패킷의 교환 상황을 가져라",
+        "s": "지시",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Talk",
+        "eD": "데이터 동기화 이벤트 창출"
       }
     ]
   },
   "22": {
-    "v": "🔸",
-    "vT": "Have Logic",
-    "vD": "상태를 내 영역 안에 지속적으로 머무르게 하는 속성",
-    "governing": "Day 22: [Have] 내 영역과 시간 속에 유지되는 상태 파악",
+    "v": "⚡",
+    "vT": "Have Unique Mastery",
+    "vD": "Have 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 22: [Have] 절대 중복 없는 Have 본질 체화",
     "core": "Have",
     "sentences": [
       {
-        "txt": "I have my hands full.",
-        "t": "지금 바빠서 꼼짝도 못 해.",
-        "n": "통제권(Hands)이 이미 가득 채워진 채로 유지됨",
-        "s": "한계상황",
+        "txt": "I have no choice.",
+        "t": "선택의 여지가 없네.",
+        "n": "선택할 수 있는 다른 메뉴(옵션)가 내 드롭다운 리스트에 0개임",
+        "s": "순응",
         "g": "M",
-        "eT": "Core Have",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "No Option",
+        "eD": "대안 분기점 완전 삭제 유지"
       },
       {
-        "txt": "Do you have a minute?",
-        "t": "시간 잠깐 있으세요?",
-        "n": "타인의 시간에 대한 점유 여부 확인",
-        "s": "요청",
+        "txt": "Let him have it.",
+        "t": "그에게 줘버려(혹은 혼내줘).",
+        "n": "그것(물리적 타격 또는 보상)의 소유권을 그에게 넘김",
+        "s": "격분",
         "g": "F",
-        "eT": "Asset Check",
-        "eD": "상대 시간 자원 상태 스캔"
+        "eT": "Transfer",
+        "eD": "강한 임팩트 권한 이양"
       },
       {
-        "txt": "I have no idea.",
-        "t": "전혀 모르겠어.",
-        "n": "아이디어라는 자산이 내 소유 상태에 없음",
-        "s": "단절",
+        "txt": "I have a sweet tooth.",
+        "t": "난 단 걸 아주 좋아해.",
+        "n": "단맛에 반응하는 수용기 체질을 선천적으로 유지 중",
+        "s": "취향",
         "g": "M",
-        "eT": "Empty State",
-        "eD": "정보 자산 무소유 선언"
+        "eT": "Taste",
+        "eD": "특정 감각 모듈의 영구 활성화"
       },
       {
-        "txt": "Have a good one.",
-        "t": "좋은 하루 보내.",
-        "n": "긍정적인 시간을 소유 상태로 유지하라",
-        "s": "인사",
+        "txt": "Words have power.",
+        "t": "말에는 힘이 있다.",
+        "n": "언어라는 껍데기 속에 시스템을 흔드는 물리력이 내장됨",
+        "s": "진리",
         "g": "F",
-        "eT": "Vibe Sustain",
-        "eD": "긍정 에너지의 지속적 유지 기원"
+        "eT": "Energy",
+        "eD": "무형 데이터의 물리엔진 값 보유"
       },
       {
-        "txt": "I'll have it ready.",
-        "t": "준비해 놓을게요.",
-        "n": "준비된 상태를 내 통제 스코프 안에 고정",
-        "s": "약속",
+        "txt": "I had it coming.",
+        "t": "내가 자초한 일이지.",
+        "n": "과거의 내 병맛 인풋이 지금의 끔찍한 아웃풋을 달고 유지됨",
+        "s": "자책",
         "g": "M",
-        "eT": "Status Lock",
-        "eD": "미래 시점의 완료 상태 사전 확정"
+        "eT": "Karma",
+        "eD": "인과율 로그의 정확한 연산 결과"
       }
     ]
   },
   "23": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 23: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 23: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
-        "s": "경고",
+        "txt": "Make a difference.",
+        "t": "변화를 만들어라.",
+        "n": "무기력한 현 상태에서 완전히 다른 새 결과를 무에서 유로 조립",
+        "s": "격려",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Change",
+        "eD": "0에서 1로 차이값 창출"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "I made a mistake.",
+        "t": "내가 실수했어.",
+        "n": "시스템에 치명적 버그 하나를 내 손으로 직접 빚어냄",
+        "s": "인정",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "Bug",
+        "eD": "명백한 오류의 자가 생성"
+      },
+      {
+        "txt": "Make sure to lock the door.",
+        "t": "반드시 문 잠가요.",
+        "n": "문 잠김이라는 확실성(Sure) 100% 상태를 인위적으로 구축해라",
+        "s": "당부",
+        "g": "M",
+        "eT": "Verify",
+        "eD": "확률 변수 0%로 강제 조작"
+      },
+      {
+        "txt": "She makes me smile.",
+        "t": "그녀는 나를 웃게 해.",
+        "n": "내 얼굴 근육을 외부의 에너지로 웃음 시스템 쪽으로 강제 구동함",
+        "s": "행복",
+        "g": "F",
+        "eT": "Trigger",
+        "eD": "내부 시스템 강제 우회 작동"
       },
       {
         "txt": "Make yourself at home.",
         "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "n": "불안한 심리 코드를 지우고 내 집 같은 편안한 무드(Mood)로 세팅하라",
+        "s": "어조",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
-      },
-      {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
-        "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
-      },
-      {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
-        "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Setup",
+        "eD": "환경 변수 초기화 및 재정의"
       }
     ]
   },
   "24": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 24: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 24: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
-        "s": "경고",
+        "txt": "I can't make it.",
+        "t": "나는 못 갈 것 같아.",
+        "n": "목적지 도착이라는 결과값 조립에 처참하게 실패함",
+        "s": "사과",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Fail",
+        "eD": "계획된 프로세스 완료 불가 선언"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "Make up your mind.",
+        "t": "결정 좀 해.",
+        "n": "흩어진 고민 조각들을 픽스(Up)해서 확고한 결심 체계로 완성해라",
+        "s": "재촉",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "Decide",
+        "eD": "우유부단 프로세스 강제 종료 명령"
       },
       {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "txt": "This makes sense.",
+        "t": "이거 말이 되네.",
+        "n": "파편화된 정보들이 조립식 블록처럼 하나로 얽혀 완벽한 논리가 됨",
+        "s": "동의",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
+        "eT": "Logical",
+        "eD": "논리 아키텍처 구축 성공"
       },
       {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
+        "txt": "Make a promise.",
+        "t": "약속해.",
+        "n": "미래 시점에 행동하겠다는 맹세 코드를 백엔드 서버에 각인시킴",
+        "s": "약속",
         "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+        "eT": "Commit",
+        "eD": "행동 실행 계약 강제 생성"
       },
       {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
+        "txt": "I'll make it up to you.",
+        "t": "내가 꼭 보상할게.",
+        "n": "네가 입은 데미지를 0으로 만들 보상 플랜을 조립해 끌어올릴(Up)게",
+        "s": "약속",
         "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Compensate",
+        "eD": "손상된 마일리지 복구 설계"
       }
     ]
   },
   "25": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 25: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 25: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
+        "txt": "Make fun of him.",
+        "t": "그를 놀려대라.",
+        "n": "그를 조롱하는 재미있는(Fun) 환경을 주변에 파생시켜 제작",
+        "s": "조롱",
+        "g": "M",
+        "eT": "Tease",
+        "eD": "모욕적 분위기 즉각 창조"
+      },
+      {
+        "txt": "He made a fortune.",
+        "t": "그는 큰돈을 벌었어.",
+        "n": "존재하지 않던 막대한 자금 블록을 엄청난 압력으로 뭉쳐 만들어냄",
+        "s": "놀람",
+        "g": "F",
+        "eT": "Wealth",
+        "eD": "초대형 자산 덩어리 인공 생성"
+      },
+      {
+        "txt": "Make way.",
+        "t": "길을 비켜라.",
+        "n": "막힌 물리적 공간을 부수어 통행 가능한 길 형태로 치워 만들어라",
+        "s": "명령",
+        "g": "M",
+        "eT": "Path",
+        "eD": "물리적 터널링 경로 개척"
+      },
+      {
+        "txt": "Make believe.",
+        "t": "인 것처럼 꾸미자.",
+        "n": "가짜 현실을 진짜라고 믿게(Believe) 만드는 AR 시스템을 켜라",
+        "s": "상상",
+        "g": "F",
+        "eT": "Pretend",
+        "eD": "가상현실 오버레이 시스템 가동"
+      },
+      {
+        "txt": "Don't make a fuss.",
+        "t": "소란 피우지 마.",
+        "n": "평온한 파동을 무너뜨리는 시끄러운 노이즈 데이터를 생산하지 마",
         "s": "경고",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
-      },
-      {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
-        "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
-      },
-      {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
-        "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
-      },
-      {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
-        "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
-      },
-      {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
-        "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Noise",
+        "eD": "불규칙 노이즈 파동 생성 차단"
       }
     ]
   },
   "26": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 26: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 26: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
-        "s": "경고",
+        "txt": "Make an effort.",
+        "t": "노력을 좀 해봐.",
+        "n": "정지된 근육과 뇌 코어를 풀가동해 땀방울을 한땀 한땀 빚어내라",
+        "s": "채찍",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Effort",
+        "eD": "동력 강제 연산 명령"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "They made peace.",
+        "t": "그들은 화해했어.",
+        "n": "격렬한 전쟁 파동을 중화시키는 평화 모듈을 쌍방 서버에 인스톨",
+        "s": "결과",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "Peace",
+        "eD": "협정 프로토콜 생성 완료"
       },
       {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "txt": "Make a living.",
+        "t": "밥벌이 하며 산다.",
+        "n": "생존을 위한 최소한의 자본금 덩어리를 매달 노동력으로 찍어냄",
+        "s": "삶",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
+        "eT": "Survive",
+        "eD": "생명 지속용 크레딧 연속 창출"
       },
       {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
+        "txt": "I made a reservation.",
+        "t": "나 예약했어.",
+        "n": "미래 특정 시간/공간의 슬롯을 지금 당장 내 소유 블록으로 생성함",
+        "s": "통보",
         "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+        "eT": "Reserve",
+        "eD": "미래 시간 슬롯 선점 조작"
       },
       {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
+        "txt": "Make ends meet.",
+        "t": "겨우 입에 풀칠하며 산다.",
+        "n": "모자란 예산의 양 끝(Ends)을 어떻게든 맞닿게 억지로 당겨 꿰맴",
+        "s": "한탄",
         "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Budget",
+        "eD": "아슬아슬한 수지타산의 봉합"
       }
     ]
   },
   "27": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 27: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 27: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
-        "s": "경고",
+        "txt": "Make rules.",
+        "t": "규칙을 만들어라.",
+        "n": "무법 지대 시스템 위에 넘어가면 안 될 레드라인 경계 코드를 깔아라",
+        "s": "통제",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Rules",
+        "eD": "규범 알고리즘 최초 정의"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "Can you make out what she's saying?",
+        "t": "그녀가 무슨 말 하는지 넌 귀로 조립 가능해?",
+        "n": "노이즈 속에서 소리 주파수를 잡아내 의미망 밖으로(Out) 도출해냄",
+        "s": "의문",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "Decode",
+        "eD": "암호화 파동 신호 해독"
       },
       {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "txt": "Make the most of it.",
+        "t": "그걸 최대한 활용해.",
+        "n": "보유한 자본/시간에서 효율성(Most)을 극대값 한계치까지 뽑아내라",
+        "s": "조언",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
+        "eT": "MaxOut",
+        "eD": "자원의 오버클럭 가동 지시"
       },
       {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
+        "txt": "Make a long story short.",
+        "t": "간단히 말해.",
+        "n": "쓸데없이 긴 텍스트 배열 덩어리를 잘라 짧게(Short) 압축시켜봐",
+        "s": "요청",
         "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+        "eT": "Zip",
+        "eD": "방대한 데이터의 zip 압축 강제"
       },
       {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
+        "txt": "It makes my blood boil.",
+        "t": "이건 내 피를 끓게 만들어.",
+        "n": "내 몸의 심장 펌프 온도를 분노라는 뜨거운 상태로 강제 전환시킴",
+        "s": "격노",
         "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Boil",
+        "eD": "심리계 온도 강제 임계치 파괴"
       }
     ]
   },
   "28": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 28: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 28: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
+        "txt": "Make a scene.",
+        "t": "난동을 부리다.",
+        "n": "고요한 평면 위에 드라마틱하고 황당한 씬(Scene)을 한 편 세트장 지음",
         "s": "경고",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Drama",
+        "eD": "돌발적 이벤트 인스턴스 소환"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "Make do with this.",
+        "t": "이걸로 떼워.",
+        "n": "원하는 스펙이 아니지만 이걸로 어설프게라도 동작(Do)하게 만들어라",
+        "s": "대안",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "Bypass",
+        "eD": "임시 우회 코드로 기능 구동"
       },
       {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "txt": "Make room for the baby.",
+        "t": "아기 공간 좀 내줘.",
+        "n": "아기를 세팅할 물리적인 룸(Room) 여백을 치워서 생성해",
+        "s": "양보",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
+        "eT": "Space",
+        "eD": "잉여 메모리 공간 할당"
       },
       {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
+        "txt": "I made a mess.",
+        "t": "내가 난장판을 만들었네.",
+        "n": "깔끔하던 환경 변수를 완전히 꼬아버려 엉망진창 디버깅 불가 상태 됨",
+        "s": "자책",
         "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+        "eT": "Mess",
+        "eD": "배열 데이터의 혼돈화"
       },
       {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
+        "txt": "Make a wish.",
+        "t": "소원을 빌어봐.",
+        "n": "네 마음속 깊은 염원을 뚜렷한 데이터 값으로 입 밖으로 조립",
+        "s": "축하",
         "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Wish",
+        "eD": "기원 목표값 문자열 생성"
       }
     ]
   },
   "29": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 29: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 29: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
-        "s": "경고",
+        "txt": "He makes a good teacher.",
+        "t": "그는 좋은 선생님이 될 상이다.",
+        "n": "그의 타고난 기질 자체가 훌륭한 강사 아웃풋으로 저절로 조립(Make)됨",
+        "s": "예측",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Become",
+        "eD": "잠재력의 자동 클래스 전직"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "Make an exception.",
+        "t": "예외를 두다.",
+        "n": "견고한 if문 시스템 내부에 단 한 번의 예외 우회 트랙을 건설",
+        "s": "특혜",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "Except",
+        "eD": "단발성 보안 허가 생성"
       },
       {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "txt": "Make it quick.",
+        "t": "빨리 끝내라.",
+        "n": "이 프로세스의 러닝 타임을 가장 짧은(Quick) 상태로 압축 강제",
+        "s": "지시",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
+        "eT": "Fast",
+        "eD": "클럭 속도 부스트 명령"
       },
       {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
+        "txt": "Don't make me do this.",
+        "t": "나에게 이걸 하게 만들지 마.",
+        "n": "나의 시스템 권한을 강제로 탈취하여 이런 악행 코드를 런시키지 마라",
+        "s": "호소",
         "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+        "eT": "Force",
+        "eD": "강제 제어권 침범 방어 반발"
       },
       {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
+        "txt": "I'll make an example of you.",
+        "t": "너를 본보기로 삼을 거다.",
+        "n": "너를 박살 내 다른 자들이 볼 수 있는 거대한 에러 로그 샘플로 만들겠다",
+        "s": "협박",
         "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Sample",
+        "eD": "강력한 처벌 데이터 레코딩 세팅"
       }
     ]
   },
   "30": {
-    "v": "✨",
-    "vT": "Make Logic",
-    "vD": "무에서 유를, 또는 전혀 없던 상태에서 존재를 강제 창출",
-    "governing": "Day 30: [Make] 인위적인 에너지로 완전히 새로운 궤적 빚어내기",
+    "v": "⚡",
+    "vT": "Make Unique Mastery",
+    "vD": "Make 의 다층적 신경망을 완성하는 100% 고유 문장",
+    "governing": "Day 30: [Make] 절대 중복 없는 Make 본질 체화",
     "core": "Make",
     "sentences": [
       {
-        "txt": "Don't make excuses.",
-        "t": "변명 만들어내지 마.",
-        "n": "없던 구실을 인위적으로 조립하는 행위 차단",
-        "s": "경고",
+        "txt": "Make a guess.",
+        "t": "한번 추측해봐.",
+        "n": "비어있는 확률 공간에 하나의 가정 덩어리를 빚어내라",
+        "s": "유도",
         "g": "M",
-        "eT": "Core Make",
-        "eD": "핵심 원리 우선 적용"
+        "eT": "Guess",
+        "eD": "가설 블록 창출"
       },
       {
-        "txt": "Does it make sense?",
-        "t": "그거 말이 되나요?",
-        "n": "논리가 성립(창출)되었는지 확인",
-        "s": "이해점검",
+        "txt": "Make history.",
+        "t": "역사를 만들다.",
+        "n": "과거부터 이어져 온 평범한 로그를 끊어내고 전설적인 새 노드를 런칭",
+        "s": "찬사",
         "g": "F",
-        "eT": "Logic Forging",
-        "eD": "논리 조립의 타당성 확인"
+        "eT": "History",
+        "eD": "영구 기록 패킷의 최초 생성"
       },
       {
-        "txt": "Make yourself at home.",
-        "t": "편하게 계세요.",
-        "n": "타인의 심리 상태를 편안함으로 강제 창출",
-        "s": "배려",
+        "txt": "It makes no difference.",
+        "t": "차이가 전혀 없어.",
+        "n": "아무리 연산을 돌려도 A와 B의 결과 격차값이 0으로 조립됨",
+        "s": "실망",
         "g": "M",
-        "eT": "Mood Craft",
-        "eD": "우호적인 환경 상태를 인위적으로 생성"
+        "eT": "Zero Gap",
+        "eD": "유의미한 차이값 창출 실패"
       },
       {
-        "txt": "Make sure.",
-        "t": "확실히 해둬.",
-        "n": "100% 확실한 상태를 무에서 유로 만들어내라",
-        "s": "확인",
+        "txt": "Make the bed.",
+        "t": "침대 정리해라.",
+        "n": "어질러진 이불 구조를 평탄하고 쓸모 있는 형태(Bed)로 다시 세팅",
+        "s": "지시",
         "g": "F",
-        "eT": "Reality Fix",
-        "eD": "오류 가능성을 0으로 만드는 의도적 강제"
+        "eT": "Clean",
+        "eD": "혼돈의 무형물 정형화"
       },
       {
-        "txt": "Let's make a deal.",
-        "t": "거래를 합시다.",
-        "n": "존재하지 않던 합의를 우리 힘으로 조립",
-        "s": "제안",
+        "txt": "Make contact.",
+        "t": "접촉을 시도하라.",
+        "n": "단절된 양극단 사이에 통신 브리지(Bridge)를 구축해라",
+        "s": "명령",
         "g": "M",
-        "eT": "Mutual Build",
-        "eD": "교착 상태에서 서로 윈윈하는 논리 구축"
+        "eT": "Link",
+        "eD": "통신망 최초 개통"
       }
     ]
   }
