@@ -372,7 +372,7 @@
                     <span class="stat-lbl">전체 학습 진도</span>
                 </div>
                 <div class="stat-box">
-                    <span class="stat-val" id="stat-learned-count">0/600</span>
+                    <span class="stat-val" id="stat-learned-count">0/1200</span>
                     <span class="stat-lbl">익힌 문장 수</span>
                 </div>
             </div>
@@ -430,6 +430,10 @@
     <script src="data/month2.js"></script>
     <script src="data/month3.js"></script>
     <script src="data/month4.js"></script>
+    <script src="data/month5.js"></script>
+    <script src="data/month6.js"></script>
+    <script src="data/month7.js"></script>
+    <script src="data/month8.js"></script>
 
     <script>
         
@@ -440,7 +444,11 @@
             { id: 1, name: "Month 1", theme: "4대 핵심 동사 (Take/Get/Have/Make)" },
             { id: 2, name: "Month 2", theme: "공간과 이동 (Go/Come/Put/Set)" },
             { id: 3, name: "Month 3", theme: "인지와 감각 (Look/See/Think/Feel)" },
-            { id: 4, name: "Month 4", theme: "이미지 전치사 심층 마스터" }
+            { id: 4, name: "Month 4", theme: "이미지 전치사 심층 마스터" },
+            { id: 5, name: "Month 5", theme: "고빈도 네이티브 청크 100" },
+            { id: 6, name: "Month 6", theme: "Could/Would 정중 표현 프로토콜" },
+            { id: 7, name: "Month 7", theme: "유사어 뉘앙스 정밀 튜닝" },
+            { id: 8, name: "Month 8", theme: "감정·상황 상태 레이블" }
         ];
 
         let activeMonth = 3;
@@ -467,7 +475,7 @@
 
         function showBriefing() {
             const overlay = document.getElementById('briefing-overlay');
-            const totalSentences = 600;
+            const totalSentences = 1200;
             const learnedCount = Object.keys(userProgress.learnedSentences).length;
             const progressPct = Math.round((learnedCount / totalSentences) * 100);
 
@@ -476,7 +484,7 @@
             
             // Find next target
             let nextDay = 1;
-            for(let i=1; i<=120; i++) {
+            for(let i=1; i<=240; i++) {
                 if(!userProgress.completedDays.includes(i)) {
                     nextDay = i;
                     break;
