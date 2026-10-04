@@ -1,5 +1,8 @@
 # 365-Day Native English Master Roadmap
 
+> **트랙 안내** — 이 문서는 **CLASSIC 트랙**(핵심 동사 240일)의 로드맵입니다.
+> 2026-10 업데이트부터 Day 1을 새로 시작하는 기본 트랙은 **PATTERN 365**이며, 설계는 [`Pattern365_Master_Plan.md`](./Pattern365_Master_Plan.md)를 참고하세요.
+
 ## Phase 1: Core Neural Circuit (Month 1-4)
 - M1: The Essence of Big 4 Verbs (Take, Get, Have, Make)
 - M2: Spatial Movement (Go, Come, Put, Set, Bring)

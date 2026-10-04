@@ -11,6 +11,9 @@
         :root {
             --primary: #38bdf8;
             --secondary: #f43f5e;
+            --lens: #fbbf24;
+            --rec: #ef4444;
+            --ok: #10b981;
             --bg-deep: #070c18;
             --bg-main: #0f172a;
             --card-bg: #1e293b;
@@ -39,7 +42,7 @@
         }
 
         .logo-area {
-            padding: 40px 25px;
+            padding: 40px 25px 25px;
             font-size: 24px;
             font-weight: 900;
             color: var(--primary);
@@ -48,11 +51,41 @@
             align-items: center;
             gap: 12px;
         }
+        .track-pattern .logo-area { color: var(--lens); }
+
+        /* Track Switch */
+        .track-switch { display: flex; gap: 8px; padding: 0 15px 10px; }
+        .track-btn {
+            flex: 1;
+            padding: 12px 10px;
+            border-radius: 14px;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.02);
+            color: var(--text-dim);
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+        .track-btn small { display: block; font-size: 10px; font-weight: 600; letter-spacing: 0; margin-top: 3px; opacity: 0.75; }
+        .track-btn:hover { border-color: rgba(255,255,255,0.2); }
+        .track-btn[data-track="pattern"].active { background: rgba(251,191,36,0.12); border-color: var(--lens); color: var(--lens); }
+        .track-btn[data-track="classic"].active { background: rgba(56,189,248,0.12); border-color: var(--primary); color: var(--primary); }
 
         #month-list {
             flex: 1;
             padding: 10px 15px;
             overflow-y: auto;
+        }
+
+        .section-label {
+            font-size: 10px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #475569;
+            padding: 14px 8px 10px;
         }
 
         .month-item {
@@ -78,9 +111,17 @@
             border-color: var(--primary);
             box-shadow: 0 10px 20px rgba(56,189,248,0.2);
         }
+        .track-pattern .month-item:hover { background: rgba(251,191,36,0.06); border-color: var(--lens); }
+        .track-pattern .month-item.active { background: var(--lens); border-color: var(--lens); box-shadow: 0 10px 20px rgba(251,191,36,0.2); }
+        .month-item.locked { opacity: 0.5; border-style: dashed; }
+        .month-item.locked.active { opacity: 1; background: rgba(251,191,36,0.08); color: var(--lens); }
 
-        .month-item span:first-child { font-size: 14px; font-weight: 800; }
-        .month-item span:last-child { font-size: 11px; opacity: 0.7; margin-top: 4px; }
+        .mi-name { font-size: 14px; font-weight: 800; }
+        .mi-theme { font-size: 11px; opacity: 0.7; margin-top: 4px; }
+        .g-progress { height: 3px; background: rgba(255,255,255,0.08); border-radius: 3px; margin-top: 12px; overflow: hidden; }
+        .g-progress i { display: block; height: 100%; background: var(--ok); transition: width 0.4s ease; }
+        .month-item.active .g-progress { background: rgba(7,12,24,0.2); }
+        .month-item.active .g-progress i { background: var(--bg-deep); }
 
         /* Main Dashboard */
         .main-dashboard {
@@ -95,11 +136,41 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 20px;
             border-bottom: 1px solid rgba(255,255,255,0.05);
         }
 
         .header-title h2 { font-size: 26px; font-weight: 900; color: var(--primary); }
+        .track-pattern .header-title h2 { color: var(--lens); }
         .header-title p { font-size: 14px; color: var(--text-dim); margin-top: 5px; font-weight: 500; }
+
+        /* Player Bar */
+        .player { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+        .speed-seg { display: flex; background: var(--card-bg); border-radius: 12px; padding: 4px; }
+        .speed-seg button {
+            border: none; background: none; color: var(--text-dim);
+            font-family: inherit; font-size: 12px; font-weight: 700;
+            padding: 8px 12px; border-radius: 9px; cursor: pointer; transition: all 0.2s;
+        }
+        .speed-seg button.active { background: var(--primary); color: var(--bg-deep); }
+        .track-pattern .speed-seg button.active { background: var(--lens); }
+        .p-btn {
+            border: 1px solid rgba(255,255,255,0.08);
+            background: var(--card-bg);
+            color: var(--text-main);
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 800;
+            padding: 11px 14px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .p-btn:hover { border-color: var(--primary); }
+        .p-btn.on { border-color: var(--lens); color: var(--lens); background: rgba(251,191,36,0.08); }
+        .p-btn.playing { border-color: var(--secondary); color: var(--secondary); background: rgba(244,63,94,0.08); }
+        .p-btn .count { display: inline-block; min-width: 18px; padding: 1px 6px; margin-left: 4px; border-radius: 10px; background: rgba(255,255,255,0.08); font-size: 11px; }
 
         /* Day Selector */
         .day-selector {
@@ -116,6 +187,7 @@
         .day-btn {
             min-width: 65px;
             height: 45px;
+            padding: 0 10px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -128,6 +200,7 @@
             transition: all 0.2s;
             border: 1px solid transparent;
         }
+        .day-btn.review { color: var(--lens); }
 
         .day-btn.active {
             background: var(--secondary);
@@ -158,9 +231,16 @@
             border-left: 6px solid var(--secondary);
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
         }
+        .track-pattern .essence-box { border-left-color: var(--lens); }
 
         .essence-box h3 { font-size: 18px; color: var(--secondary); margin-bottom: 15px; letter-spacing: -0.5px; }
-        .essence-box p { font-size: 20px; font-weight: 800; line-height: 1.5; color: var(--text-main); }
+        .track-pattern .essence-box h3 { color: var(--lens); }
+        .essence-box p { font-size: 20px; font-weight: 800; line-height: 1.5; color: var(--text-main); word-break: keep-all; }
+        .essence-box p.essence-sub { font-size: 14px; font-weight: 500; color: var(--text-dim); margin-top: 12px; line-height: 1.7; }
+        .essence-sub b { color: var(--text-main); font-weight: 800; }
+
+        .step-label { font-size: 11px; font-weight: 900; letter-spacing: 2px; color: #64748b; margin: 26px 4px 12px; }
+        .step-label:first-child { margin-top: 0; }
 
         .sentence-card {
             background: var(--card-bg);
@@ -176,6 +256,7 @@
 
         .sentence-card:hover { transform: translateY(-3px); border-color: var(--primary); }
         .sentence-card.active { border-color: var(--secondary); background: rgba(244,63,94,0.03); }
+        .sentence-card.speaking { border-color: var(--secondary); box-shadow: 0 0 0 2px rgba(244,63,94,0.25); }
 
         .tag {
             position: absolute;
@@ -191,9 +272,69 @@
             letter-spacing: 1px;
         }
 
-        .sentence-en { font-size: 22px; font-weight: 800; margin-bottom: 10px; }
+        .lens-chip {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 900;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            background: rgba(251,191,36,0.12);
+            color: var(--lens);
+            letter-spacing: 0.5px;
+        }
+        .lens-chip.nuance { background: rgba(244,63,94,0.12); color: var(--secondary); }
+        .lens-chip.roleplay { background: rgba(16,185,129,0.12); color: var(--ok); }
+
+        .sentence-en { font-size: 22px; font-weight: 800; margin-bottom: 10px; padding-right: 40px; line-height: 1.4; }
         .sentence-kr { font-size: 15px; color: var(--text-dim); margin-bottom: 8px; }
-        .sentence-nuance { font-size: 13px; color: var(--secondary); font-weight: 700; }
+        .sentence-nuance { font-size: 13px; color: var(--secondary); font-weight: 700; padding-bottom: 36px; word-break: keep-all; }
+        mark.zoom-add { background: none; color: var(--lens); border-bottom: 2px solid var(--lens); }
+        mark.zoom-prev { background: none; color: #fde68a; border-bottom: 2px dashed rgba(251,191,36,0.45); }
+
+        .rp-q {
+            font-size: 14px;
+            color: var(--text-dim);
+            background: rgba(255,255,255,0.03);
+            border-left: 3px solid var(--ok);
+            padding: 10px 14px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+        .rp-q b { color: var(--text-main); font-weight: 700; }
+
+        /* Practice Row */
+        .practice-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 26px 0 30px; }
+        .practice-btn {
+            text-align: left;
+            padding: 22px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.06);
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: var(--text-main);
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+        .practice-btn:hover { transform: translateY(-3px); border-color: var(--lens); }
+        .pb-icon { font-size: 26px; }
+        .pb-title { font-size: 16px; font-weight: 900; margin: 8px 0 4px; }
+        .pb-sub { font-size: 12px; color: var(--text-dim); line-height: 1.6; word-break: keep-all; }
+        .pb-stat { font-size: 11px; font-weight: 800; color: var(--lens); margin-top: 10px; letter-spacing: 1px; }
+
+        .roadmap-card {
+            background: var(--card-bg);
+            border: 1px dashed rgba(251,191,36,0.35);
+            border-radius: 20px;
+            padding: 28px;
+            line-height: 1.8;
+            color: var(--text-dim);
+            word-break: keep-all;
+        }
+        .roadmap-card h4 { color: var(--lens); font-size: 12px; letter-spacing: 2px; margin-bottom: 12px; }
+        .roadmap-card .lead { color: var(--text-main); font-size: 17px; font-weight: 800; margin-bottom: 14px; }
+        .roadmap-card ul { padding-left: 18px; margin-top: 10px; }
 
         /* Neural Mastery Dashboard (Right) */
         .mastery-panel {
@@ -259,6 +400,75 @@
         .map-label { font-size: 10px; font-weight: 900; color: var(--primary); letter-spacing: 2px; margin-bottom: 10px; }
         .map-val { font-size: 20px; font-weight: 900; color: white; }
 
+        /* Camera Lens Panel (Pattern Track) */
+        .lens-panel { padding: 28px; gap: 18px; overflow-y: auto; }
+        .vf-top { display: flex; justify-content: space-between; align-items: center; font-size: 10px; font-weight: 900; letter-spacing: 2px; color: #475569; }
+        .rec { color: var(--rec); }
+        .rec i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--rec); margin-right: 6px; animation: blink 1.4s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+        #vf-focal { color: var(--lens); min-width: 70px; text-align: right; }
+
+        .frame {
+            position: relative;
+            border: 1px dashed rgba(255,255,255,0.12);
+            border-radius: 16px;
+            padding: 30px 14px 14px;
+            transition: all 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .frame.f1 { padding: 30px 18px 22px; text-align: center; }
+        .frame.lit { border-color: var(--lens); border-style: solid; background: rgba(251,191,36,0.035); }
+        .frame-tag { position: absolute; top: 9px; left: 14px; font-size: 10px; font-weight: 900; letter-spacing: 1px; color: #475569; transition: color 0.3s; }
+        .frame.lit > .frame-tag { color: var(--lens); }
+        .skeleton { display: block; font-size: 19px; font-weight: 900; line-height: 1.4; color: var(--text-main); }
+
+        .assembly { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+        .chip { padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: 800; background: rgba(255,255,255,0.04); color: #64748b; transition: all 0.3s; }
+        .chip.on { background: rgba(251,191,36,0.14); color: var(--lens); }
+        .chip.base.on { background: rgba(248,250,252,0.1); color: white; }
+
+        .lens-info {
+            background: rgba(255,255,255,0.02);
+            border-radius: 18px;
+            padding: 18px 20px;
+            font-size: 14px;
+            color: var(--text-dim);
+            line-height: 1.7;
+            word-break: keep-all;
+            transition: opacity 0.3s ease;
+        }
+        .lens-info h4 { font-size: 10px; letter-spacing: 2px; color: var(--lens); margin-bottom: 8px; font-weight: 900; }
+        .lens-info .big { color: var(--text-main); font-weight: 800; font-size: 16px; margin-bottom: 6px; }
+        .lens-info .hint { display: block; margin-top: 10px; font-size: 12px; color: #64748b; }
+        .bubble { padding: 10px 14px; border-radius: 14px; margin: 6px 0; font-size: 14px; max-width: 92%; }
+        .bubble.them { background: rgba(255,255,255,0.05); color: var(--text-main); }
+        .bubble.me { background: rgba(16,185,129,0.12); color: #a7f3d0; margin-left: auto; }
+
+        .pron-card {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            background: rgba(56,189,248,0.06);
+            border: 1px solid rgba(56,189,248,0.15);
+            border-radius: 18px;
+            padding: 16px 18px;
+        }
+        .pron-body { flex: 1; }
+        .pron-label { font-size: 10px; font-weight: 900; letter-spacing: 2px; color: var(--primary); margin-bottom: 4px; }
+        .pron-link { font-size: 19px; font-weight: 900; color: var(--text-main); }
+        .pron-kr { font-size: 13px; font-weight: 700; color: var(--primary); margin-left: 8px; }
+        .pron-tip { font-size: 12px; color: var(--text-dim); margin-top: 4px; line-height: 1.6; word-break: keep-all; }
+        .round-btn {
+            width: 44px; height: 44px; flex-shrink: 0;
+            border-radius: 50%;
+            border: 1px solid rgba(56,189,248,0.3);
+            background: rgba(56,189,248,0.1);
+            color: var(--primary);
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .round-btn:hover { transform: scale(1.08); background: rgba(56,189,248,0.2); }
+
         .voice-btn {
             position: absolute;
             bottom: 20px;
@@ -286,10 +496,26 @@
             from { transform: scale(1); }
             to   { transform: scale(1.3); }
         }
-        .gender-badge {
+        .bm-btn {
             position: absolute;
             bottom: 20px;
-            right: 60px;
+            right: 58px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            line-height: 1;
+            padding: 4px;
+            cursor: pointer;
+            color: var(--text-dim);
+            opacity: 0.5;
+            transition: all 0.2s ease;
+        }
+        .bm-btn:hover { opacity: 1; transform: scale(1.2); }
+        .bm-btn.on { color: var(--lens); opacity: 1; }
+        .gender-badge {
+            position: absolute;
+            bottom: 24px;
+            right: 100px;
             font-size: 11px;
             font-weight: 800;
             letter-spacing: 1px;
@@ -297,8 +523,8 @@
             color: var(--text-dim);
         }
 
-        /* Daily Briefing Modal */
-        #briefing-overlay {
+        /* Overlays (Briefing / 3-Second Challenge / My 3 Sentences) */
+        .overlay {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(7, 12, 24, 0.85);
@@ -311,13 +537,16 @@
             visibility: hidden;
             transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        #briefing-overlay.active {
+        .overlay.active {
             opacity: 1;
             visibility: visible;
         }
         .briefing-card {
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
             width: 500px;
+            max-width: calc(100vw - 32px);
+            max-height: calc(100vh - 32px);
+            overflow-y: auto;
             padding: 50px;
             border-radius: 40px;
             border: 1px solid rgba(255,255,255,0.1);
@@ -326,25 +555,104 @@
             transform: translateY(30px) scale(0.95);
             transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
-        #briefing-overlay.active .briefing-card {
+        .overlay.active .briefing-card {
             transform: translateY(0) scale(1);
         }
         .briefing-card h1 { font-size: 32px; font-weight: 900; color: var(--primary); margin-bottom: 10px; }
-        .briefing-card p.sub { color: var(--text-dim); margin-bottom: 35px; font-size: 15px; }
-        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 40px; }
+        .track-pattern .briefing-card h1 { color: var(--lens); }
+        .briefing-card p.sub { color: var(--text-dim); margin-bottom: 35px; font-size: 15px; line-height: 1.7; word-break: keep-all; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px; }
         .stat-box { background: rgba(255,255,255,0.03); padding: 20px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05); }
         .stat-val { font-size: 24px; font-weight: 900; color: white; display: block; }
         .stat-lbl { font-size: 11px; font-weight: 800; color: var(--text-dim); letter-spacing: 1px; margin-top: 5px; }
-        .today-focus { background: rgba(56,189,248,0.1); padding: 25px; border-radius: 24px; margin-bottom: 40px; text-align: left; }
+        .today-focus { background: rgba(56,189,248,0.1); padding: 25px; border-radius: 24px; margin-bottom: 30px; text-align: left; }
+        .track-pattern .today-focus { background: rgba(251,191,36,0.08); }
         .focus-hdr { font-size: 10px; font-weight: 900; color: var(--primary); letter-spacing: 2px; margin-bottom: 8px; }
+        .track-pattern .focus-hdr { color: var(--lens); }
         .focus-title { font-size: 18px; font-weight: 800; color: white; }
-        .start-btn { 
-            width: 100%; padding: 20px; border-radius: 16px; border: none; 
-            background: var(--primary); color: var(--bg-deep); font-size: 16px; 
+        .focus-sub { font-size: 13px; color: var(--text-dim); margin-top: 6px; line-height: 1.6; word-break: keep-all; }
+        .routine { display: none; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 30px; }
+        .track-pattern .routine { display: grid; }
+        .routine div { background: rgba(255,255,255,0.03); border-radius: 14px; padding: 12px 6px; font-size: 11px; font-weight: 700; color: var(--text-dim); line-height: 1.5; }
+        .routine b { display: block; font-size: 18px; margin-bottom: 4px; }
+        .start-btn {
+            width: 100%; padding: 20px; border-radius: 16px; border: none;
+            background: var(--primary); color: var(--bg-deep); font-size: 16px; font-family: inherit;
             font-weight: 900; cursor: pointer; transition: all 0.3s;
             box-shadow: 0 10px 30px rgba(56,189,248,0.3);
         }
+        .track-pattern .start-btn { background: var(--lens); box-shadow: 0 10px 30px rgba(251,191,36,0.25); }
         .start-btn:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(56,189,248,0.5); }
+
+        .card-head { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 900; letter-spacing: 1px; color: var(--text-dim); margin-bottom: 24px; }
+        .x-btn { background: none; border: none; color: var(--text-dim); font-size: 18px; cursor: pointer; padding: 4px 8px; border-radius: 8px; }
+        .x-btn:hover { color: white; background: rgba(255,255,255,0.06); }
+
+        .ch-ring {
+            --p: 1;
+            width: 120px; height: 120px;
+            margin: 0 auto 24px;
+            border-radius: 50%;
+            background: conic-gradient(var(--lens) calc(var(--p) * 360deg), rgba(255,255,255,0.06) 0);
+            display: flex; align-items: center; justify-content: center;
+        }
+        .ch-ring span {
+            width: 100px; height: 100px; border-radius: 50%;
+            background: #111a2e;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 40px; font-weight: 900; color: var(--lens);
+        }
+        .ch-ctx { font-size: 13px; color: var(--text-dim); margin-bottom: 10px; min-height: 20px; }
+        .ch-ctx b { color: var(--ok); }
+        .ch-kr { font-size: 22px; font-weight: 800; color: white; margin-bottom: 16px; line-height: 1.5; word-break: keep-all; }
+        .ch-en { font-size: 20px; font-weight: 800; color: var(--lens); min-height: 30px; margin-bottom: 28px; line-height: 1.4; visibility: hidden; }
+        .ch-en.show { visibility: visible; animation: slideUp 0.4s ease; }
+        .ch-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .ch-actions .p-btn { padding: 14px 18px; font-size: 13px; }
+        .ch-result { font-size: 16px; color: var(--text-dim); line-height: 1.8; word-break: keep-all; }
+        .ch-result b { font-size: 36px; color: var(--lens); display: block; margin-bottom: 6px; }
+        .kbd-hint { font-size: 11px; color: #475569; margin-top: 18px; }
+
+        .my3-item { text-align: left; margin-bottom: 16px; }
+        .my3-item label { display: block; font-size: 12px; font-weight: 800; color: var(--lens); margin-bottom: 6px; }
+        .my3-row { display: flex; gap: 8px; align-items: flex-start; }
+        .my3-row textarea {
+            flex: 1;
+            min-height: 54px;
+            resize: vertical;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 12px 14px;
+            color: white;
+            font-family: inherit;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .my3-row textarea:focus { outline: none; border-color: var(--lens); }
+        .my3-hint { text-align: left; font-size: 12px; color: var(--text-dim); background: rgba(255,255,255,0.03); border-radius: 12px; padding: 12px 14px; margin: 6px 0 22px; line-height: 1.6; }
+        .my3-hint b { color: var(--text-main); }
+
+        /* Toast */
+        #toast {
+            position: fixed;
+            left: 50%;
+            bottom: 28px;
+            transform: translate(-50%, 20px);
+            background: rgba(15,23,42,0.95);
+            border: 1px solid rgba(251,191,36,0.35);
+            color: var(--text-main);
+            padding: 12px 20px;
+            border-radius: 14px;
+            font-size: 13px;
+            font-weight: 700;
+            max-width: calc(100vw - 32px);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.35s ease;
+            z-index: 1100;
+        }
+        #toast.show { opacity: 1; transform: translate(-50%, 0); }
 
         /* Progress checkmarks */
         .day-btn.completed { border: 1px solid #10b981 !important; color: #10b981 !important; position: relative; }
@@ -358,36 +666,118 @@
         .sentence-card {
             animation: cardFadeIn 0.5s ease forwards;
         }
+
+        [hidden] { display: none !important; }
+
+        /* Narrow screens */
+        @media (max-width: 900px) {
+            body { flex-direction: column; height: auto; min-height: 100vh; overflow: auto; }
+            .sidebar { width: 100%; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.05); }
+            .logo-area { padding: 20px 16px 12px; font-size: 20px; }
+            .track-switch { padding: 0 16px 12px; }
+            #month-list { display: flex; gap: 10px; overflow-x: auto; padding: 0 16px 14px; }
+            .section-label { display: none; }
+            .month-item { min-width: 230px; margin-bottom: 0; }
+            .main-dashboard { overflow: visible; }
+            header { padding: 18px 16px; flex-direction: column; align-items: flex-start; gap: 14px; }
+            .player { justify-content: flex-start; }
+            .day-selector { padding: 12px 16px; }
+            .content { flex-direction: column; padding: 16px; gap: 20px; overflow: visible; }
+            .learning-path { flex: none; overflow: visible; padding-right: 0; }
+            .mastery-panel { flex: none; padding: 24px 18px; }
+            .practice-row { grid-template-columns: 1fr; }
+            .sentence-en { font-size: 19px; }
+            .briefing-card { padding: 32px 22px; border-radius: 28px; }
+            .routine { grid-template-columns: repeat(2, 1fr); }
+        }
     </style>
 </head>
-<body>
-    <div id="briefing-overlay">
+<body class="track-pattern">
+    <!-- Daily Briefing -->
+    <div id="briefing-overlay" class="overlay">
         <div class="briefing-card">
             <h1 id="brief-welcome">Good Morning!</h1>
-            <p class="sub">오늘도 매일 5문장의 기적을 이어가 볼까요?</p>
-            
+            <p class="sub" id="brief-sub">오늘도 매일 5문장의 기적을 이어가 볼까요?</p>
+
             <div class="stats-grid">
                 <div class="stat-box">
                     <span class="stat-val" id="stat-total-progress">0%</span>
                     <span class="stat-lbl">전체 학습 진도</span>
                 </div>
                 <div class="stat-box">
-                    <span class="stat-val" id="stat-learned-count">0/1200</span>
+                    <span class="stat-val" id="stat-learned-count">0/0</span>
                     <span class="stat-lbl">익힌 문장 수</span>
                 </div>
             </div>
 
             <div class="today-focus">
-                <div class="focus-hdr">TODAY'S NERUAL FOCUS</div>
-                <div class="focus-title" id="brief-today-target">Day 1: [Take] 본질 체화</div>
+                <div class="focus-hdr" id="brief-focus-hdr">TODAY'S NEURAL FOCUS</div>
+                <div class="focus-title" id="brief-today-target">Day 1</div>
+                <div class="focus-sub" id="brief-today-sub"></div>
             </div>
 
-            <button class="start-btn" onclick="closeBriefing()">학습 시작하기</button>
+            <div class="routine">
+                <div><b>📸</b>뼈대 듣기</div>
+                <div><b>🔭</b>줌아웃</div>
+                <div><b>⏱</b>3초 챌린지</div>
+                <div><b>✍️</b>나만의 3문장</div>
+            </div>
+
+            <button class="start-btn" id="brief-start">학습 시작하기</button>
         </div>
     </div>
 
+    <!-- 3-Second Challenge -->
+    <div id="challenge-overlay" class="overlay">
+        <div class="briefing-card">
+            <div class="card-head">
+                <span id="ch-step">⏱ 3초 챌린지</span>
+                <button class="x-btn" data-close="challenge-overlay" title="닫기">✕</button>
+            </div>
+            <div id="ch-stage">
+                <div class="ch-ring" id="ch-ring"><span id="ch-count">3</span></div>
+                <div class="ch-ctx" id="ch-ctx"></div>
+                <div class="ch-kr" id="ch-kr"></div>
+                <div class="ch-en" id="ch-en"></div>
+                <div class="ch-actions">
+                    <button class="p-btn" id="ch-reveal">정답 보기</button>
+                    <button class="p-btn on" id="ch-hit" hidden>✓ 3초 안에 말했어요</button>
+                    <button class="p-btn" id="ch-miss" hidden>다음에 다시</button>
+                </div>
+                <div class="kbd-hint">Space 정답 보기 · 1 성공 · 2 다시 · Esc 닫기</div>
+            </div>
+            <div id="ch-done" hidden>
+                <div class="ch-result" id="ch-result"></div>
+                <div class="ch-actions" style="margin-top: 26px;">
+                    <button class="p-btn on" id="ch-retry">다시 도전</button>
+                    <button class="p-btn" data-close="challenge-overlay">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My 3 Sentences -->
+    <div id="my3-overlay" class="overlay">
+        <div class="briefing-card">
+            <div class="card-head">
+                <span>✍️ 나만의 문장 3개 · <b id="my3-core" style="color: var(--lens);"></b></span>
+                <button class="x-btn" data-close="my3-overlay" title="닫기">✕</button>
+            </div>
+            <p class="sub" style="margin-bottom: 22px;">패턴은 외우는 게 아니라 내 이야기로 갈아 끼우는 것. 뼈대를 먼저 쓰고, 렌즈를 하나씩 뒤에 얹어 보세요.</p>
+            <div id="my3-list"></div>
+            <div class="my3-hint" id="my3-hint"></div>
+            <button class="start-btn" id="my3-save">저장하기</button>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+
     <div class="sidebar">
         <div class="logo-area">💎 365 MASTER</div>
+        <div class="track-switch">
+            <button class="track-btn" data-track="pattern">PATTERN 365<small>NEW · 1일 1패턴</small></button>
+            <button class="track-btn" data-track="classic">CLASSIC<small>핵심 동사 240일</small></button>
+        </div>
         <div id="month-list"></div>
     </div>
 
@@ -397,20 +787,32 @@
                 <h2 id="current-month-name">Month 1</h2>
                 <p id="current-day-num">Day 1</p>
             </div>
+            <div class="player">
+                <div class="speed-seg" id="speed-seg">
+                    <button data-rate="0.7">느리게</button>
+                    <button data-rate="0.9">보통</button>
+                    <button data-rate="1.1">빠르게</button>
+                </div>
+                <button class="p-btn" id="play-all">▶ 전체 듣기</button>
+                <button class="p-btn" id="loop-btn" title="한 문장 또는 전체 듣기를 반복합니다">🔁 반복</button>
+                <button class="p-btn" id="bm-play">★ 북마크 듣기<span class="count" id="bm-count">0</span></button>
+            </div>
         </header>
 
         <div class="day-selector" id="day-selector"></div>
 
         <div class="content">
-            <div class="learning-path">
+            <div class="learning-path" id="learning-path">
                 <div class="essence-box">
                     <h3 id="core-verb-label">VERB: TAKE</h3>
                     <p id="governing-phrase">외부의 것을 내 의지로 '포획'하여 소유의 영역으로 끌어오다</p>
+                    <p class="essence-sub" id="essence-sub" hidden></p>
                 </div>
                 <div id="sentence-container"></div>
             </div>
 
-            <div class="mastery-panel">
+            <!-- Classic: Neural Mastery Dashboard -->
+            <div class="mastery-panel" id="neural-panel" hidden>
                 <div class="panel-title">NEURAL MASTERY DASHBOARD</div>
                 <div class="visual-container">
                     <div class="v-icon" id="mastery-icon">🎯</div>
@@ -422,10 +824,41 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Pattern: Camera Lens Panel -->
+            <div class="mastery-panel lens-panel" id="lens-panel">
+                <div class="vf-top">
+                    <span class="rec"><i></i>REC</span>
+                    <span>CAMERA LENS · 줌아웃 사고</span>
+                    <span id="vf-focal">STANDBY</span>
+                </div>
+                <div class="viewfinder">
+                    <div class="frame f3" id="frame-2">
+                        <span class="frame-tag" id="tag-2">WS · 24mm</span>
+                        <div class="frame f2" id="frame-1">
+                            <span class="frame-tag" id="tag-1">MS · 50mm</span>
+                            <div class="frame f1" id="frame-0">
+                                <span class="frame-tag" id="tag-0">CU · 85mm · 뼈대</span>
+                                <span class="skeleton" id="vf-skeleton"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="assembly" id="vf-assembly"></div>
+                <div class="lens-info" id="lens-info"></div>
+                <div class="pron-card" id="pron-card">
+                    <div class="pron-body">
+                        <div class="pron-label">LINKING · 이어 말하기</div>
+                        <div><span class="pron-link" id="pron-link"></span><span class="pron-kr" id="pron-kr"></span></div>
+                        <div class="pron-tip" id="pron-tip"></div>
+                    </div>
+                    <button class="round-btn" id="pron-play" title="천천히 듣기">▶</button>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Data files -->
+    <!-- Data files: Classic (Core Verb 240) -->
     <script src="data/month1.js"></script>
     <script src="data/month2.js"></script>
     <script src="data/month3.js"></script>
@@ -434,12 +867,31 @@
     <script src="data/month6.js"></script>
     <script src="data/month7.js"></script>
     <script src="data/month8.js"></script>
+    <!-- Data files: Pattern 365 (Phase 1 · Pattern 100) -->
+    <script src="data/pattern/sprint1.js"></script>
+    <script src="data/pattern/sprint2.js"></script>
+    <script src="data/pattern/sprint3.js"></script>
+    <script src="data/pattern/sprint4.js"></script>
+    <script src="data/pattern/sprint5.js"></script>
 
     <script>
-        
-        // Data is now loaded from external JS files
         window.dayData = window.dayData || {};
-        
+        window.patternData = window.patternData || {};
+
+        // ── Storage (private mode / blocked storage safe) ─────────
+        const store = {
+            get(k, fallback) {
+                try { const v = localStorage.getItem(k); return v === null ? fallback : JSON.parse(v); }
+                catch (e) { return fallback; }
+            },
+            set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+        };
+        const session = {
+            get(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } },
+            set(k, v) { try { sessionStorage.setItem(k, v); } catch (e) {} }
+        };
+
+        // ── Tracks ────────────────────────────────────────────────
         const monthInfo = [
             { id: 1, name: "Month 1", theme: "4대 핵심 동사 (Take/Get/Have/Make)" },
             { id: 2, name: "Month 2", theme: "공간과 이동 (Go/Come/Put/Set)" },
@@ -451,208 +903,479 @@
             { id: 8, name: "Month 8", theme: "감정·상황 상태 레이블" }
         ];
 
-        let activeMonth = 3;
-        let activeDay = 61;
-        let userProgress = JSON.parse(localStorage.getItem('365_progress')) || {
-            learnedSentences: {}, // key: "day-idx"
-            completedDays: []
+        const TRACKS = {
+            pattern: {
+                id: 'pattern',
+                unit: 'PATTERN',
+                defaultDay: 1,
+                data: () => window.patternData,
+                keys: { progress: 'p365_progress', day: 'p365_activeDay', bookmarks: 'p365_bookmarks', challenge: 'p365_challenge', my3: 'p365_my3' },
+                sections: [
+                    { title: 'PHASE 1 · PATTERN 100', groups: [
+                        { name: 'Sprint 1', theme: '나를 말하다 — Be 동사의 지도', start: 1, end: 20 },
+                        { name: 'Sprint 2', theme: '원하고 해내다 — 의지와 필요', start: 21, end: 40 },
+                        { name: 'Sprint 3', theme: '묻고 대화를 열다 — 질문 패턴', start: 41, end: 60 },
+                        { name: 'Sprint 4', theme: '느끼고 생각하다 — 감정과 의견', start: 61, end: 80 },
+                        { name: 'Sprint 5', theme: '시간을 잇다 — 과거·경험·연결', start: 81, end: 100 }
+                    ]},
+                    { title: 'ROADMAP · 업데이트 예정', groups: [
+                        { name: 'Phase 2', theme: 'VERB SENSE — 기본 동사 감각', start: 101, end: 160,
+                          lead: '한국인이 자주 틀리는 동사 습관 ✗ → 원어민이 실제로 하는 말 ✓',
+                          plan: ['get · take · have · make · give · keep 등 기본 동사 12개를 5일씩', '하루 구성: 흔한 실수 1 → 원어민 교정 2 → 줌아웃 확장 2', 'Phase 1 패턴 속에 동사를 끼워 넣어 자동 복습'] },
+                        { name: 'Phase 3', theme: 'REAL TALK 100 — 상황 회화', start: 161, end: 220,
+                          lead: '패턴을 대화 속에서 꺼내 쓰는 60일',
+                          plan: ['카페 · 식당 · 공항 · 호텔 · 병원 · 쇼핑 · 회사 · 전화 · 약속 · SNS', '하루 한 장면, 상대 질문 → 3초 안에 결론부터 답하기', '느리게 · 보통 · 빠르게 3단 속도로 듣기 훈련'] },
+                        { name: 'Phase 4', theme: 'DAILY DIARY — 일상을 영어로', start: 221, end: 290,
+                          lead: '카메라 줌아웃을 문장에서 단락으로',
+                          plan: ['아침 루틴부터 잠들기 전까지, 하루의 장면을 영어 일기로', '장면(Scene) → 디테일(Detail) → 감정(Feeling) 3컷 구조', '매일 나만의 일기 3문장 쓰기'] },
+                        { name: 'Phase 5', theme: 'PHRASAL VERBS — 구동사 이미지', start: 291, end: 350,
+                          lead: '동사 + 방향 이미지로 원어민 대화의 절반을 연다',
+                          plan: ['up · out · off · on · down · in 방향 이미지 위에 동사 얹기', 'Classic 트랙 Month 4 전치사 이미지와 연결 복습', '구동사 1개 = 장면 1개로 기억하기'] },
+                        { name: 'Phase 6', theme: 'GRAMMAR SENSE & GRADUATION', start: 351, end: 365,
+                          lead: '문법을 규칙이 아니라 감각으로 정리하고 졸업한다',
+                          plan: ['시제 지도 · 관사 · 가정법을 이미지로 한 장씩', '365일의 나를 영어 3분 스피치로 완성', '졸업 후 루틴: 하루 5문장 유지 모드'] }
+                    ]}
+                ]
+            },
+            classic: {
+                id: 'classic',
+                unit: 'VERB',
+                defaultDay: 61,
+                data: () => window.dayData,
+                keys: { progress: '365_progress', day: 'activeDay', bookmarks: '365_bookmarks' },
+                sections: [
+                    { title: 'CORE VERB NEURAL · 240 DAYS', groups: monthInfo.map(m => ({
+                        name: m.name, theme: m.theme, start: (m.id - 1) * 30 + 1, end: m.id * 30
+                    })) }
+                ]
+            }
         };
 
-        function init() {
-            renderMonths();
-            const savedDay = localStorage.getItem('activeDay') || 61;
-            activeDay = parseInt(savedDay);
-            activeMonth = Math.ceil(activeDay / 30) || 3;
-            
-            renderDays(activeMonth);
-            loadDay(activeDay);
-            
-            // Show Briefing if not shown this session
-            if (!sessionStorage.getItem('briefing_shown')) {
-                showBriefing();
-            }
+        // ── State ─────────────────────────────────────────────────
+        let trackId = 'pattern';
+        let T = TRACKS.pattern;
+        let progress = { learnedSentences: {}, completedDays: [] };
+        let bookmarks = [];
+        let activeGroup = null;
+        let activeDay = 1;
+        let ttsRate = store.get('tts_rate', 0.9);
+        let loopOn = false;
+
+        const $ = id => document.getElementById(id);
+        const isPattern = () => trackId === 'pattern';
+        const groupsOf = t => t.sections.flatMap(s => s.groups);
+        const groupOf = (t, d) => groupsOf(t).find(g => d >= g.start && d <= g.end);
+        const dayData = d => T.data()[String(d)];
+        const isAvailable = g => !!T.data()[String(g.start)];
+        const currentData = () => dayData(activeDay) || { sentences: [] };
+        const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        const baseTxt = s => (s && s.txt ? s.txt.replace(/[.?!]+$/, '') : '');
+        const sortedDays = () => Object.keys(T.data()).map(Number).sort((a, b) => a - b);
+        const totalSentences = () => Object.values(T.data()).reduce((n, x) => n + (x.sentences || []).length, 0);
+
+        function toast(msg) {
+            const el = $('toast');
+            el.textContent = msg;
+            el.classList.add('show');
+            clearTimeout(toast.timer);
+            toast.timer = setTimeout(() => el.classList.remove('show'), 2400);
         }
 
-        function showBriefing() {
-            const overlay = document.getElementById('briefing-overlay');
-            const totalSentences = 1200;
-            const learnedCount = Object.keys(userProgress.learnedSentences).length;
-            const progressPct = Math.round((learnedCount / totalSentences) * 100);
+        // ── Track switching ───────────────────────────────────────
+        function useTrack(id) {
+            stopPlayback();
+            trackId = TRACKS[id] ? id : 'pattern';
+            T = TRACKS[trackId];
+            store.set('activeTrack', trackId);
+            progress = store.get(T.keys.progress, null) || { learnedSentences: {}, completedDays: [] };
+            bookmarks = store.get(T.keys.bookmarks, []);
 
-            document.getElementById('stat-total-progress').innerText = progressPct + '%';
-            document.getElementById('stat-learned-count').innerText = `${learnedCount}/${totalSentences}`;
-            
-            // Find next target
-            let nextDay = 1;
-            for(let i=1; i<=240; i++) {
-                if(!userProgress.completedDays.includes(i)) {
-                    nextDay = i;
-                    break;
-                }
-            }
-            const targetData = window.dayData[String(nextDay)];
-            if(targetData) {
-                document.getElementById('brief-today-target').innerText = `Day ${nextDay}: [${targetData.core}] ${targetData.vT}`;
-            }
+            let d = parseInt(store.get(T.keys.day, T.defaultDay), 10) || T.defaultDay;
+            if (!dayData(d)) d = T.defaultDay;
 
-            overlay.classList.add('active');
+            document.body.classList.toggle('track-pattern', isPattern());
+            document.body.classList.toggle('track-classic', !isPattern());
+            document.querySelectorAll('.track-btn').forEach(b => b.classList.toggle('active', b.dataset.track === trackId));
+            $('neural-panel').hidden = isPattern();
+            $('lens-panel').hidden = !isPattern();
+
+            activeGroup = groupOf(T, d);
+            renderSidebar();
+            renderDays();
+            loadDay(d);
+            updateBookmarkCount();
         }
 
-        function closeBriefing() {
-            document.getElementById('briefing-overlay').classList.remove('active');
-            sessionStorage.setItem('briefing_shown', 'true');
+        function countLearned(g) {
+            return Object.keys(progress.learnedSentences).filter(k => {
+                const d = parseInt(k, 10);
+                return d >= g.start && d <= g.end;
+            }).length;
         }
 
-        function saveProgress(day, sentenceIdx) {
-            const key = `${day}-${sentenceIdx}`;
-            if (!userProgress.learnedSentences[key]) {
-                userProgress.learnedSentences[key] = true;
-                
-                // Check if day is completed (5 sentences per day)
-                let dayDone = true;
-                for(let i=0; i<5; i++) {
-                    if(!userProgress.learnedSentences[`${day}-${i}`]) {
-                        dayDone = false;
-                        break;
-                    }
-                }
-                if(dayDone && !userProgress.completedDays.includes(day)) {
-                    userProgress.completedDays.push(day);
-                }
+        function renderSidebar() {
+            const box = $('month-list');
+            box.innerHTML = '';
+            T.sections.forEach(sec => {
+                const label = document.createElement('div');
+                label.className = 'section-label';
+                label.textContent = sec.title;
+                box.appendChild(label);
 
-                localStorage.setItem('365_progress', JSON.stringify(userProgress));
-                renderDays(activeMonth); // Refresh checkmarks on buttons
-            }
-        }
-
-        function renderMonths() {
-            const container = document.getElementById('month-list');
-            container.innerHTML = '';
-            monthInfo.forEach(m => {
-                const div = document.createElement('div');
-                div.className = `month-item ${m.id === activeMonth ? 'active' : ''}`;
-                div.innerHTML = `
-                    <div style="display: flex; flex-direction: column;">
-                        <span style="font-weight: 700; font-size: 0.9rem; opacity: 0.9;">${m.name}</span>
-                        <span style="font-size: 0.75rem; opacity: 0.7;">${m.theme}</span>
-                    </div>
-                `;
-                div.onclick = () => {
-                    activeMonth = m.id;
-                    renderMonths();
-                    renderDays(activeMonth);
-                    // Load the first day of the selected month
-                    loadDay((activeMonth - 1) * 30 + 1);
-                };
-                container.appendChild(div);
+                sec.groups.forEach(g => {
+                    const avail = isAvailable(g);
+                    const total = (g.end - g.start + 1) * 5;
+                    const pct = avail ? Math.min(100, Math.round(countLearned(g) / total * 100)) : 0;
+                    const div = document.createElement('div');
+                    div.className = `month-item ${g === activeGroup ? 'active' : ''} ${avail ? '' : 'locked'}`;
+                    div.innerHTML = `
+                        <span class="mi-name">${avail ? '' : '🔒 '}${esc(g.name)}${isPattern() ? ` · Day ${g.start}–${g.end}` : ''}</span>
+                        <span class="mi-theme">${esc(g.theme)}</span>
+                        ${avail ? `<div class="g-progress" title="익힌 문장 ${pct}%"><i style="width:${pct}%"></i></div>` : ''}`;
+                    div.onclick = () => {
+                        activeGroup = g;
+                        renderSidebar();
+                        if (avail) { renderDays(); loadDay(g.start); }
+                        else renderComingSoon(g);
+                    };
+                    box.appendChild(div);
+                });
             });
         }
 
-        function renderDays(m) {
-            const container = document.getElementById('day-selector');
-            container.innerHTML = '';
-            const start = (m - 1) * 30 + 1;
-            const end = m * 30;
-            for (let d = start; d <= end; d++) {
-                const isCompleted = userProgress.completedDays.includes(d);
+        function renderDays() {
+            const box = $('day-selector');
+            box.innerHTML = '';
+            box.hidden = false;
+            if (!activeGroup) return;
+            for (let d = activeGroup.start; d <= activeGroup.end; d++) {
+                const x = dayData(d);
+                const review = x && /^(REVIEW|GRADUATION)/.test(x.core || '');
                 const btn = document.createElement('div');
-                btn.className = `day-btn ${d === activeDay ? 'active' : ''} ${isCompleted ? 'completed' : ''}`;
+                btn.className = `day-btn ${d === activeDay ? 'active' : ''} ${progress.completedDays.includes(d) ? 'completed' : ''} ${review ? 'review' : ''}`;
                 btn.id = 'day-btn-' + d;
-                btn.innerText = 'D-' + d;
+                btn.textContent = (review ? '★ ' : '') + 'D-' + d;
                 btn.onclick = () => loadDay(d);
-                container.appendChild(btn);
+                box.appendChild(btn);
             }
         }
 
+        // ── Day rendering ─────────────────────────────────────────
         function loadDay(d) {
+            stopPlayback();
             activeDay = d;
-            localStorage.setItem('activeDay', d);
-            document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
-            const activeBtn = document.getElementById('day-btn-' + d);
-            if (activeBtn) activeBtn.classList.add('active');
+            store.set(T.keys.day, d);
 
-            const data = dayData[String(d)] || { governing: "Data not found", sentences: [] };
-            
-            document.getElementById('current-day-num').innerText = 'Day ' + d;
-            document.getElementById('current-month-name').innerText = monthInfo[Math.ceil(d/30)-1].name;
-            document.getElementById('core-verb-label').innerText = 'VERB: ' + (data.core || '???').toUpperCase();
-            document.getElementById('governing-phrase').innerText = data.governing;
+            const g = groupOf(T, d);
+            if (g !== activeGroup) { activeGroup = g; renderSidebar(); renderDays(); }
+            document.querySelectorAll('.day-btn').forEach(b => b.classList.toggle('active', b.id === 'day-btn-' + d));
+            const activeBtn = $('day-btn-' + d);
+            if (activeBtn && activeBtn.scrollIntoView) activeBtn.scrollIntoView({ block: 'nearest', inline: 'center' });
 
-            // Mastery Box Default
-            document.getElementById('mastery-icon').innerText = data.v || "✨";
-            document.getElementById('mastery-title').innerText = data.vT || "Essence Discovery";
-            document.getElementById('mastery-desc').innerText = data.vD || "지각과 인지의 신경망을 고도화하는 과정입니다.";
-            document.getElementById('neural-mapping').style.display = 'none';
+            const x = dayData(d) || { governing: '데이터를 찾을 수 없습니다', sentences: [] };
 
-            // Sentences
-            const container = document.getElementById('sentence-container');
-            container.innerHTML = '';
-            (data.sentences || []).forEach((s, idx) => {
-                const gender = s.g === 'M' ? 'M' : 'F';
-                const genderLabel = gender === 'M' ? 'MALE' : 'FEMALE';
-                const text = s.txt || s.en || '';
-                const isLearned = userProgress.learnedSentences[`${d}-${idx}`];
+            $('current-month-name').textContent = isPattern() ? `${g.name} · ${g.theme.split(' — ')[0]}` : g.name;
+            $('current-day-num').textContent = isPattern() ? `Day ${d} · PATTERN 365` : 'Day ' + d;
+            $('core-verb-label').textContent = `${T.unit}: ${(x.core || '???').toUpperCase()}`;
+            $('governing-phrase').textContent = x.governing;
 
-                const card = document.createElement('div');
-                card.className = `sentence-card ${isLearned ? 'completed' : ''}`;
-                card.innerHTML = `
-                    <div class="tag">${s.eT || 'Target'}</div>
-                    <div class="sentence-en" style="padding-right:40px">${text}</div>
-                    <div class="sentence-kr">${s.t || s.kr}</div>
-                    <div class="sentence-nuance" style="padding-bottom:36px">${s.n || '신경망 매핑 활성화'}</div>
-                    <div class="gender-badge">${genderLabel}</div>
-                    <button class="voice-btn" title="${genderLabel} 네이티브 스피치 재생" onclick="event.stopPropagation(); saveProgress(${d}, ${idx}); this.closest('.sentence-card').classList.add('completed'); speakSentence('${text.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', '${gender}');">🔊</button>
-                `;
-                card.onclick = () => {
-                    saveProgress(d, idx);
-                    card.classList.add('completed');
-                    document.querySelectorAll('.sentence-card').forEach(c => c.classList.remove('active'));
-                    card.classList.add('active');
-                    
-                    const mTitle = document.getElementById('mastery-title');
-                    const mDesc = document.getElementById('mastery-desc');
-                    const mapping = document.getElementById('neural-mapping');
-                    const targetVal = document.getElementById('neural-target-val');
-                    const mIcon = document.getElementById('mastery-icon');
+            const sub = $('essence-sub');
+            sub.hidden = !(isPattern() && x.vD);
+            if (!sub.hidden) sub.innerHTML = `${esc(x.v || '')} <b>${esc(x.vT || '')}</b> — ${esc(x.vD)}`;
 
-                    mapping.style.display = 'none';
-                    mTitle.style.opacity = '0';
-                    mDesc.style.opacity = '0';
-                    mIcon.style.transform = 'scale(0.8)';
-                    void mapping.offsetWidth;
-
-                    mTitle.innerText = s.eT || "Neural Mapping";
-                    mDesc.innerText = s.eD || s.n || "지각의 본질을 파고듭니다.";
-                    targetVal.innerText = (s.eT || "MAPPING").toUpperCase();
-
-                    mapping.style.display = 'block';
-                    mapping.style.animation = 'none';
-                    void mapping.offsetWidth;
-                    mapping.style.animation = 'slideUp 0.5s ease forwards';
-                    
-                    mTitle.style.transition = 'opacity 0.4s ease';
-                    mDesc.style.transition = 'opacity 0.4s ease';
-                    mIcon.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
-                    
-                    mTitle.style.opacity = '1';
-                    mDesc.style.opacity = '1';
-                    mIcon.style.transform = 'scale(1.1) rotate(5deg)';
-                    setTimeout(() => { mIcon.style.transform = ''; }, 300);
-                };
-                container.appendChild(card);
-            });
+            renderSentences(x, d);
+            if (isPattern()) renderLensPanel(x);
+            else renderClassicPanel(x);
+            $('learning-path').scrollTop = 0;
         }
 
-        init();
+        function stepLabel(text) {
+            const el = document.createElement('div');
+            el.className = 'step-label';
+            el.textContent = text;
+            return el;
+        }
+
+        function renderSentences(x, d) {
+            const box = $('sentence-container');
+            box.innerHTML = '';
+            const ss = x.sentences || [];
+            ss.forEach((s, idx) => {
+                if (isPattern()) {
+                    if (idx === 0) box.appendChild(stepLabel('① 카메라 줌아웃 — 뼈대에서 롱 센텐스로'));
+                    if (idx === 3) box.appendChild(stepLabel('② 뉘앙스 — 비슷하지만 다른 말'));
+                    if (idx === 4) box.appendChild(stepLabel('③ 롤플레이 — 3초 안에, 결론부터'));
+                }
+                box.appendChild(buildCard(s, idx, d, ss));
+            });
+            if (isPattern() && ss.length) box.appendChild(buildPracticeRow(d));
+        }
+
+        function lensClass(idx) {
+            return idx === 3 ? 'nuance' : idx === 4 ? 'roleplay' : '';
+        }
+
+        function highlightZoom(s, idx, ss) {
+            const text = s.txt || '';
+            const add = (s.add || '').trim();
+            if ((idx !== 1 && idx !== 2) || !add) return esc(text);
+            const pos = text.lastIndexOf(add);
+            if (pos < 0) return esc(text);
+            const before = text.slice(0, pos);
+            const after = text.slice(pos + add.length);
+            let beforeHtml = esc(before);
+            if (idx === 2) {
+                const prevAdd = ((ss[1] && ss[1].add) || '').trim();
+                const pp = prevAdd ? before.lastIndexOf(prevAdd) : -1;
+                if (pp >= 0) {
+                    beforeHtml = esc(before.slice(0, pp)) + `<mark class="zoom-prev">${esc(prevAdd)}</mark>` + esc(before.slice(pp + prevAdd.length));
+                }
+            }
+            return `${beforeHtml}<mark class="zoom-add">${esc(add)}</mark>${esc(after)}`;
+        }
+
+        function buildCard(s, idx, d, ss) {
+            const gender = s.g === 'M' ? 'M' : 'F';
+            const genderLabel = gender === 'M' ? 'MALE' : 'FEMALE';
+            const key = `${d}-${idx}`;
+            const marked = bookmarks.includes(key);
+            const card = document.createElement('div');
+            card.className = `sentence-card ${progress.learnedSentences[key] ? 'completed' : ''}`;
+            card.dataset.idx = idx;
+            card.innerHTML = `
+                ${isPattern() && s.lens ? `<div class="lens-chip ${lensClass(idx)}">${esc(s.lens)}</div>` : ''}
+                <div class="tag">${esc(s.eT || 'Target')}</div>
+                ${isPattern() && s.q ? `<div class="rp-q">🗨 <b>${esc(s.q)}</b><br>${esc(s.qt || '')}</div>` : ''}
+                <div class="sentence-en">${isPattern() ? highlightZoom(s, idx, ss) : esc(s.txt || s.en || '')}</div>
+                <div class="sentence-kr">${esc(s.t || s.kr || '')}</div>
+                <div class="sentence-nuance">${esc(s.n || '신경망 매핑 활성화')}</div>
+                <div class="gender-badge">${genderLabel}</div>
+                <button class="bm-btn ${marked ? 'on' : ''}" title="북마크">${marked ? '★' : '☆'}</button>
+                <button class="voice-btn" title="${genderLabel} 네이티브 스피치 재생">🔊</button>`;
+
+            card.querySelector('.voice-btn').onclick = e => {
+                e.stopPropagation();
+                markLearned(d, idx, card);
+                playSentence(s, card);
+            };
+            card.querySelector('.bm-btn').onclick = e => {
+                e.stopPropagation();
+                toggleBookmark(key, e.currentTarget);
+            };
+            card.onclick = () => {
+                markLearned(d, idx, card);
+                document.querySelectorAll('.sentence-card').forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+                if (isPattern()) updateLens(idx);
+                else updateClassicPanel(s);
+            };
+            return card;
+        }
+
+        function buildPracticeRow(d) {
+            const row = document.createElement('div');
+            row.className = 'practice-row';
+            row.id = 'practice-row';
+            const best = (store.get(T.keys.challenge, {}) || {})[d];
+            const mine = ((store.get(T.keys.my3, {}) || {})[d] || []).filter(v => v && v.trim()).length;
+            row.innerHTML = `
+                <button class="practice-btn" id="open-challenge">
+                    <div class="pb-icon">⏱</div>
+                    <div class="pb-title">3초 챌린지</div>
+                    <div class="pb-sub">한국어를 보고 3초 안에 영어로. 머릿속 문장 재고를 꺼내는 연습.</div>
+                    <div class="pb-stat">${best == null ? '아직 도전 전' : `최고 기록 ${best} / 5`}</div>
+                </button>
+                <button class="practice-btn" id="open-my3">
+                    <div class="pb-icon">✍️</div>
+                    <div class="pb-title">나만의 문장 3개</div>
+                    <div class="pb-sub">오늘의 패턴에 내 이야기를 끼워 넣어 내 언어로 만들기.</div>
+                    <div class="pb-stat">${mine ? `${mine} / 3 작성` : '아직 작성 전'}</div>
+                </button>`;
+            row.querySelector('#open-challenge').onclick = openChallenge;
+            row.querySelector('#open-my3').onclick = openMy3;
+            return row;
+        }
+
+        function refreshPracticeRow() {
+            const old = $('practice-row');
+            if (old) old.replaceWith(buildPracticeRow(activeDay));
+        }
+
+        // ── Camera Lens Panel (Pattern) ───────────────────────────
+        function renderLensPanel(x) {
+            const ss = x.sentences || [];
+            $('vf-skeleton').textContent = baseTxt(ss[0]);
+            $('tag-1').textContent = `MS · 50mm · ${ss[1] ? ss[1].lens : ''}`;
+            $('tag-2').textContent = `WS · 24mm · ${ss[2] ? ss[2].lens : ''}`;
+
+            const chips = $('vf-assembly');
+            chips.innerHTML = '';
+            [[baseTxt(ss[0]), 0], [ss[1] && ss[1].add, 1], [ss[2] && ss[2].add, 2]].forEach(([text, z]) => {
+                if (!text) return;
+                const c = document.createElement('span');
+                c.className = 'chip' + (z === 0 ? ' base' : '');
+                c.dataset.z = z;
+                c.textContent = (z ? '+ ' : '') + text;
+                chips.appendChild(c);
+            });
+
+            const pron = x.pron || {};
+            $('pron-card').hidden = !pron.link;
+            $('pron-link').textContent = pron.link || '';
+            $('pron-kr').textContent = pron.kr || '';
+            $('pron-tip').textContent = pron.tip || '';
+            updateLens(-1);
+        }
+
+        let lensTimer = 0;
+
+        function updateLens(idx) {
+            const x = currentData();
+            const ss = x.sentences || [];
+            const z = idx >= 0 && idx <= 2 ? idx : (idx === 4 ? 2 : -1);
+            [0, 1, 2].forEach(i => $('frame-' + i).classList.toggle('lit', z >= i));
+            document.querySelectorAll('#vf-assembly .chip').forEach(c => c.classList.toggle('on', z >= parseInt(c.dataset.z, 10)));
+            $('vf-focal').textContent = ['85mm', '50mm', '24mm'][z] || (idx === 3 ? 'NUANCE' : 'STANDBY');
+
+            const s = ss[idx] || {};
+            let html = '';
+            if (idx === -1) {
+                html = `<h4>NATIVE THINKING</h4><div class="big">${esc(x.v || '')} ${esc(x.vT || '')}</div>${esc(x.vD || '')}
+                    <span class="hint">문장을 누르면 렌즈가 바뀝니다 — 뼈대 85mm → 줌아웃 50mm → 풀샷 24mm</span>`;
+            } else if (idx === 0) {
+                html = `<h4>CLOSE-UP · 뼈대 먼저</h4><div class="big">${esc(s.txt)}</div>원어민은 결론부터 던집니다. ${esc(s.n)}`;
+            } else if (idx === 1 || idx === 2) {
+                html = `<h4>${idx === 1 ? 'ZOOM OUT' : 'FULL SHOT'} · ${esc(s.lens)}</h4><div class="big">+ ${esc(s.add)}</div>${esc(s.n)}`;
+            } else if (idx === 3) {
+                const pair = x.pair || {};
+                html = `<h4>NUANCE · ${esc(s.eT)}</h4><div class="big">${esc(x.core)} &nbsp;vs&nbsp; ${esc(pair.x || '')}</div>${esc(pair.note || s.n)}`;
+            } else if (idx === 4) {
+                html = `<h4>ROLE PLAY · 3초 안에 결론부터</h4>
+                    <div class="bubble them">${esc(s.q || '')}</div>
+                    <div class="bubble me">${esc(s.txt)}</div>
+                    <span class="hint">${esc(s.n)}</span>`;
+            }
+            const info = $('lens-info');
+            info.style.opacity = '0';
+            clearTimeout(lensTimer);
+            lensTimer = setTimeout(() => { info.innerHTML = html; info.style.opacity = '1'; }, 120);
+        }
+
+        function renderComingSoon(g) {
+            stopPlayback();
+            $('day-selector').hidden = true;
+            $('current-month-name').textContent = `${g.name} · ${g.theme.split(' — ')[0]}`;
+            $('current-day-num').textContent = `Day ${g.start}–${g.end} · 업데이트 예정`;
+            $('core-verb-label').textContent = `ROADMAP: ${g.name.toUpperCase()}`;
+            $('governing-phrase').textContent = g.theme;
+            $('essence-sub').hidden = true;
+            $('sentence-container').innerHTML = `
+                <div class="roadmap-card">
+                    <h4>COMING NEXT · ${g.end - g.start + 1} DAYS</h4>
+                    <div class="lead">${esc(g.lead || '')}</div>
+                    <ul>${(g.plan || []).map(p => `<li>${esc(p)}</li>`).join('')}</ul>
+                    <p style="margin-top:16px;">이 구간은 다음 업데이트에서 채워집니다. Phase 1의 100 패턴을 먼저 입에 붙여 두면, 이후 단계는 그 패턴 위에 새 단어를 얹는 일이 됩니다.</p>
+                </div>`;
+            if (isPattern()) {
+                clearTimeout(lensTimer);
+                [0, 1, 2].forEach(i => $('frame-' + i).classList.remove('lit'));
+                $('vf-focal').textContent = 'ROADMAP';
+                $('vf-skeleton').textContent = g.name;
+                $('vf-assembly').innerHTML = '';
+                $('pron-card').hidden = true;
+                const info = $('lens-info');
+                info.style.opacity = '1';
+                info.innerHTML = `<h4>ROADMAP</h4><div class="big">${esc(g.name)} · Day ${g.start}–${g.end}</div>${esc(g.lead || '')}`;
+            }
+        }
+
+        // ── Classic Neural Panel ──────────────────────────────────
+        function renderClassicPanel(x) {
+            $('mastery-icon').textContent = x.v || '✨';
+            $('mastery-title').textContent = x.vT || 'Essence Discovery';
+            $('mastery-desc').textContent = x.vD || '지각과 인지의 신경망을 고도화하는 과정입니다.';
+            $('neural-mapping').style.display = 'none';
+        }
+
+        function updateClassicPanel(s) {
+            const mTitle = $('mastery-title');
+            const mDesc = $('mastery-desc');
+            const mapping = $('neural-mapping');
+            const mIcon = $('mastery-icon');
+
+            mapping.style.display = 'none';
+            mTitle.style.opacity = '0';
+            mDesc.style.opacity = '0';
+            mIcon.style.transform = 'scale(0.8)';
+            void mapping.offsetWidth;
+
+            mTitle.innerText = s.eT || 'Neural Mapping';
+            mDesc.innerText = s.eD || s.n || '지각의 본질을 파고듭니다.';
+            $('neural-target-val').innerText = (s.eT || 'MAPPING').toUpperCase();
+
+            mapping.style.display = 'block';
+            mapping.style.animation = 'none';
+            void mapping.offsetWidth;
+            mapping.style.animation = 'slideUp 0.5s ease forwards';
+
+            mTitle.style.transition = 'opacity 0.4s ease';
+            mDesc.style.transition = 'opacity 0.4s ease';
+            mIcon.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+
+            mTitle.style.opacity = '1';
+            mDesc.style.opacity = '1';
+            mIcon.style.transform = 'scale(1.1) rotate(5deg)';
+            setTimeout(() => { mIcon.style.transform = ''; }, 300);
+        }
+
+        // ── Progress & Bookmarks ──────────────────────────────────
+        function markLearned(day, idx, card) {
+            const key = `${day}-${idx}`;
+            if (card) card.classList.add('completed');
+            if (progress.learnedSentences[key]) return;
+            progress.learnedSentences[key] = true;
+
+            const count = ((dayData(day) || {}).sentences || []).length || 5;
+            let dayDone = true;
+            for (let i = 0; i < count; i++) {
+                if (!progress.learnedSentences[`${day}-${i}`]) { dayDone = false; break; }
+            }
+            if (dayDone && !progress.completedDays.includes(day)) {
+                progress.completedDays.push(day);
+                if (isPattern()) toast(`Day ${day} 완료 ✓ 오늘의 5문장이 재고에 들어갔어요`);
+            }
+            store.set(T.keys.progress, progress);
+            renderDays();
+            renderSidebar();
+        }
+
+        function toggleBookmark(key, btn) {
+            const i = bookmarks.indexOf(key);
+            if (i >= 0) bookmarks.splice(i, 1);
+            else bookmarks.push(key);
+            store.set(T.keys.bookmarks, bookmarks);
+            const on = i < 0;
+            btn.classList.toggle('on', on);
+            btn.textContent = on ? '★' : '☆';
+            updateBookmarkCount();
+            toast(on ? '★ 북마크에 담았어요' : '북마크에서 뺐어요');
+        }
+
+        function updateBookmarkCount() {
+            $('bm-count').textContent = bookmarks.length;
+        }
 
         // ── Voice Engine ──────────────────────────────────────────
         let voiceCache = null;
+        let playToken = 0;
 
         function loadVoices() {
             return new Promise(resolve => {
+                if (!('speechSynthesis' in window)) { resolve([]); return; }
                 let voices = speechSynthesis.getVoices();
                 if (voices.length) { resolve(voices); return; }
-                speechSynthesis.onvoiceschanged = () => resolve(speechSynthesis.getVoices());
+                const timer = setTimeout(() => resolve(speechSynthesis.getVoices()), 1500);
+                speechSynthesis.onvoiceschanged = () => { clearTimeout(timer); resolve(speechSynthesis.getVoices()); };
             });
         }
 
@@ -670,34 +1393,318 @@
             return pool[0] || en[0] || voices[0];
         }
 
-        async function speakSentence(text, gender) {
-            if (!('speechSynthesis' in window)) return;
-            window.speechSynthesis.cancel();
-
-            // Animate the clicked button
-            const allBtns = document.querySelectorAll('.voice-btn');
-            allBtns.forEach(b => b.classList.remove('speaking'));
-            // Find the button that was just pressed (its text content matches)
-            const btn = [...allBtns].find(b => {
-                const card = b.closest('.sentence-card');
-                return card && card.querySelector('.sentence-en') && card.querySelector('.sentence-en').textContent.trim() === text.trim();
-            });
-            if (btn) btn.classList.add('speaking');
-
+        async function speak(text, gender, rate) {
+            if (!text || !('speechSynthesis' in window)) return;
             if (!voiceCache) voiceCache = await loadVoices();
             const voice = pickVoice(voiceCache, gender);
-
-            const utt = new SpeechSynthesisUtterance(text);
-            utt.lang = voice ? voice.lang : 'en-US';
-            utt.voice = voice || null;
-            utt.rate  = 0.90;   // slightly slower for native clarity
-            utt.pitch = gender === 'M' ? 0.85 : 1.15;
-            utt.volume = 1;
-            utt.onend = () => { if (btn) btn.classList.remove('speaking'); };
-            utt.onerror = () => { if (btn) btn.classList.remove('speaking'); };
-            window.speechSynthesis.speak(utt);
+            return new Promise(resolve => {
+                const utt = new SpeechSynthesisUtterance(text);
+                utt.lang = voice ? voice.lang : 'en-US';
+                utt.voice = voice || null;
+                utt.rate = rate || ttsRate;
+                utt.pitch = gender === 'M' ? 0.85 : 1.15;
+                utt.volume = 1;
+                let done = false;
+                const finish = () => { if (!done) { done = true; clearTimeout(timer); resolve(); } };
+                const timer = setTimeout(finish, Math.max(4000, text.length * 150 / utt.rate));
+                utt.onend = finish;
+                utt.onerror = finish;
+                speechSynthesis.speak(utt);
+            });
         }
-        // ─────────────────────────────────────────────────────────
+
+        const pause = ms => new Promise(r => setTimeout(r, ms));
+
+        function clearSpeakingUI() {
+            document.querySelectorAll('.sentence-card.speaking').forEach(c => c.classList.remove('speaking'));
+            document.querySelectorAll('.voice-btn.speaking').forEach(b => b.classList.remove('speaking'));
+        }
+
+        function setPlayingUI(btnId) {
+            ['play-all', 'bm-play'].forEach(id => $(id).classList.toggle('playing', id === btnId));
+            $('play-all').firstChild.textContent = btnId === 'play-all' ? '■ 정지' : '▶ 전체 듣기';
+            $('bm-play').firstChild.textContent = btnId === 'bm-play' ? '■ 정지' : '★ 북마크 듣기';
+        }
+
+        function stopPlayback() {
+            playToken++;
+            try { if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch (e) {}
+            clearSpeakingUI();
+            setPlayingUI(null);
+        }
+
+        // Roleplay: the partner's line (q) in the opposite voice, then the answer
+        async function speakItem(s, card, token) {
+            if (card) {
+                card.classList.add('speaking');
+                const vb = card.querySelector('.voice-btn');
+                if (vb) vb.classList.add('speaking');
+            }
+            if (isPattern() && s.q) {
+                await speak(s.q, s.g === 'M' ? 'F' : 'M');
+                if (token !== playToken) return;
+                await pause(250);
+            }
+            if (token === playToken) await speak(s.txt || s.en, s.g);
+            if (card) {
+                card.classList.remove('speaking');
+                const vb = card.querySelector('.voice-btn');
+                if (vb) vb.classList.remove('speaking');
+            }
+        }
+
+        async function playSentence(s, card) {
+            stopPlayback();
+            const token = playToken;
+            do {
+                await speakItem(s, card, token);
+                if (loopOn) await pause(600);
+            } while (loopOn && token === playToken);
+        }
+
+        async function playAll() {
+            if ($('play-all').classList.contains('playing')) { stopPlayback(); return; }
+            stopPlayback();
+            const token = playToken;
+            setPlayingUI('play-all');
+            const ss = currentData().sentences || [];
+            do {
+                const cards = [...document.querySelectorAll('#sentence-container .sentence-card')];
+                for (let i = 0; i < ss.length; i++) {
+                    if (token !== playToken) return;
+                    const card = cards[i];
+                    if (card) card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+                    if (isPattern()) updateLens(i);
+                    await speakItem(ss[i], card, token);
+                    await pause(500);
+                }
+            } while (loopOn && token === playToken);
+            if (token === playToken) setPlayingUI(null);
+        }
+
+        async function playBookmarks() {
+            if ($('bm-play').classList.contains('playing')) { stopPlayback(); return; }
+            if (!bookmarks.length) { toast('☆ 문장 카드의 별을 눌러 북마크를 담아 보세요'); return; }
+            stopPlayback();
+            const token = playToken;
+            setPlayingUI('bm-play');
+            const list = bookmarks
+                .map(k => { const [d, i] = k.split('-').map(Number); return { d, i, s: ((dayData(d) || {}).sentences || [])[i] }; })
+                .filter(b => b.s)
+                .sort((a, b) => a.d - b.d || a.i - b.i);
+            do {
+                for (const b of list) {
+                    if (token !== playToken) return;
+                    toast(`★ Day ${b.d} · ${b.s.txt}`);
+                    const card = b.d === activeDay ? document.querySelector(`#sentence-container .sentence-card[data-idx="${b.i}"]`) : null;
+                    await speakItem(b.s, card, token);
+                    await pause(600);
+                }
+            } while (loopOn && token === playToken);
+            if (token === playToken) setPlayingUI(null);
+        }
+
+        // ── 3-Second Challenge ────────────────────────────────────
+        const CH = { items: [], i: 0, hits: 0, raf: 0, revealed: false };
+
+        function shuffle(a) {
+            for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+            return a;
+        }
+
+        function openChallenge() {
+            stopPlayback();
+            const ss = currentData().sentences || [];
+            if (!ss.length) return;
+            CH.items = shuffle(ss.map(s => s));
+            CH.i = 0;
+            CH.hits = 0;
+            $('ch-stage').hidden = false;
+            $('ch-done').hidden = true;
+            $('challenge-overlay').classList.add('active');
+            nextChallenge();
+        }
+
+        function nextChallenge() {
+            cancelAnimationFrame(CH.raf);
+            if (CH.i >= CH.items.length) { finishChallenge(); return; }
+            const s = CH.items[CH.i];
+            CH.revealed = false;
+            $('ch-step').textContent = `⏱ 3초 챌린지 · ${CH.i + 1} / ${CH.items.length}`;
+            $('ch-ctx').innerHTML = s.q ? `상대: <b>${esc(s.q)}</b>` : esc(s.lens || '');
+            $('ch-kr').textContent = s.t || '';
+            $('ch-en').textContent = s.txt || '';
+            $('ch-en').classList.remove('show');
+            $('ch-reveal').hidden = false;
+            $('ch-hit').hidden = true;
+            $('ch-miss').hidden = true;
+            const start = performance.now();
+            const tick = now => {
+                const left = Math.max(0, 3000 - (now - start));
+                $('ch-ring').style.setProperty('--p', left / 3000);
+                $('ch-count').textContent = Math.ceil(left / 1000);
+                if (left <= 0) revealChallenge();
+                else CH.raf = requestAnimationFrame(tick);
+            };
+            CH.raf = requestAnimationFrame(tick);
+        }
+
+        function revealChallenge() {
+            if (CH.revealed || CH.i >= CH.items.length) return;
+            CH.revealed = true;
+            cancelAnimationFrame(CH.raf);
+            const s = CH.items[CH.i];
+            $('ch-count').textContent = '🔊';
+            $('ch-en').classList.add('show');
+            $('ch-reveal').hidden = true;
+            $('ch-hit').hidden = false;
+            $('ch-miss').hidden = false;
+            stopPlayback();
+            speak(s.txt, s.g);
+        }
+
+        function answerChallenge(hit) {
+            if (!CH.revealed) return;
+            if (hit) CH.hits++;
+            CH.i++;
+            nextChallenge();
+        }
+
+        function finishChallenge() {
+            const rec = store.get(T.keys.challenge, {}) || {};
+            const prev = rec[activeDay];
+            rec[activeDay] = Math.max(prev || 0, CH.hits);
+            store.set(T.keys.challenge, rec);
+            const total = CH.items.length;
+            const msg = CH.hits === total
+                ? '오늘의 문장이 전부 3초 안에 나왔어요. 이제 이 패턴은 외운 게 아니라 꺼내 쓰는 문장입니다.'
+                : CH.hits >= 3
+                    ? '거의 다 왔어요. 놓친 문장만 소리 내어 세 번 더 읽고 다시 도전해 보세요.'
+                    : '괜찮아요. 3초가 짧게 느껴지는 건 재고가 아직 쌓이는 중이라는 뜻이에요. 전체 듣기 한 번 후 다시!';
+            $('ch-result').innerHTML = `<b>${CH.hits} / ${total}</b>${esc(msg)}${prev != null ? `<br><span style="font-size:12px;color:#64748b;">이전 최고 기록 ${prev} / ${total}</span>` : ''}`;
+            $('ch-stage').hidden = true;
+            $('ch-done').hidden = false;
+            $('ch-step').textContent = '⏱ 3초 챌린지 · 결과';
+            refreshPracticeRow();
+        }
+
+        function closeOverlay(id) {
+            $(id).classList.remove('active');
+            if (id === 'challenge-overlay') { cancelAnimationFrame(CH.raf); CH.i = CH.items.length; stopPlayback(); }
+        }
+
+        // ── My 3 Sentences ────────────────────────────────────────
+        function openMy3() {
+            stopPlayback();
+            const x = currentData();
+            const saved = (store.get(T.keys.my3, {}) || {})[activeDay] || ['', '', ''];
+            const prompts = x.my3 || ['나의 이야기 1', '나의 이야기 2', '나의 이야기 3'];
+            $('my3-core').textContent = x.core || '';
+            $('my3-list').innerHTML = prompts.map((p, i) => `
+                <div class="my3-item">
+                    <label for="my3-${i}">${i + 1}. ${esc(p)}</label>
+                    <div class="my3-row">
+                        <textarea id="my3-${i}" placeholder="English sentence…" spellcheck="true">${esc(saved[i] || '')}</textarea>
+                        <button class="round-btn" data-say="${i}" title="내 문장 듣기">🔊</button>
+                    </div>
+                </div>`).join('');
+            $('my3-list').querySelectorAll('[data-say]').forEach(b => {
+                b.onclick = () => { const v = $('my3-' + b.dataset.say).value.trim(); if (v) { stopPlayback(); speak(v, 'F'); } };
+            });
+            const ss = x.sentences || [];
+            $('my3-hint').innerHTML = ss[2] ? `예시 풀샷 — <b>${esc(ss[2].txt)}</b><br>${esc(ss[2].t)}` : '';
+            $('my3-overlay').classList.add('active');
+            setTimeout(() => { const f = $('my3-0'); if (f) f.focus(); }, 300);
+        }
+
+        function saveMy3() {
+            const all = store.get(T.keys.my3, {}) || {};
+            all[activeDay] = [0, 1, 2].map(i => ($('my3-' + i) || { value: '' }).value.trim());
+            store.set(T.keys.my3, all);
+            closeOverlay('my3-overlay');
+            refreshPracticeRow();
+            toast('✍️ 나만의 문장이 저장됐어요. 소리 내어 한 번씩 읽어 보세요');
+        }
+
+        // ── Daily Briefing ────────────────────────────────────────
+        function nextTargetDay() {
+            const days = sortedDays();
+            return days.find(d => !progress.completedDays.includes(d)) || days[days.length - 1] || T.defaultDay;
+        }
+
+        function showBriefing() {
+            const total = totalSentences();
+            const learned = Object.keys(progress.learnedSentences).filter(k => dayData(parseInt(k, 10))).length;
+            const pct = total ? Math.round(learned / total * 100) : 0;
+            const h = new Date().getHours();
+            $('brief-welcome').textContent = h < 12 ? 'Good Morning!' : h < 18 ? 'Good Afternoon!' : 'Good Evening!';
+            $('brief-sub').textContent = isPattern()
+                ? '말이 막히는 건 실력이 아니라 재고의 문제예요. 오늘도 꺼내 쓸 문장 5개를 채워 볼까요?'
+                : '오늘도 매일 5문장의 기적을 이어가 볼까요?';
+            $('stat-total-progress').textContent = pct + '%';
+            $('stat-learned-count').textContent = `${learned}/${total}`;
+
+            const next = nextTargetDay();
+            const x = dayData(next);
+            $('brief-focus-hdr').textContent = isPattern() ? "TODAY'S PATTERN" : "TODAY'S NEURAL FOCUS";
+            if (x) {
+                $('brief-today-target').textContent = isPattern() ? `Day ${next} · ${x.core}` : `Day ${next}: [${x.core}] ${x.vT}`;
+                $('brief-today-sub').textContent = isPattern() ? x.governing.replace(/^Day \d+: \[[^\]]*\]\s*/, '') : '';
+            }
+            $('brief-start').onclick = () => {
+                $('briefing-overlay').classList.remove('active');
+                session.set('briefing_shown', 'true');
+                if (x && next !== activeDay) loadDay(next);
+            };
+            $('briefing-overlay').classList.add('active');
+        }
+
+        // ── Wiring ────────────────────────────────────────────────
+        function syncSpeedUI() {
+            document.querySelectorAll('#speed-seg button').forEach(b => b.classList.toggle('active', parseFloat(b.dataset.rate) === ttsRate));
+        }
+
+        document.querySelectorAll('.track-btn').forEach(b => b.onclick = () => { if (b.dataset.track !== trackId) useTrack(b.dataset.track); });
+        document.querySelectorAll('#speed-seg button').forEach(b => b.onclick = () => {
+            ttsRate = parseFloat(b.dataset.rate);
+            store.set('tts_rate', ttsRate);
+            syncSpeedUI();
+            toast(`재생 속도 · ${b.textContent}`);
+        });
+        $('play-all').onclick = playAll;
+        $('bm-play').onclick = playBookmarks;
+        $('loop-btn').onclick = () => {
+            loopOn = !loopOn;
+            $('loop-btn').classList.toggle('on', loopOn);
+            toast(loopOn ? '🔁 반복 재생 켜짐' : '반복 재생 꺼짐');
+        };
+        $('pron-play').onclick = () => {
+            const link = (currentData().pron || {}).link || '';
+            const phrase = link.split('→')[0].replace(/‿/g, ' ').replace(/\s+/g, ' ').trim();
+            if (phrase) { stopPlayback(); speak(phrase, 'F', 0.7); }
+        };
+        $('ch-reveal').onclick = revealChallenge;
+        $('ch-hit').onclick = () => answerChallenge(true);
+        $('ch-miss').onclick = () => answerChallenge(false);
+        $('ch-retry').onclick = openChallenge;
+        $('my3-save').onclick = saveMy3;
+        document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => closeOverlay(b.dataset.close));
+        document.addEventListener('keydown', e => {
+            const chOpen = $('challenge-overlay').classList.contains('active');
+            if (e.key === 'Escape') {
+                ['challenge-overlay', 'my3-overlay'].forEach(id => { if ($(id).classList.contains('active')) closeOverlay(id); });
+                return;
+            }
+            if (!chOpen || $('ch-stage').hidden) return;
+            if (e.code === 'Space') { e.preventDefault(); revealChallenge(); }
+            else if (e.key === '1') answerChallenge(true);
+            else if (e.key === '2') answerChallenge(false);
+        });
+
+        // ── Init ──────────────────────────────────────────────────
+        syncSpeedUI();
+        useTrack(store.get('activeTrack', 'pattern'));
+        if (!session.get('briefing_shown')) showBriefing();
     </script>
 </body>
 </html>
